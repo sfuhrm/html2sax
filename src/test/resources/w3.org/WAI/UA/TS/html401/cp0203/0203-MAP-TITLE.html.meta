@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-MAP-TITLE.html
+#Sat Jul 09 10:51:10 CEST 2011
+ETag="17ea-3ba5b8669c180"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Wed, 02 Apr 2003 23\:46\:30 GMT
+Accept-Ranges=bytes
+Content-Length=2173
+Server=Apache/2
+Content-Encoding=gzip
+md5=7ba25e10d6ff52bbce0cd43f7b82af42
+Date=Sat, 09 Jul 2011 08\:51\:10 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:10 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=05bf31ce8ffd46527081c4e8b80d41f96e43f3f3c8fa11512746797e44749d80

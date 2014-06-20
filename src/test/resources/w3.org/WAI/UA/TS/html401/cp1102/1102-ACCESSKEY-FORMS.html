@@ -1,0 +1,276 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>HTML Test Suite for UAAG 1.0
+        (Draft)</title>
+<link rel="stylesheet" type="text/css" href="http://www.w3.org/WAI/UA/TS/style/test-suite.css">
+</head>
+<body>
+<p>
+<a href="http://www.w3.org/" title="W3C Home"><img alt="W3C" height="48" width="72" border="0" src="http://www.w3.org/Icons/w3c_home.gif"></a><a href="http://www.w3.org/WAI/" title="WAI Home" rel="in-area"><img alt="Web Accessibility Initiative Home" height="48" width="212" border="0" src="http://www.w3.org/Icons/wai.gif"></a>
+</p>
+<h1>ACCESSKEY attribute for FORM elements</h1>
+<p>On this page: 
+
+	<a href="#test1">Test 
+         1</a> |
+	<a href="#refs">
+        	References</a>
+ | 
+<a href="#about">
+
+        About these tests</a>
+</p>
+<p>Nearby: 
+        <a href="../">
+
+        More HTML 4.01 Tests</a>
+ | 
+<a href="http://www.w3.org/WAI/UA/TS/">
+
+        UAAG 1.0 Test Suite</a>
+</p>
+<h2>UAAG 1.0 Requirement</h2>
+<dl>
+<dt class="
+                  checkpoint">
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-info-current-author-config">
+Checkpoint 
+11.2
+ 
+Current author input configuration</a>
+ (Priority 
+2
+)
+</dt>
+<dd class="
+                    checkpoint">
+<span class="
+                      provision"><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-info-current-author-config-1">
+Provision 
+1</a>
+: 
+</span>
+Provide a centralized view of the current author-specified input configuration.
+</dd>
+</dl>
+<h2>
+<a name="test1">Test 
+            1
+		: 
+		accesskey attribute for form elements</a>
+</h2>
+<h3>Procedure</h3>
+<ol>
+<li>Configure the user agent to provide a centralized view of the keyboard bindings specified by the author through the accesskey attribute of the various form elements.</li>
+</ol>
+<h3>Run test</h3>
+<div class="test">
+<h4>Test form 1</h4>
+<form action="../action/return.html" method="post" title="Test Form 1" enctype="application/x-www-form-urlencoded">
+					
+<fieldset>
+						
+<legend accesskey="1">Form fieldset 1 (accesskey "1")</legend>
+						<label>Test text input 1 (fieldset 1, accesskey "a"): <input type="text" name="text1" accesskey="a"></label>
+<br clear="none">
+						
+<label>Test text input 2 (fieldset 1, accesskey "b"): <input type="text" name="text2" accesskey="b"></label>
+<br clear="none">
+						
+<label>Test textarea 1 (fieldset 1, accesskey "c"):  <textarea rows="4" cols="20" name="textarea1" accesskey="c"></textarea></label>	
+					
+</fieldset>
+					
+<fieldset>
+						
+<legend accesskey="2">Form fieldset 2 (accesskey "2")</legend>
+						<label>Test text input 3 (fieldset 2, accesskey "d"): <input type="text" name="text3" accesskey="d"></label>
+<br clear="none">
+						
+<label>Test text input 4 (fieldset 2, accesskey "e"): <input type="text" name="text4" accesskey="e"></label>
+<br clear="none">
+						
+<label>Test textarea 2 (fieldset 2, accesskey "f"):  <textarea rows="4" cols="20" name="textarea2" accesskey="f"></textarea></label>							
+					
+</fieldset>
+					
+<fieldset>
+						
+<legend accesskey="3">Form fieldset 3 (accesskey "3")</legend>
+						<label for="reset">Reset button (accesskey "r"): </label>
+						<button id="reset" accesskey="r" name="reset" type="reset" value="reset">Reset</button>
+						<label for="submit">Submit button (accesskey "s"): </label>
+						<button id="submit" accesskey="s" name="submit" type="submit" value="submit">Submit</button>	
+					
+</fieldset>
+				
+</form>
+<h4>Test form 2</h4>
+<form action="../action/return.html" method="post" title="Test Form 2" enctype="application/x-www-form-urlencoded">
+					
+<fieldset>
+						
+<legend accesskey="4">Form fieldset 4 (accesskey "4")</legend>
+						<label for="checkbox1">Checkbox 1 (accesskey "g")</label>
+						<input id="checkbox1" accesskey="g" type="checkbox" checked value="1" name="check-input">
+						
+<br clear="none">
+						
+<label for="checkbox2">Checkbox 2 (accesskey "h")</label>
+						<input id="checkbox2" accesskey="h" type="checkbox" value="2" name="check-input">	
+					
+</fieldset>
+					
+<fieldset>
+						
+<legend accesskey="5">Form fieldset 5 (accesskey "5")</legend>
+						<label for="button1">Button 1 (accesskey "i")</label>
+						<input id="button1" accesskey="i" type="radio" value="1" name="radio-input" checked>
+						
+<br clear="none">
+						
+<label for="button2">Button 2 (accesskey "j")</label>
+						<input id="button2" accesskey="j" type="radio" value="2" name="radio-input">
+					
+</fieldset>
+					
+<fieldset>
+						
+<legend accesskey="3">Form fieldset 6 (accesskey "6")</legend>
+						<label for="reset2">Input button (type="reset", accesskey "t"): </label>
+						<input id="reset2" accesskey="t" name="reset2" type="reset" value="Reset">
+						<label for="submit2">Input button (type="submit", accesskey "y"): </label>
+						<input id="submit2" accesskey="y" name="submit2" type="submit" value="Submit">	
+					
+</fieldset>
+				
+</form>
+</div>
+<h3>Expected results</h3>
+<ol>
+<li>The user agent can provide a centralized view of the author assigned keyboard bindings through the use of the accesskey attribure.
+			 	The user should be able to navigate easily back and forth between the viewport with the current focus and the list of bindings. </li>
+</ol>
+<h3>Source code</h3>
+<div class="
+                source-code">&lt;h4 action="../action/return.html" method="post" title="Test Form 1" enctype="application/x-www-form-urlencoded" action="../action/return.html" method="post" title="Test Form 2" enctype="application/x-www-form-urlencoded"&gt;<br>&nbsp;&nbsp;&lt;fieldset&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;legend accesskey="1" accesskey="4"&gt;Form fieldset 1 (accesskey "1")&lt;/legend&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="checkbox1"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="text" name="text1" accesskey="a"&gt;&lt;/input&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/label&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;br clear="none" id="checkbox1" accesskey="g" type="checkbox" checked="checked" value="1" name="check-input"&gt;&lt;/br&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label clear="none"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="text" name="text2" accesskey="b"&gt;&lt;/input&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/label&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;br clear="none" for="checkbox2"&gt;&lt;/br&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label id="checkbox2" accesskey="h" type="checkbox" value="2" name="check-input"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;textarea rows="4" cols="20" name="textarea1" accesskey="c"&gt;&lt;/textarea&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/label&gt;<br>&nbsp;&nbsp;&lt;/fieldset&gt;<br>&nbsp;&nbsp;&lt;fieldset&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;legend accesskey="2" accesskey="5"&gt;Form fieldset 2 (accesskey "2")&lt;/legend&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="button1"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="text" name="text3" accesskey="d"&gt;&lt;/input&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/label&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;br clear="none" id="button1" accesskey="i" type="radio" value="1" name="radio-input" checked="checked"&gt;&lt;/br&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label clear="none"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="text" name="text4" accesskey="e"&gt;&lt;/input&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/label&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;br clear="none" for="button2"&gt;&lt;/br&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label id="button2" accesskey="j" type="radio" value="2" name="radio-input"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;textarea rows="4" cols="20" name="textarea2" accesskey="f"&gt;&lt;/textarea&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/label&gt;<br>&nbsp;&nbsp;&lt;/fieldset&gt;<br>&nbsp;&nbsp;&lt;fieldset&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;legend accesskey="3" accesskey="3"&gt;Form fieldset 3 (accesskey "3")&lt;/legend&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="reset" for="reset2"&gt;Reset button (accesskey "r"): &lt;/label&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;button id="reset" accesskey="r" name="reset" type="reset" value="reset" id="reset2" accesskey="t" name="reset2" type="reset" value="Reset"&gt;Reset&lt;/button&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="submit" for="submit2"&gt;Submit button (accesskey "s"): &lt;/label&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;button id="submit" accesskey="s" name="submit" type="submit" value="submit" id="submit2" accesskey="y" name="submit2" type="submit" value="Submit"&gt;Submit&lt;/button&gt;<br>&nbsp;&nbsp;&lt;/fieldset&gt;<br>&lt;/h4&gt;<br>&lt;form action="../action/return.html" method="post" title="Test Form 1" enctype="application/x-www-form-urlencoded" action="../action/return.html" method="post" title="Test Form 2" enctype="application/x-www-form-urlencoded"&gt;<br>&nbsp;&nbsp;&lt;fieldset&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;legend accesskey="1" accesskey="4"&gt;Form fieldset 1 (accesskey "1")&lt;/legend&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="checkbox1"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="text" name="text1" accesskey="a"&gt;&lt;/input&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/label&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;br clear="none" id="checkbox1" accesskey="g" type="checkbox" checked="checked" value="1" name="check-input"&gt;&lt;/br&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label clear="none"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="text" name="text2" accesskey="b"&gt;&lt;/input&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/label&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;br clear="none" for="checkbox2"&gt;&lt;/br&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label id="checkbox2" accesskey="h" type="checkbox" value="2" name="check-input"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;textarea rows="4" cols="20" name="textarea1" accesskey="c"&gt;&lt;/textarea&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/label&gt;<br>&nbsp;&nbsp;&lt;/fieldset&gt;<br>&nbsp;&nbsp;&lt;fieldset&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;legend accesskey="2" accesskey="5"&gt;Form fieldset 2 (accesskey "2")&lt;/legend&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="button1"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="text" name="text3" accesskey="d"&gt;&lt;/input&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/label&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;br clear="none" id="button1" accesskey="i" type="radio" value="1" name="radio-input" checked="checked"&gt;&lt;/br&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label clear="none"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="text" name="text4" accesskey="e"&gt;&lt;/input&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/label&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;br clear="none" for="button2"&gt;&lt;/br&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label id="button2" accesskey="j" type="radio" value="2" name="radio-input"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;textarea rows="4" cols="20" name="textarea2" accesskey="f"&gt;&lt;/textarea&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/label&gt;<br>&nbsp;&nbsp;&lt;/fieldset&gt;<br>&nbsp;&nbsp;&lt;fieldset&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;legend accesskey="3" accesskey="3"&gt;Form fieldset 3 (accesskey "3")&lt;/legend&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="reset" for="reset2"&gt;Reset button (accesskey "r"): &lt;/label&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;button id="reset" accesskey="r" name="reset" type="reset" value="reset" id="reset2" accesskey="t" name="reset2" type="reset" value="Reset"&gt;Reset&lt;/button&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="submit" for="submit2"&gt;Submit button (accesskey "s"): &lt;/label&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;button id="submit" accesskey="s" name="submit" type="submit" value="submit" id="submit2" accesskey="y" name="submit2" type="submit" value="Submit"&gt;Submit&lt;/button&gt;<br>&nbsp;&nbsp;&lt;/fieldset&gt;<br>&lt;/form&gt;<br>&lt;h4 action="../action/return.html" method="post" title="Test Form 2" enctype="application/x-www-form-urlencoded"&gt;<br>&nbsp;&nbsp;&lt;fieldset&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;legend accesskey="4"&gt;Form fieldset 4 (accesskey "4")&lt;/legend&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="checkbox1"&gt;Checkbox 1 (accesskey "g")&lt;/label&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;input id="checkbox1" accesskey="g" type="checkbox" checked="checked" value="1" name="check-input"&gt;&lt;/input&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;br clear="none"&gt;&lt;/br&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="checkbox2"&gt;Checkbox 2 (accesskey "h")&lt;/label&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;input id="checkbox2" accesskey="h" type="checkbox" value="2" name="check-input"&gt;&lt;/input&gt;<br>&nbsp;&nbsp;&lt;/fieldset&gt;<br>&nbsp;&nbsp;&lt;fieldset&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;legend accesskey="5"&gt;Form fieldset 5 (accesskey "5")&lt;/legend&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="button1"&gt;Button 1 (accesskey "i")&lt;/label&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;input id="button1" accesskey="i" type="radio" value="1" name="radio-input" checked="checked"&gt;&lt;/input&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;br clear="none"&gt;&lt;/br&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="button2"&gt;Button 2 (accesskey "j")&lt;/label&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;input id="button2" accesskey="j" type="radio" value="2" name="radio-input"&gt;&lt;/input&gt;<br>&nbsp;&nbsp;&lt;/fieldset&gt;<br>&nbsp;&nbsp;&lt;fieldset&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;legend accesskey="3"&gt;Form fieldset 6 (accesskey "6")&lt;/legend&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="reset2"&gt;Input button (type="reset", accesskey "t"): &lt;/label&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;input id="reset2" accesskey="t" name="reset2" type="reset" value="Reset"&gt;&lt;/input&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="submit2"&gt;Input button (type="submit", accesskey "y"): &lt;/label&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;input id="submit2" accesskey="y" name="submit2" type="submit" value="Submit"&gt;&lt;/input&gt;<br>&nbsp;&nbsp;&lt;/fieldset&gt;<br>&lt;/h4&gt;<br>&lt;form action="../action/return.html" method="post" title="Test Form 2" enctype="application/x-www-form-urlencoded"&gt;<br>&nbsp;&nbsp;&lt;fieldset&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;legend accesskey="4"&gt;Form fieldset 4 (accesskey "4")&lt;/legend&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="checkbox1"&gt;Checkbox 1 (accesskey "g")&lt;/label&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;input id="checkbox1" accesskey="g" type="checkbox" checked="checked" value="1" name="check-input"&gt;&lt;/input&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;br clear="none"&gt;&lt;/br&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="checkbox2"&gt;Checkbox 2 (accesskey "h")&lt;/label&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;input id="checkbox2" accesskey="h" type="checkbox" value="2" name="check-input"&gt;&lt;/input&gt;<br>&nbsp;&nbsp;&lt;/fieldset&gt;<br>&nbsp;&nbsp;&lt;fieldset&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;legend accesskey="5"&gt;Form fieldset 5 (accesskey "5")&lt;/legend&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="button1"&gt;Button 1 (accesskey "i")&lt;/label&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;input id="button1" accesskey="i" type="radio" value="1" name="radio-input" checked="checked"&gt;&lt;/input&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;br clear="none"&gt;&lt;/br&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="button2"&gt;Button 2 (accesskey "j")&lt;/label&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;input id="button2" accesskey="j" type="radio" value="2" name="radio-input"&gt;&lt;/input&gt;<br>&nbsp;&nbsp;&lt;/fieldset&gt;<br>&nbsp;&nbsp;&lt;fieldset&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;legend accesskey="3"&gt;Form fieldset 6 (accesskey "6")&lt;/legend&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="reset2"&gt;Input button (type="reset", accesskey "t"): &lt;/label&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;input id="reset2" accesskey="t" name="reset2" type="reset" value="Reset"&gt;&lt;/input&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="submit2"&gt;Input button (type="submit", accesskey "y"): &lt;/label&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;input id="submit2" accesskey="y" name="submit2" type="submit" value="Submit"&gt;&lt;/input&gt;<br>&nbsp;&nbsp;&lt;/fieldset&gt;<br>&lt;/form&gt;<br>
+</div>
+<h2>
+<a name="refs">References</a>
+</h2>
+<ol>
+<li>
+<a href="http://www.w3.org/TR/html401/interact/forms.html#adef-accesskey">HTML 4.01 specification for ACCESSKEY</a>
+</li>
+<li>
+<a href="http://www.w3.org/TR/html401/interact/forms.html#edef-BUTTON">HTML 4.01 specification for BUTTON</a>
+</li>
+<li>
+<a href="http://www.w3.org/TR/html401/interact/forms.html#checkbox">HTML 4.01 specification for CHECKBOX</a>
+</li>
+<li>
+<a href="http://www.w3.org/TR/html401/interact/forms.html#edef-INPUT">HTML 4.01 specification for INPUT</a>
+</li>
+<li>
+<a href="http://www.w3.org/TR/html401/interact/forms.html#h-17.9.1">HTML 4.01 specification for LABEL</a>
+</li>
+<li>
+<a href="http://www.w3.org/TR/html401/interact/forms.html#h-17.10">HTML 4.01 specification for LEGEND</a>
+</li>
+<li>
+<a href="http://www.w3.org/TR/html401/interact/forms.html#radio">HTML 4.01 specification for RADIO buttons</a>
+</li>
+<li>
+<a href="http://www.w3.org/TR/html4/interact/forms.html#edef-TEXTAREA">HTML 4.01 specification for TEXTAREA</a>
+</li>
+</ol>
+<h2>
+<a name="about">About this test suite</a>
+</h2>
+<p>This test is part of a 
+        <a href="/WAI/UA/TS/">
+
+        test suite</a>
+
+        for the 
+        <a href="/TR/UAAG10/">
+
+        User Agent Accessibility Guidelines (UAAG)
+        1.0</a>
+
+        . This work is conducted by the 
+        <a href="/WAI/UA/">
+
+        User Agent Accessibility Guidelines Working
+        Group</a>
+
+        , which is part of W3C's 
+        <a href="/WAI/">
+
+        Web Accessibility Initiative (WAI)</a>
+
+        . Please send comments on this test to w3c-wai-ua@w3.org (
+        <a href="/WAI/UA/TS/">
+
+        public archive</a>
+
+        ).</p>
+<hr>
+<p>Test created by:</p>
+<ul>
+<li>Colin Koteles</li>
+</ul>
+<p>Last modified: $Date: 2003/08/02 00:18:12 $ by $Author: koteles $</p>
+<p class="copyright">
+<a rel="copyright" href="http://www.w3.org/Consortium/Legal/ipr-notice-20000612#Copyright">
+
+        Copyright</a>
+
+        &copy; 1999 - 2003 
+        <a href="http://www.w3.org/"><abbr title="World Wide Web
+          Consortium">
+
+          W3C</abbr></a><sup>&reg;</sup>
+
+        (
+        <a href="http://www.lcs.mit.edu/"><abbr title="Massachusetts Institute of
+          Technology">
+
+          MIT</abbr></a>
+
+        , 
+        <a href="http://www.inria.fr/"><abbr lang="fr" title="Institut National de
+          Recherche en Informatique et Automatique">
+
+          INRIA</abbr></a>
+
+        , 
+        <a href="http://www.keio.ac.jp/">
+
+        Keio</a>
+
+        ), All Rights Reserved. W3C 
+        <a href="http://www.w3.org/Consortium/Legal/ipr-notice-20000612#Legal_Disclaimer">
+
+        liability</a>
+
+        , 
+        <a href="http://www.w3.org/Consortium/Legal/ipr-notice-20000612#W3C_Trademarks">
+
+        trademark</a>
+
+        , 
+        <a href="http://www.w3.org/Consortium/Legal/copyright-documents-19990405">
+
+        document use</a>
+
+        and 
+        <a href="http://www.w3.org/Consortium/Legal/copyright-software-19980720">
+
+        software licensing</a>
+
+        rules apply.</p>
+</body>
+</html>

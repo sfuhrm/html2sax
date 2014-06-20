@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/action/new-window-1.html
+#Sat Jul 09 10:51:25 CEST 2011
+ETag="4f8-3c0671d7c93c0"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Wed, 18 Jun 2003 22\:07\:19 GMT
+Accept-Ranges=bytes
+Content-Length=663
+Server=Apache/2
+Content-Encoding=gzip
+md5=44ab53b9d773cf4c0b8d6ac4d6cf5a8d
+Date=Sat, 09 Jul 2011 08\:51\:25 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:25 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=df3e4137d8377bcb59960ffa3e126ac9757efc952328e21caaad243d749078c7

@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-NOFRAMES-SRC.html
+#Sat Jul 09 10:51:10 CEST 2011
+ETag="191a-3c39f58abc340"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Tue, 29 Jul 2003 21\:28\:05 GMT
+Accept-Ranges=bytes
+Content-Length=2332
+Server=Apache/2
+Content-Encoding=gzip
+md5=b86e78b43dce072a4e9e0aeae78490b4
+Date=Sat, 09 Jul 2011 08\:51\:10 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:10 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=f5179642b05ec232b4b788c292a57f0dc1578eb6bb383c361fd488299465d42d

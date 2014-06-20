@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/Overview.html
+#Sat Jul 09 10:50:59 CEST 2011
+ETag="1b217-3d5374c0d7580"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Tue, 09 Mar 2004 18\:53\:26 GMT
+Accept-Ranges=bytes
+Content-Length=15865
+Server=Apache/2
+Content-Encoding=gzip
+md5=8fcf331ab85e0b3d8428034979e85e7d
+Date=Sat, 09 Jul 2011 08\:50\:58 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:50\:58 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=282408834262b2313fef49d7c42b7e0c6c02e7e04389c7b2e752761cf382de9b

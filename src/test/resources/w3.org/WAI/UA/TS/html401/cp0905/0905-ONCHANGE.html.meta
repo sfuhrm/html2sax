@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0905/0905-ONCHANGE.html
+#Sat Jul 09 10:51:18 CEST 2011
+ETag="20e3-3ba5b876d27c0"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Wed, 02 Apr 2003 23\:46\:47 GMT
+Accept-Ranges=bytes
+Content-Length=2348
+Server=Apache/2
+Content-Encoding=gzip
+md5=371845ab67276632f9820c4626d41de2
+Date=Sat, 09 Jul 2011 08\:51\:18 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:18 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=1eebf6d9bad3f4b7f4560b9be5f3a201c6f95cd48b20ac790bbf247504f9cf7e

@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-FRAME-TEST.html
+#Sat Jul 09 10:51:24 CEST 2011
+ETag="299-3bebfa0722c80"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Wed, 28 May 2003 20\:52\:50 GMT
+Accept-Ranges=bytes
+Content-Length=348
+Server=Apache/2
+Content-Encoding=gzip
+md5=4135b89bed74f19036a86ccffa9af549
+Date=Sat, 09 Jul 2011 08\:51\:24 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:24 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=8c4f9fefa590fa8fe78f5eee9b3e41c0684db214fb538866919088d8c659ac57

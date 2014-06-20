@@ -1,0 +1,1644 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>UAAG 1.0 Test Suite for HTML 4.01</title>
+<link rel="stylesheet" type="text/css" href="http://www.w3.org/WAI/UA/TS/style/test-suite.css">
+<title>UAAG 1.0 Test Suite for HTML 4.01</title>
+<style type="text/css">
+                  h1 { font-weight: bold; font-size: 200%; font-family: sans-serif;}
+                  h2 { font-family: sans-serif;
+                  font-size: 120%;
+                  border-width: 1px;  
+                  border: 1px solid; 
+                  color: black;
+                  background: #FFFFCC; 
+                  width: 75%; 
+                  padding-left: .5em;
+                  }
+                  .draft { font-weight: bold; font-size: 200%; font-family: sans-serif; color: red}
+                  .separator { display: none; } 
+                  .navbar { font-family: Arial, sans-serif } 
+                  .navbar a:link, .navbar a:visited, .navbar {
+                  font-family: Arial, sans-serif; 
+                  background: #FFFFCC; 
+                  color: black; 
+                  text-decoration: none; 
+                  }
+                  .navbar a:link { 
+                  font-family: Arial, sans-serif; 
+                  color: #black; 
+                  }
+                  #banner { vertical-align: top; }
+                  p, ul, ol, li, dl, dt, dd { font-family: Arial, sans-serif; }
+                  
+                </style>
+</head>
+<body>
+<p class="header-title">
+<a href="http://www.w3.org/" title="W3C Home"><img alt="W3C" height="48" width="72" border="0" src="http://www.w3.org/Icons/WWW/w3c_home.gif"></a><a href="http://www.w3.org/WAI/" title="WAI Home" rel="in-area"><img alt="Web Accessibility Initiative Home" height="48" width="212" border="0" src="http://www.w3.org/Icons/WWW/wai.gif"></a><span class="draft"> * * * Draft * * *</span>
+</p>
+<h1>UAAG 1.0 Test Suite for HTML 4.01</h1>
+<dl>
+<dt>Editors:</dt>
+<dd><a href="mailto:jongund@uiuc.edu">Jon Gunderson</a></dd>
+<dd><a href="mailto:koteles@illinoisalumni.org">Colin Koteles</a></dd>
+<dd><a href="mailto:mcmay@w3.org">Matt May</a></dd>
+</dl>
+<p class="contact">
+<a href="mailto:w3c-wai-ua@w3.org">
+                  
+                  Send comments to User Agent Working Group List
+                  
+                </a><br>(e-mail: w3c-wai-ua@w3.org)
+              </p>
+<h2>Disclaimers</h2>
+<ul>
+<li>This test suite does not represent a consensus of the working group.</li>
+<li>This test suite attempts to represent all the accessibility features of HTML 4.01, but should not be considered as a definitive list. Comments on the current or additional tests should be sent to the editors.
+</li>
+<li>This test suite maybe useful in conducting a conformance review of a user agent, but is not sufficient for determining if all requirements have been satisified for making a conformance claim. For instance, a test may illustrate that a functionality is implemented, but that test may be sufficient but not necessary to satisfy the checkpoint.
+</li>
+<li>This test suite is considered an informative resource of the UAWG and may change at anytime without notice.
+</li>
+</ul>
+<h2>References</h2>
+<p>The following resources are used to represent the information for each test and convert the test to an HTML format.  Each of the test in the following section includes a link to the XML test document.  The TS.XSL transform is used to convert the XML representation to HTML.</p>
+<ul>
+<li><a href="http://www.w3.org/WAI/UA/TS/dtd/uaag-testsuite-2.dtd">DTD for the XML test description documents</a></li>
+<li><a href="http://www.w3.org/WAI/UA/TS/xslt/ts.xsl">XSLT Transform to convert XML test document to HTML</a></li>
+</ul>
+<h2>UAAG Checkpoints and Requirements</h2>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-device-independent-ui">Checkpoint 1.1 Full keyboard access</a> (P1)</h3>
+<ol><li style="list-style: none">
+<a id="tech-device-independent-ui-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-device-independent-ui-1">Provision 1</a>: 
+Ensure that the user can operate, through keyboard input alone, any user agent functionality available through the user interface.
+<ul>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-ACCESSKEY-BUTTON.html">
+      accesskey attribute for button element
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-ACCESSKEY-BUTTON.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-ACCESSKEY-CHECKBOX.html">
+      ACCESSKEY attribute for CHECKBOX
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-ACCESSKEY-CHECKBOX.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-ACCESSKEY-INPUT.html">
+      ACCESSKEY attribute for INPUT buttons
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-ACCESSKEY-INPUT.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-ACCESSKEY-LABEL.html">
+      ACCESSKEY attribute for LABEL
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-ACCESSKEY-LABEL.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-ACCESSKEY-LEGEND.html">
+      ACCESSKEY attribute for LEGEND
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-ACCESSKEY-LEGEND.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-ACCESSKEY-RADIO.html">
+      ACCESSKEY attribute for RADIO buttons
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-ACCESSKEY-RADIO.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-ACCESSKEY-TEXTAREA.html">
+      ACCESKEY attribute for TEXTAREA
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-ACCESSKEY-TEXTAREA.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-ACCESSKEY.html">
+      ACCESSKEY
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-ACCESSKEY.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-BUTTON.html">
+      BUTTON
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-BUTTON.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-CHECKBOX.html">
+      CHECKBOXES
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-CHECKBOX.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-FRAME-SRC.html">
+      FRAME and FRAMESET
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-FRAME-SRC.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-IFRAME.html">
+      IFRAME
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-IFRAME.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-INPUT.html">
+      INPUT buttons
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-INPUT.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-RADIO.html">
+      RADIO buttons
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-RADIO.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-TABINDEX.html">
+      TABINDEX
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-TABINDEX.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-TEXTAREA.html">
+      TEXTAREA
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-TEXTAREA.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-ACCESSKEY-MAP.html">
+      ACCESSKEY attribute for MAP AREA
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-ACCESSKEY-MAP.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp1105/1105-ACTIVATE-LINK.html">
+      User Agent Bindings for Activating Links
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp1105/1105-ACTIVATE-LINK.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp1105/1105-ENABLED-ELEMENTS.html">
+      User Agent Bindings for Moving Focus to Enabled Elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp1105/1105-ENABLED-ELEMENTS.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp1105/1105-SEARCH-TEXT.html">
+      User Agent Bindings for Searching for Text
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp1105/1105-SEARCH-TEXT.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp1105/1105-TEXT-SIZE.html">
+      User Agent Bindings for Changing Text Size
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp1105/1105-TEXT-SIZE.xml">XML data</a> )</li>
+</ul>
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-device-independent-handlers">Checkpoint 1.2 Activate event handlers</a> (P1)</h3>
+<ol>
+<li style="list-style: none">
+<a id="tech-device-independent-handlers-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-device-independent-handlers-1">Provision 1</a>: 
+Allow the user to activate, through keyboard input alone, all input device event handlers that are explicitly associated with the element designated by the content focus. 
+<ul>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0102/0102-ONCHANGE-INPUT.html">
+      ONCHANGE attribute for INPUT elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0102/0102-ONCHANGE-INPUT.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0102/0102-ONCHANGE-SELECT.html">
+      ONCHANGE attribute for SELECT elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0102/0102-ONCHANGE-SELECT.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0102/0102-ONCHANGE-TEXTAREA.html">
+      ONCHANGE attribute for TEXTAREA elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0102/0102-ONCHANGE-TEXTAREA.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0102/0102-ONCLICK.html">
+      ONCLICK and ONDBCLICK
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0102/0102-ONCLICK.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0102/0102-ONFOCUS-ONBLUR-BUTTON.html">
+      ONFOCUS and ONBLUR attributes for BUTTON elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0102/0102-ONFOCUS-ONBLUR-BUTTON.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0102/0102-ONFOCUS-ONBLUR-INPUT.html">
+      ONFOCUS and ONBLUR attributes for INPUT elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0102/0102-ONFOCUS-ONBLUR-INPUT.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0102/0102-ONFOCUS-ONBLUR-LABEL.html">
+      ONFOCUS and ONBLUR attributes for LABEL elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0102/0102-ONFOCUS-ONBLUR-LABEL.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0102/0102-ONFOCUS-ONBLUR-LINKS.html">
+      ONFOCUS and ONBLUR attributes for links
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0102/0102-ONFOCUS-ONBLUR-LINKS.xml">XML data</a> )</li>
+</ul>
+</li>
+<li style="list-style: none">
+<a id="tech-device-independent-handlers-2"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-device-independent-handlers-2">Provision 2</a>: 
+In order to satisfy provision one of this checkpoint, the user must be able to activate as a group all event handlers of the same input device event type. For example, if there are 10 handlers associated with the onmousedown event type, the user must be able to activate the entire group of 10 through keyboard input alone, and must not be required to activate each handler separately.
+<ul>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0102/0102-ONCHANGE-SELECT-MULTIPLE-EVENTS.html">
+      Multiple Event Handlers for ONCHANGE Attribute for SELECT Elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0102/0102-ONCHANGE-SELECT-MULTIPLE-EVENTS.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0102/0102-ONCLICK-MULTIPLE-EVENTS.html">
+      Multiple Event Handlers for ONCLICK and ONDBCLICK
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0102/0102-ONCLICK-MULTIPLE-EVENTS.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0102/0102-ONFOCUS-ONBLUR-MAP-AREA.html">
+      ONFOCUS and ONBLUR attributes for MAP elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0102/0102-ONFOCUS-ONBLUR-MAP-AREA.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0102/0102-ONFOCUS-ONBLUR-TEXTAREA.html">
+      ONFOCUS and ONBLUR attributes for TEXTAREA elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0102/0102-ONFOCUS-ONBLUR-TEXTAREA.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0102/0102-ONMOUSE-MULTIPLE-EVENTS.html">
+      Multiple Event Handlers for ONMOUSEOVER and ONMOUSEOUT
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0102/0102-ONMOUSE-MULTIPLE-EVENTS.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0102/0102-ONMOUSE.html">
+      ONMOUSEOVER and ONMOUSEOUT
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0102/0102-ONMOUSE.xml">XML data</a> )</li>
+</ul>
+</li>
+</ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-ui-text-eq">Checkpoint 1.3 Provide text messages</a> (P1)</h3>
+<ol><li style="list-style: none">
+<a id="tech-ui-text-eq-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-ui-text-eq-1">Provision 1</a>: 
+Ensure that every message (e.g., prompt, alert, or notification) that is a non-text element and is part of the user agent user interface has a text equivalent.
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-doc-content-access">Checkpoint 2.1 Render content according to specification</a> (P1)</h3>
+<ol><li style="list-style: none">
+<a id="tech-doc-content-access-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-doc-content-access-1">Provision 1</a>: 
+Render content according to format specification (e.g., for a markup language or style sheet language).
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-doc-source-view">Checkpoint 2.2 Provide text view</a> (P1)</h3>
+<ol><li style="list-style: none">
+<a id="tech-doc-source-view-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-doc-source-view-1">Provision 1</a>: 
+For content authored in text formats, provide a view of the text source.
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-conditional-content">Checkpoint 2.3 Render conditional content</a> (P1)</h3>
+<ol>
+<li style="list-style: none">
+<a id="tech-conditional-content-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-conditional-content-1">Provision 1</a>: 
+Allow configuration to provide access to each piece of unrendered conditional content &quot;C&quot;.
+<ul>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-ABBR.html">
+      ABBR elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-ABBR.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-ACRONYM.html">
+      ACRONYM elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-ACRONYM.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-AREA-ALT.html">
+      ALT attribute for AREA elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-AREA-ALT.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-FRAME-LONGDESC-SRC.html">
+      LONGDESC attribute for FRAME elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-FRAME-LONGDESC-SRC.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-FRAME-TITLE-SRC.html">
+      TITLE attribute for FRAME elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-FRAME-TITLE-SRC.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-IFRAME.html">
+      IFRAME conditional content
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-IFRAME.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-IMG.html">
+      ALT, TITLE, and LONGDESC attributes for IMG element
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-IMG.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-INPUT-ALT.html">
+      ALT attribute for INPUT elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-INPUT-ALT.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-MAP-TITLE.html">
+      TITLE attribute for MAP element
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-MAP-TITLE.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-NOFRAMES-SRC.html">
+      NOFRAMES elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-NOFRAMES-SRC.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-NOSCRIPT.html">
+      NOSCRIPT conditional content
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-NOSCRIPT.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-OBJECT-AUDIO.html">
+      OBJECT element for audio
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-OBJECT-AUDIO.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-OBJECT-IMAGES.html">
+      OBJECT element for images
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-OBJECT-IMAGES.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-OBJECT-VIDEO.html">
+      OBJECT element for video
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-OBJECT-VIDEO.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-TABLE-HEADERS.html">
+      TH elements and the SCOPE attribute for TH elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-TABLE-HEADERS.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-TABLE-SUMMARY.html">
+      SUMMARY attribute for TABLE elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-TABLE-SUMMARY.xml">XML data</a> )</li>
+</ul>
+</li>
+<li style="list-style: none">
+<a id="tech-conditional-content-2"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-conditional-content-2">Provision 2</a>: 
+When a specification does not explain how to provide access to this content, do so as follows:  If C is a summary, title, alternative, description, or expansion of another piece of content D, provide access through at least one of the following mechanisms:  (1a) render C in place of D; (2a) render C in addition to D; (3a) provide access to C by allowing the user to query D. In this case, the user agent must also alert the user, on a per-element basis, to the existence of C (so that the user knows to query D); and (4a) allow the user to follow a link to C from the context of D.   Otherwise, provide access to C through at least one of the following mechanisms:  (1b) render a placeholder for C, and allow the user to view the original author-supplied content associated with each placeholder; (2b) provide access to C by query (e.g., allow the user to query an element for its attributes). In this case, the user agent must also alert the user, on a per-element basis, to the existence of C; and (3b) allow the user to follow a link in context to C.    
+<ul>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-ABBR.html">
+      ABBR elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-ABBR.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-ACRONYM.html">
+      ACRONYM elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-ACRONYM.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-AREA-ALT.html">
+      ALT attribute for AREA elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-AREA-ALT.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-FRAME-LONGDESC-SRC.html">
+      LONGDESC attribute for FRAME elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-FRAME-LONGDESC-SRC.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-FRAME-TITLE-SRC.html">
+      TITLE attribute for FRAME elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-FRAME-TITLE-SRC.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-IFRAME.html">
+      IFRAME conditional content
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-IFRAME.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-IMG.html">
+      ALT, TITLE, and LONGDESC attributes for IMG element
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-IMG.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-INPUT-ALT.html">
+      ALT attribute for INPUT elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-INPUT-ALT.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-MAP-TITLE.html">
+      TITLE attribute for MAP element
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-MAP-TITLE.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-NOFRAMES-SRC.html">
+      NOFRAMES elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-NOFRAMES-SRC.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-NOSCRIPT.html">
+      NOSCRIPT conditional content
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-NOSCRIPT.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-OBJECT-AUDIO.html">
+      OBJECT element for audio
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-OBJECT-AUDIO.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-OBJECT-IMAGES.html">
+      OBJECT element for images
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-OBJECT-IMAGES.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-OBJECT-VIDEO.html">
+      OBJECT element for video
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-OBJECT-VIDEO.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-TABLE-HEADERS.html">
+      TH elements and the SCOPE attribute for TH elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-TABLE-HEADERS.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-TABLE-SUMMARY.html">
+      SUMMARY attribute for TABLE elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-TABLE-SUMMARY.xml">XML data</a> )</li>
+</ul>
+</li>
+</ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-time-independent">Checkpoint 2.4 Allow time-independent interaction</a> (P1)</h3>
+<ol><li style="list-style: none">
+<a id="tech-time-independent-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-time-independent-1">Provision 1</a>: 
+For rendered content where user input is only possible within a finite time interval controlled by the user agent, allow configuration to provide a view where user interaction is time-independent.
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-render-continuous-equiv">Checkpoint 2.5 Make captions, transcripts, audio descriptions available</a> (P1)</h3>
+<ol><li style="list-style: none">
+<a id="tech-render-continuous-equiv-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-render-continuous-equiv-1">Provision 1</a>: 
+Allow configuration or control to render text transcripts, collated text transcripts, captions, and audio descriptions in content at the same time as the associated audio tracks and visual tracks.
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-respect-sync-cues">Checkpoint 2.6 Respect synchronization cues</a> (P1)</h3>
+<ol><li style="list-style: none">
+<a id="tech-respect-sync-cues-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-respect-sync-cues-1">Provision 1</a>: 
+Respect synchronization cues (e.g., in markup) during rendering.
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-missing-alt">Checkpoint 2.7 Repair missing content</a> (P2)</h3>
+<ol><li style="list-style: none">
+<a id="tech-missing-alt-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-missing-alt-1">Provision 1</a>: 
+Allow configuration to generate repair text when the user agent recognizes that the author has not provided conditional content required by the format specification.
+<ul>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0207/0207-AREA-ALT.html">
+      repairing missing ALT conditional content for AREA
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0207/0207-AREA-ALT.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0207/0207-FRAME-TITLE-SRC.html">
+      repair missing TITLE attribute for FRAME elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0207/0207-FRAME-TITLE-SRC.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0207/0207-IFRAME.html">
+      repairing missing IFRAME conditional content
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0207/0207-IFRAME.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0207/0207-IMG-ALT.html">
+      repairing missing ALT conditional content for images
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0207/0207-IMG-ALT.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0207/0207-INPUT-ALT.html">
+      repairing missing ALT conditional content for INPUT
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0207/0207-INPUT-ALT.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0207/0207-MAP-TITLE.html">
+      repairing missing TITLE conditional content for MAP elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0207/0207-MAP-TITLE.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0207/0207-NOFRAMES-SRC.html">
+      repairing missing NOFRAMES elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0207/0207-NOFRAMES-SRC.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0207/0207-OBJECT-AUDIO.html">
+      repairing missing OBJECT element conditional content for audio
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0207/0207-OBJECT-AUDIO.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0207/0207-OBJECT-IMAGES.html">
+      repairing missing OBJECT element conditional content for images
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0207/0207-OBJECT-IMAGES.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0207/0207-OBJECT-VIDEO.html">
+      repairing missing OBJECT element conditional content for video
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0207/0207-OBJECT-VIDEO.xml">XML data</a> )</li>
+</ul>
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-null-alt">Checkpoint 2.8 No repair text</a> (P3)</h3>
+<ol><li style="list-style: none">
+<a id="tech-null-alt-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-null-alt-1">Provision 1</a>: 
+Allow at least two configurations for when the user agent recognizes that conditional content required by the format specification is present but empty content:  generate no repair text. generate repair as described in checkpoint 2.7.  
+<ul>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0208/0208-AREA-ALT.html">
+      No Repair Text for the ALT attribute for AREA elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0208/0208-AREA-ALT.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0208/0208-IMG-ALT.html">
+      No Repair Text for the ALT attribute for IMG elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0208/0208-IMG-ALT.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0208/0208-INPUT-ALT.html">
+      No Repair Text for the ALT attribute for INPUT elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0208/0208-INPUT-ALT.xml">XML data</a> )</li>
+</ul>
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-conditional-content">Checkpoint 2.9 Render conditional content automatically</a> (P3)</h3>
+<ol>
+<li style="list-style: none">
+<a id="tech-configure-conditional-content-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-conditional-content-1">Provision 1</a>: 
+Allow configuration to render all conditional content automatically. 
+</li>
+<li style="list-style: none">
+<a id="tech-configure-conditional-content-2"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-conditional-content-2">Provision 2</a>: 
+As part of satisfying provision one of this checkpoint, provide access according to specification, or where unspecified, by applying one of the techniques 1a, 2a, or 1b defined in provision two of checkpoint 2.3.
+</li>
+</ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-no-render-natural-language">Checkpoint 2.10 Don't render text in unsupported writing systems</a> (P3)</h3>
+<ol>
+<li style="list-style: none">
+<a id="tech-no-render-natural-language-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-no-render-natural-language-1">Provision 1</a>: 
+For graphical user agents, allow configuration not to render text in unsupported scripts (i.e., writing systems) when that text would otherwise be rendered.
+<ul><li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0210/0210-UNSUPPORTED-LANGUAGE.html">
+      Unsupported Language
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0210/0210-UNSUPPORTED-LANGUAGE.xml">XML data</a> )</li></ul>
+</li>
+<li style="list-style: none">
+<a id="tech-no-render-natural-language-2"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-no-render-natural-language-2">Provision 2</a>: 
+When configured per provision one of this checkpoint, indicate to the user in context that author-supplied content has not been rendered due to lack of support for a writing system. 
+<ul><li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0210/0210-UNSUPPORTED-LANGUAGE.html">
+      Unsupported Language
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0210/0210-UNSUPPORTED-LANGUAGE.xml">XML data</a> )</li></ul>
+</li>
+</ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-background-image">Checkpoint 3.1 Toggle background images</a> (P1)</h3>
+<ol><li style="list-style: none">
+<a id="tech-configure-background-image-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-background-image-1">Provision 1</a>: 
+Allow configuration not to render background image content.
+<ul>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0301/0301-BODY-BACKGROUND.html">
+      BACKGROUND images in the BODY element
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0301/0301-BODY-BACKGROUND.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0301/0301-CSS-BACKGROUND-IMAGE.html">
+      BACKGROUND-IMAGE in the STYLE element
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0301/0301-CSS-BACKGROUND-IMAGE.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0301/0301-CSS-DIV-BACKGROUND-IMAGE.html">
+      DIV BACKGROUND-IMAGE in the STYLE element
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0301/0301-CSS-DIV-BACKGROUND-IMAGE.xml">XML data</a> )</li>
+</ul>
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-multimedia">Checkpoint 3.2 Toggle audio, video, animated images</a> (P1)</h3>
+<ol><li style="list-style: none">
+<a id="tech-configure-multimedia-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-multimedia-1">Provision 1</a>: 
+Allow configuration not to render audio, video, or animated image content, except on explicit user request. 
+<ul>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0302/0302-ANIMATED-IMAGES.html">
+      Toggle animated IMG images
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0302/0302-ANIMATED-IMAGES.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0302/0302-EMBED-AUDIO.html">
+      Toggle EMBED audio
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0302/0302-EMBED-AUDIO.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0302/0302-EMBED-VIDEO.html">
+      Toggle EMBED video
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0302/0302-EMBED-VIDEO.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0302/0302-OBJECT-AUDIO.html">
+      Toggle OBJECT audio
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0302/0302-OBJECT-AUDIO.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0302/0302-OBJECT-VIDEO.html">
+      Toggle OBJECT video
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0302/0302-OBJECT-VIDEO.xml">XML data</a> )</li>
+</ul>
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-on-off-blinking-text">Checkpoint 3.3 Toggle animated or blinking text</a> (P1)</h3>
+<ol><li style="list-style: none">
+<a id="tech-on-off-blinking-text-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-on-off-blinking-text-1">Provision 1</a>: 
+Allow configuration to render animated or blinking text content as motionless, unblinking text. Blinking text is text whose visual rendering alternates between visible and invisible, at any rate of change.
+<ul><li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0303/0303-CSS-BLINK.html">
+      TEXT-DECORATION:BLINK in the STYLE element
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0303/0303-CSS-BLINK.xml">XML data</a> )</li></ul>
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-on-off-scripts">Checkpoint 3.4 Toggle scripts</a> (P1)</h3>
+<ol><li style="list-style: none">
+<a id="tech-on-off-scripts-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-on-off-scripts-1">Provision 1</a>: 
+Allow configuration not to execute any executable content (e.g., scripts and applets).
+<ul><li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0304/0304-TOGGLE-SCRIPTS.html">
+      Toggle scripts on and off
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0304/0304-TOGGLE-SCRIPTS.xml">XML data</a> )</li></ul>
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-content-retrieval">Checkpoint 3.5 Toggle automatic content retrieval</a> (P1)</h3>
+<ol><li style="list-style: none">
+<a id="tech-configure-content-retrieval-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-content-retrieval-1">Provision 1</a>: 
+Allow configuration so that the user agent only retrieves content on explicit user request.
+<ul>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0305/0305-REDIRECT.html">
+      META HTTP-EQUIV redirect
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0305/0305-REDIRECT.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0305/0305-REFRESH.html">
+      META HTTP-EQUIV refresh
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0305/0305-REFRESH.xml">XML data</a> )</li>
+</ul>
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-on-off-images">Checkpoint 3.6 Toggle images</a> (P2)</h3>
+<ol><li style="list-style: none">
+<a id="tech-on-off-images-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-on-off-images-1">Provision 1</a>: 
+Allow configuration not to render image content.
+<ul>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0306/0306-IMG.html">
+      IMG toggle
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0306/0306-IMG.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0306/0306-OBJECT-IMAGE.html">
+      OBJECT images toggle
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0306/0306-OBJECT-IMAGE.xml">XML data</a> )</li>
+</ul>
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-text-scale">Checkpoint 4.1 Configure text scale</a> (P1)</h3>
+<ol>
+<li style="list-style: none">
+<a id="tech-configure-text-scale-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-text-scale-1">Provision 1</a>: 
+Allow global configuration of the scale of visually rendered text content. Preserve distinctions in the size of rendered text as the user increases or decreases the scale.
+<ul><li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0401/0401-FONT-SIZE.html">
+      font-size
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0401/0401-FONT-SIZE.xml">XML data</a> )</li></ul>
+</li>
+<li style="list-style: none">
+<a id="tech-configure-text-scale-2"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-text-scale-2">Provision 2</a>: 
+As part of satisfying provision one of this checkpoint, provide a configuration option to override rendered text sizes specified by the author or user agent defaults.
+<ul><li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0401/0401-FONT-SIZE.html">
+      font-size
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0401/0401-FONT-SIZE.xml">XML data</a> )</li></ul>
+</li>
+<li style="list-style: none">
+<a id="tech-configure-text-scale-3"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-text-scale-3">Provision 3</a>: 
+As part of satisfying provision one of this checkpoint, offer a range of text sizes to the user that includes at least:  the range offered by the conventional utility available in the operating environment that allows users to choose the text size (e.g., the font size), or if no such utility is available, the range of text sizes supported by the conventional APIs of the operating environment for drawing text.  
+<ul><li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0401/0401-FONT-SIZE.html">
+      font-size
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0401/0401-FONT-SIZE.xml">XML data</a> )</li></ul>
+</li>
+</ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-font-family">Checkpoint 4.2 Configure font family</a> (P1)</h3>
+<ol>
+<li style="list-style: none">
+<a id="tech-configure-font-family-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-font-family-1">Provision 1</a>: 
+Allow global configuration of the font family of all visually rendered text content.
+<ul><li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0402/0402-FONT-FAMILY.html">
+      font-family
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0402/0402-FONT-FAMILY.xml">XML data</a> )</li></ul>
+</li>
+<li style="list-style: none">
+<a id="tech-configure-font-family-2"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-font-family-2">Provision 2</a>: 
+As part of satisfying provision one of this checkpoint, provide a configuration option to override font families specified by the author or by user agent defaults.
+<ul><li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0402/0402-FONT-FAMILY.html">
+      font-family
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0402/0402-FONT-FAMILY.xml">XML data</a> )</li></ul>
+</li>
+<li style="list-style: none">
+<a id="tech-configure-font-family-3"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-font-family-3">Provision 3</a>: 
+As part of satisfying provision one of this checkpoint, offer a range of font families to the user that includes at least:  the range offered by the conventional utility available in the operating environment that allows users to choose the font family, or if no such utility is available, the range of font families supported by the conventional APIs of the operating environment for drawing text.  
+</li>
+</ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-text-color">Checkpoint 4.3 Configure text colors</a> (P1)</h3>
+<ol>
+<li style="list-style: none">
+<a id="tech-configure-text-color-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-text-color-1">Provision 1</a>: 
+Allow global configuration of the foreground and background color of all visually rendered text content.
+<ul><li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0403/0403-FONT-COLOR.html">
+      font colors and backgrounds
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0403/0403-FONT-COLOR.xml">XML data</a> )</li></ul>
+</li>
+<li style="list-style: none">
+<a id="tech-configure-text-color-2"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-text-color-2">Provision 2</a>: 
+As part of satisfying provision one of this checkpoint, provide a configuration option to override foreground and background colors specified by the author or user agent defaults.
+<ul><li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0403/0403-FONT-COLOR.html">
+      font colors and backgrounds
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0403/0403-FONT-COLOR.xml">XML data</a> )</li></ul>
+</li>
+<li style="list-style: none">
+<a id="tech-configure-text-color-3"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-text-color-3">Provision 3</a>: 
+ As part of satisfying provision one of this checkpoint, offer a range of colors to the user that includes at least:  the range offered by the conventional utility available in the operating environment that allows users to choose colors, or if no such utility is available, the range of colors supported by the conventional APIs of the operating environment for specifying colors.  
+</li>
+</ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-slow-multimedia">Checkpoint 4.4 Slow multimedia</a> (P1)</h3>
+<ol>
+<li style="list-style: none">
+<a id="tech-slow-multimedia-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-slow-multimedia-1">Provision 1</a>: 
+Allow the user to slow the presentation rate of rendered audio and animation content (including video and animated images).
+</li>
+<li style="list-style: none">
+<a id="tech-slow-multimedia-2"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-slow-multimedia-2">Provision 2</a>: 
+As part of satisfying provision one of this checkpoint, for a visual track, provide at least one setting between 40% and 60% of the original speed.
+</li>
+<li style="list-style: none">
+<a id="tech-slow-multimedia-3"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-slow-multimedia-3">Provision 3</a>: 
+As part of satisfying provision one of this checkpoint, for a prerecorded audio track including audio-only presentations, provide at least one setting between 75% and 80% of the original speed.
+</li>
+<li style="list-style: none">
+<a id="tech-slow-multimedia-4"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-slow-multimedia-4">Provision 4</a>: 
+When the user agent allows the user to slow the visual track of a synchronized multimedia presentation to between 100% and 80% of its original speed, synchronize the visual and audio tracks (per checkpoint 2.6). Below 80%, the user agent is not required to render the audio track.
+</li>
+</ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-control-multimedia">Checkpoint 4.5 Start, stop, pause, and navigate multimedia</a> (P1)</h3>
+<ol>
+<li style="list-style: none">
+<a id="tech-control-multimedia-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-control-multimedia-1">Provision 1</a>: 
+Allow the user to stop, pause, and resume rendered audio and animation content (including video and animated images) that last three or more seconds at their default playback rate.
+</li>
+<li style="list-style: none">
+<a id="tech-control-multimedia-2"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-control-multimedia-2">Provision 2</a>: 
+Allow the user to navigate efficiently within rendered audio and animations (including video and animated images) that last three or more seconds at their default playback rate.
+</li>
+</ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-captions">Checkpoint 4.6 Do not obscure captions</a> (P1)</h3>
+<ol><li style="list-style: none">
+<a id="tech-configure-captions-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-captions-1">Provision 1</a>: 
+For graphical viewports, allow configuration so that captions synchronized with a visual track in content are not obscured by it.
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-audio-volume">Checkpoint 4.7 Global volume control</a> (P1)</h3>
+<ol>
+<li style="list-style: none">
+<a id="tech-configure-audio-volume-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-audio-volume-1">Provision 1</a>: 
+Allow global configuration of the volume of all rendered audio, with an option to override audio volumes specified by the author or user agent defaults.
+</li>
+<li style="list-style: none">
+<a id="tech-configure-audio-volume-2"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-audio-volume-2">Provision 2</a>: 
+As part of satisfying provision one of this checkpoint, allow the user to choose zero volume (i.e., silent).
+</li>
+</ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-independent-volume-control">Checkpoint 4.8 Independent volume control</a> (P1)</h3>
+<ol><li style="list-style: none">
+<a id="tech-independent-volume-control-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-independent-volume-control-1">Provision 1</a>: 
+Allow independent control of the volumes of rendered audio content synchronized to play simultaneously.
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-speech-rate">Checkpoint 4.9 Configure synthesized speech rate</a> (P1)</h3>
+<ol><li style="list-style: none">
+<a id="tech-configure-speech-rate-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-speech-rate-1">Provision 1</a>: 
+Allow configuration of the synthesized speech rate, according to the full range offered by the speech synthesizer.
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-control-speech-volume">Checkpoint 4.10 Configure synthesized speech volume</a> (P1)</h3>
+<ol><li style="list-style: none">
+<a id="tech-control-speech-volume-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-control-speech-volume-1">Provision 1</a>: 
+Allow control of the synthesized speech volume, independent of other sources of audio.
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-speech-characteristics">Checkpoint 4.11 Configure synthesized speech characteristics</a> (P1)</h3>
+<ol><li style="list-style: none">
+<a id="tech-configure-speech-characteristics-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-speech-characteristics-1">Provision 1</a>: 
+Allow configuration of synthesized speech characteristics according to the full range of values offered by the speech synthesizer.
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-speech-style">Checkpoint 4.12 Specific synthesized speech characteristics</a> (P2)</h3>
+<ol>
+<li style="list-style: none">
+<a id="tech-configure-speech-style-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-speech-style-1">Provision 1</a>: 
+Allow configuration of synthesized speech pitch. Pitch refers to the average frequency of the speaking voice.
+</li>
+<li style="list-style: none">
+<a id="tech-configure-speech-style-2"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-speech-style-2">Provision 2</a>: 
+Allow configuration of synthesized speech pitch range. Pitch range specifies a variation in average frequency.
+</li>
+<li style="list-style: none">
+<a id="tech-configure-speech-style-3"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-speech-style-3">Provision 3</a>: 
+Allow configuration of synthesized speech stress. Stress refers to the height of &quot;local peaks&quot; in the intonation contour of the voice.
+</li>
+<li style="list-style: none">
+<a id="tech-configure-speech-style-4"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-speech-style-4">Provision 4</a>: 
+Allow configuration of synthesized speech richness. Richness refers to the richness or brightness of the voice.
+</li>
+</ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-speech-features">Checkpoint 4.13 Configure synthesized speech features</a> (P2)</h3>
+<ol>
+<li style="list-style: none">
+<a id="tech-configure-speech-features-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-speech-features-1">Provision 1</a>: 
+Provide support for user-defined extensions to the synthesized speech dictionary. 
+</li>
+<li style="list-style: none">
+<a id="tech-configure-speech-features-2"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-speech-features-2">Provision 2</a>: 
+Provide support for spell-out: where text is spelled one character at a time, or according to language-dependent pronunciation rules.
+</li>
+<li style="list-style: none">
+<a id="tech-configure-speech-features-3"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-speech-features-3">Provision 3</a>: 
+Allow at least two configurations for speaking numerals: one where numerals are spoken as individual digits, and one where full numbers are spoken. 
+</li>
+<li style="list-style: none">
+<a id="tech-configure-speech-features-4"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-speech-features-4">Provision 4</a>: 
+Allow at least two configurations for speaking punctuation: one where punctuation is spoken literally, and one where punctuation is rendered as natural pauses. 
+</li>
+</ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-select-style-sheets">Checkpoint 4.14 Choose style sheets</a> (P1)</h3>
+<ol>
+<li style="list-style: none">
+<a id="tech-select-style-sheets-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-select-style-sheets-1">Provision 1</a>: 
+ Allow the user to choose from and apply alternative author style sheets (such as linked style sheets).
+<ul><li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0414/0414-MULTIPLE-AUTHOR-STYLE.html">
+      Apply alternative author style sheets
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0414/0414-MULTIPLE-AUTHOR-STYLE.xml">XML data</a> )</li></ul>
+</li>
+<li style="list-style: none">
+<a id="tech-select-style-sheets-2"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-select-style-sheets-2">Provision 2</a>: 
+ Allow the user to choose from and apply at least one user style sheet.
+<ul><li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0414/0414-USER-STYLE.html">
+      Apply user style sheets
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0414/0414-USER-STYLE.xml">XML data</a> )</li></ul>
+</li>
+<li style="list-style: none">
+<a id="tech-select-style-sheets-3"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-select-style-sheets-3">Provision 3</a>: 
+ Allow the user to turn off (i.e., ignore) author and user style sheets.
+<ul><li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0414/0414-IGNORE-AUTHOR-USER-STYLE.html">
+      Ignore author and user style sheets
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0414/0414-IGNORE-AUTHOR-USER-STYLE.xml">XML data</a> )</li></ul>
+</li>
+</ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-focus-change">Checkpoint 5.1 No automatic content focus change</a> (P2)</h3>
+<ol><li style="list-style: none">
+<a id="tech-configure-focus-change-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-focus-change-1">Provision 1</a>: 
+Allow configuration so that if a viewport opens without explicit user request, neither its content focus nor its user interface focus automatically becomes the current focus.
+<ul><li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0501/0501-AUTO-FOCUS-CHANGE.html">
+      No focus change when script opens new viewport automatically
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0501/0501-AUTO-FOCUS-CHANGE.xml">XML data</a> )</li></ul>
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-viewport-on-top">Checkpoint 5.2 Keep viewport on top</a> (P2)</h3>
+<ol><li style="list-style: none">
+<a id="tech-viewport-on-top-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-viewport-on-top-1">Provision 1</a>: 
+For graphical user interfaces, allow configuration so that the viewport with the current focus remains &quot;on top&quot; of all other viewports with which it overlaps.
+<ul><li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0502/0502-CURRENT-FOCUS-TOP.html">
+      Current viewport focus on top
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0502/0502-CURRENT-FOCUS-TOP.xml">XML data</a> )</li></ul>
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-limit-viewports">Checkpoint 5.3 Manual viewport open only</a> (P2)</h3>
+<ol>
+<li style="list-style: none">
+<a id="tech-limit-viewports-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-limit-viewports-1">Provision 1</a>: 
+Allow configuration so that viewports only open on explicit user request.
+<ul>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0503/0503-A-TARGET-MANUAL-VIEWPORT-OPEN.html">
+      Open A target attribute opened viewport only with user request
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0503/0503-A-TARGET-MANUAL-VIEWPORT-OPEN.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0503/0503-SCRIPT-MANUAL-VIEWPORT-OPEN.html">
+      Script opened viewport only with user request
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0503/0503-SCRIPT-MANUAL-VIEWPORT-OPEN.xml">XML data</a> )</li>
+</ul>
+</li>
+<li style="list-style: none">
+<a id="tech-limit-viewports-2"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-limit-viewports-2">Provision 2</a>: 
+When configured per provision one of this checkpoint, instead of opening a viewport automatically, alert the user and allow the user to open it with an explicit request (e.g., by confirming a prompt or following a link generated by the user agent).
+<ul>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0503/0503-A-TARGET-MANUAL-VIEWPORT-OPEN.html">
+      Open A target attribute opened viewport only with user request
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0503/0503-A-TARGET-MANUAL-VIEWPORT-OPEN.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0503/0503-SCRIPT-MANUAL-VIEWPORT-OPEN.html">
+      Script opened viewport only with user request
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0503/0503-SCRIPT-MANUAL-VIEWPORT-OPEN.xml">XML data</a> )</li>
+</ul>
+</li>
+<li style="list-style: none">
+<a id="tech-limit-viewports-3"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-limit-viewports-3">Provision 3</a>: 
+Allow the user to close viewports.
+<ul>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0503/0503-A-TARGET-MANUAL-VIEWPORT-OPEN.html">
+      Open A target attribute opened viewport only with user request
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0503/0503-A-TARGET-MANUAL-VIEWPORT-OPEN.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0503/0503-SCRIPT-MANUAL-VIEWPORT-OPEN.html">
+      Script opened viewport only with user request
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0503/0503-SCRIPT-MANUAL-VIEWPORT-OPEN.xml">XML data</a> )</li>
+</ul>
+</li>
+</ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-track-selection-focus">Checkpoint 5.4 Selection and focus in viewport</a> (P2)</h3>
+<ol><li style="list-style: none">
+<a id="tech-track-selection-focus-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-track-selection-focus-1">Provision 1</a>: 
+Ensure that when a viewport's selection or content focus changes, it is at least partially in the viewport after the change.
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-info-form-submit">Checkpoint 5.5 Confirm form submission</a> (P2)</h3>
+<ol><li style="list-style: none">
+<a id="tech-info-form-submit-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-info-form-submit-1">Provision 1</a>: 
+Allow configuration to prompt the user to confirm (or cancel) any form submission.
+<ul>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0505/0505-CONFIRM-FORM-SUBMIT-AUTOMATIC.html">
+      Confirm Automatic Form Submission
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0505/0505-CONFIRM-FORM-SUBMIT-AUTOMATIC.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0505/0505-CONFIRM-FORM-SUBMIT.html">
+      Confirm Form Submission
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0505/0505-CONFIRM-FORM-SUBMIT.xml">XML data</a> )</li>
+</ul>
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-infoset-access">Checkpoint 6.1 Programmatic access to HTML/XML infoset</a> (P1)</h3>
+<ol>
+<li style="list-style: none">
+<a id="tech-infoset-access-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-infoset-access-1">Provision 1</a>: 
+Provide programmatic read access to XML content by making available all of the information items defined by the W3C XML Infoset [INFOSET].
+</li>
+<li style="list-style: none">
+<a id="tech-infoset-access-2"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-infoset-access-2">Provision 2</a>: 
+Provide programmatic read access to HTML content by making available all of the following information items defined by the W3C XML Infoset [INFOSET]:  Document Information item: children, document element, base URI, charset Element Information items: element-type name, children, attributes, parent Attribute Information items: attribute-type name, normalized value, specified, attribute type, references, owner element Character Information items: character code, parent element Comment Information items: content, parent  
+</li>
+<li style="list-style: none">
+<a id="tech-infoset-access-3"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-infoset-access-3">Provision 3</a>: 
+If the user can modify the state or value of a piece of HTML or XML content through the user interface (e.g., by checking a box or editing a text area), allow programmatic read access to the current state or value, and allow the same degree of write access programmatically as is available through the user interface.
+</li>
+</ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-dom-access-api">Checkpoint 6.2 DOM access to HTML/XML content</a> (P1)</h3>
+<ol>
+<li style="list-style: none">
+<a id="tech-dom-access-api-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-dom-access-api-1">Provision 1</a>: 
+ Provide access to the content required in checkpoint 6.1 by conforming to the following modules of the W3C Document Object Model (DOM) Level 2 Core Specification [DOM2CORE] and exporting bindings for the interfaces they define:  for HTML: the Core module for XML: the Core and XML modules  
+</li>
+<li style="list-style: none">
+<a id="tech-dom-access-api-2"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-dom-access-api-2">Provision 2</a>: 
+As part of satisfying provision one of this checkpoint:  In the Java and ECMAScript operating environments, export the normative bindings specified in the DOM Level 2 Core Specification [DOM2CORE], or In other operating environments, the exported bindings (e.g., C++) must be publicly documented.  
+</li>
+</ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-content-access-api">Checkpoint 6.3 Programmatic access to non-HTML/XML content</a> (P1)</h3>
+<ol>
+<li style="list-style: none">
+<a id="tech-content-access-api-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-content-access-api-1">Provision 1</a>: 
+For content other than HTML and XML, provide structured programmatic read access to content.
+</li>
+<li style="list-style: none">
+<a id="tech-content-access-api-2"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-content-access-api-2">Provision 2</a>: 
+If the user can modify the state or value of a piece of non-HTML/XML content through the user interface (e.g., by checking a box or editing a text area), allow programmatic read access to the current state or value, and allow the same degree of write access programmatically as is available through the user interface.
+</li>
+<li style="list-style: none">
+<a id="tech-content-access-api-3"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-content-access-api-3">Provision 3</a>: 
+As part of satisfying provision one of this checkpoint, implement at least one API according to this API cascade:  The API is defined by a W3C Recommendation, or the API is publicly documented and designed to enable interoperability with assistive technologies. If no such API is available, or if available APIs do not enable the user agent to satisfy the requirements,  implement at least one publicly documented API to satisfy the requirements, and follow operating environment conventions for the use of input and output APIs.    
+</li>
+</ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-rendering-access-api">Checkpoint 6.4 Programmatic access to information about rendered content</a> (P1)</h3>
+<ol>
+<li style="list-style: none">
+<a id="tech-rendering-access-api-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-rendering-access-api-1">Provision 1</a>: 
+For graphical user agents, make available bounding dimensions and coordinates of rendered graphical objects. Coordinates must be relative to the point of origin in the graphical environment (e.g., with respect to the desktop), not the viewport.
+</li>
+<li style="list-style: none">
+<a id="tech-rendering-access-api-2"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-rendering-access-api-2">Provision 2</a>: 
+For graphical user agents, provide access to the following information about each piece of rendered text: font family, font size, and foreground and background colors.
+</li>
+<li style="list-style: none">
+<a id="tech-rendering-access-api-3"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-rendering-access-api-3">Provision 3</a>: 
+As part of satisfying provisions one and two of this checkpoint, implement at least one API according to the API cascade described in provision two of checkpoint 6.3.
+</li>
+</ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-ui-access-api">Checkpoint 6.5 Programmatic operation of user agent user interface</a> (P1)</h3>
+<ol>
+<li style="list-style: none">
+<a id="tech-ui-access-api-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-ui-access-api-1">Provision 1</a>: 
+Provide programmatic read access to user agent user interface controls, selection, content focus, and user interface focus.
+</li>
+<li style="list-style: none">
+<a id="tech-ui-access-api-2"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-ui-access-api-2">Provision 2</a>: 
+If the user can modify the state or value of a user agent user interface control (e.g., by checking a box or editing a text area), allow programmatic read access to the current state or value, and allow the same degree of write access programmatically as is available through the user interface.
+</li>
+<li style="list-style: none">
+<a id="tech-ui-access-api-3"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-ui-access-api-3">Provision 3</a>: 
+As part of satisfying provisions one and two of this checkpoint, implement at least one API according to the API cascade described in provision two of checkpoint 6.3.
+</li>
+</ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-api-notify-change">Checkpoint 6.6 Programmatic notification of changes</a> (P1)</h3>
+<ol>
+<li style="list-style: none">
+<a id="tech-api-notify-change-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-api-notify-change-1">Provision 1</a>: 
+Provide programmatic notification of changes to content, states and values of content, user agent user interface controls, selection, content focus, and user interface focus.
+</li>
+<li style="list-style: none">
+<a id="tech-api-notify-change-2"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-api-notify-change-2">Provision 2</a>: 
+As part of satisfying provision one of this checkpoint, implement at least one API according to the API cascade of provision two of checkpoint 6.3.
+</li>
+</ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-keyboard-api">Checkpoint 6.7 Conventional keyboard APIs</a> (P1)</h3>
+<ol><li style="list-style: none">
+<a id="tech-keyboard-api-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-keyboard-api-1">Provision 1</a>: 
+Implement APIs for the keyboard as follows:  Follow operating environment conventions. If no conventions exist, implement publicly documented APIs.  
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-api-charencoding">Checkpoint 6.8 API character encodings</a> (P1)</h3>
+<ol><li style="list-style: none">
+<a id="tech-api-charencoding-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-api-charencoding-1">Provision 1</a>: 
+For an API implemented to satisfy requirements of this document, support the character encodings required for that API.
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-dom-css-access">Checkpoint 6.9 DOM access to CSS style sheets</a> (P2)</h3>
+<ol>
+<li style="list-style: none">
+<a id="tech-dom-css-access-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-dom-css-access-1">Provision 1</a>: 
+For user agents that implement Cascading Style Sheets (CSS), provide programmatic access to style sheets by conforming to the CSS module of the W3C Document Object Model (DOM) Level 2 Style Specification [DOM2STYLE] and exporting bindings for the interfaces it defines.
+</li>
+<li style="list-style: none">
+<a id="tech-dom-css-access-2"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-dom-css-access-2">Provision 2</a>: 
+As part of satisfying provision one of this checkpoint:  In the Java and ECMAScript operating environments, export the normative bindings specified in the CSS module of the DOM Level 2 Style Specification [DOM2STYLE], or In other operating environments, the exported bindings (e.g., C++) must be publicly documented.  
+</li>
+</ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-exchange-timely">Checkpoint 6.10 Timely exchanges through APIs</a> (P2)</h3>
+<ol><li style="list-style: none">
+<a id="tech-exchange-timely-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-exchange-timely-1">Provision 1</a>: 
+ For APIs implemented to satisfy the requirements of this document, ensure that programmatic exchanges proceed in a timely manner. 
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-selection-focus-conventions">Checkpoint 7.1 Respect focus and selection conventions</a> (P1)</h3>
+<ol><li style="list-style: none">
+<a id="tech-selection-focus-conventions-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-selection-focus-conventions-1">Provision 1</a>: 
+Follow operating environment conventions that benefit accessibility when implementing the selection, content focus, and user interface focus.
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-default-input-sensible">Checkpoint 7.2 Respect input configuration conventions</a> (P1)</h3>
+<ol><li style="list-style: none">
+<a id="tech-default-input-sensible-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-default-input-sensible-1">Provision 1</a>: 
+Ensure that default input configurations of the user agent do not interfere with operating environment accessibility conventions (e.g., for keyboard accessibility).
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-os-conventions">Checkpoint 7.3 Respect operating environment conventions</a> (P2)</h3>
+<ol><li style="list-style: none">
+<a id="tech-os-conventions-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-os-conventions-1">Provision 1</a>: 
+Follow operating environment conventions that benefit accessibility. In particular, follow conventions that benefit accessibility for user interface design, keyboard configuration, product installation, and documentation.
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-info-input-conventions">Checkpoint 7.4 Provide input configuration indications</a> (P2)</h3>
+<ol><li style="list-style: none">
+<a id="tech-info-input-conventions-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-info-input-conventions-1">Provision 1</a>: 
+Follow operating environment conventions to indicate the input configuration.
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-implement-access-features">Checkpoint 8.1 Implement accessibility features</a> (P1)</h3>
+<ol><li style="list-style: none">
+<a id="tech-implement-access-features-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-implement-access-features-1">Provision 1</a>: 
+Implement the accessibility features of specifications (e.g., markup languages, style sheet languages, metadata languages, and graphics formats).
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-implement-w3c-recs">Checkpoint 8.2 Conform to specifications</a> (P2)</h3>
+<ol><li style="list-style: none">
+<a id="tech-implement-w3c-recs-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-implement-w3c-recs-1">Provision 1</a>: 
+Use and conform to either  W3C Recommendations when they are available and appropriate for a task, or non-W3C specifications that enable the creation of content that conforms at level A or better to the Web Content Accessibility Guidelines 1.0 [WCAG10].  
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-nav-content-focus">Checkpoint 9.1 Provide content focus</a> (P1)</h3>
+<ol>
+<li style="list-style: none">
+<a id="tech-nav-content-focus-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-nav-content-focus-1">Provision 1</a>: 
+Provide at least one content focus for each viewport (including frames) where enabled elements are part of the rendered content.
+</li>
+<li style="list-style: none">
+<a id="tech-nav-content-focus-2"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-nav-content-focus-2">Provision 2</a>: 
+Allow the user to make the content focus of each viewport the current focus.
+</li>
+</ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-nav-ui-focus">Checkpoint 9.2 Provide user interface focus</a> (P1)</h3>
+<ol><li style="list-style: none">
+<a id="tech-nav-ui-focus-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-nav-ui-focus-1">Provision 1</a>: 
+Provide a user interface focus.
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-nav-active">Checkpoint 9.3 Move content focus</a> (P1)</h3>
+<ol>
+<li style="list-style: none">
+<a id="tech-nav-active-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-nav-active-1">Provision 1</a>: 
+Allow the user to move the content focus to any enabled element in the viewport.
+<ul><li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0903/0903-MOVE-CONTENT-FOCUS.html">
+      Move Content Focus to Enabled Elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0903/0903-MOVE-CONTENT-FOCUS.xml">XML data</a> )</li></ul>
+</li>
+<li style="list-style: none">
+<a id="tech-nav-active-2"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-nav-active-2">Provision 2</a>: 
+Allow configuration so that the content focus of a viewport only changes on explicit user request. 
+<ul><li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0903/0903-MOVE-CONTENT-FOCUS.html">
+      Move Content Focus to Enabled Elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0903/0903-MOVE-CONTENT-FOCUS.xml">XML data</a> )</li></ul>
+</li>
+<li style="list-style: none">
+<a id="tech-nav-active-3"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-nav-active-3">Provision 3</a>: 
+If the author has not specified a navigation order, allow at least forward sequential navigation, in document order, to each element in the set established by provision one of this checkpoint. 
+<ul><li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0903/0903-MOVE-CONTENT-FOCUS.html">
+      Move Content Focus to Enabled Elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0903/0903-MOVE-CONTENT-FOCUS.xml">XML data</a> )</li></ul>
+</li>
+</ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-tracking-previous-por">Checkpoint 9.4 Restore viewport state history</a> (P1)</h3>
+<ol>
+<li style="list-style: none">
+<a id="tech-tracking-previous-por-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-tracking-previous-por-1">Provision 1</a>: 
+For user agents that implement a viewport history mechanism, for each state in a viewport's browsing history, maintain information about the point of regard, content focus, and selection.
+</li>
+<li style="list-style: none">
+<a id="tech-tracking-previous-por-2"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-tracking-previous-por-2">Provision 2</a>: 
+When the user returns to any state in the viewport history (e.g., via the &quot;back button&quot;), restore the saved values for the point of regard, content focus, and selection. 
+</li>
+</ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-no-handlers">Checkpoint 9.5 No events on focus change</a> (P2)</h3>
+<ol><li style="list-style: none">
+<a id="tech-configure-no-handlers-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-no-handlers-1">Provision 1</a>: 
+Allow configuration so that moving the content focus to or from an enabled element does not automatically activate any explicitly associated event handlers of any event type.
+<ul>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0905/0905-ONCHANGE.html">
+      No automatic activation of ONCHANGE events
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0905/0905-ONCHANGE.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0905/0905-ONFOCUS-ONBLUR.html">
+      No automatic activation of ONFOCUS and ONBLUR events
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0905/0905-ONFOCUS-ONBLUR.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0905/0905-ONMOUSE.html">
+      No automatic activation of ONMOUSEOVER and ONMOUSEOUT events
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0905/0905-ONMOUSE.xml">XML data</a> )</li>
+</ul>
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-query-handlers">Checkpoint 9.6 Show event handlers</a> (P2)</h3>
+<ol><li style="list-style: none">
+<a id="tech-query-handlers-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-query-handlers-1">Provision 1</a>: 
+For the element with content focus, make available the list of input device event types for which there are event handlers explicitly associated with the element.
+<ul><li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0906/0906-EVENT-HANDLERS.html">
+      Listing Element Event Handlers
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0906/0906-EVENT-HANDLERS.xml">XML data</a> )</li></ul>
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-nav-just-active">Checkpoint 9.7 Move content focus in reverse</a> (P2)</h3>
+<ol>
+<li style="list-style: none">
+<a id="tech-nav-just-active-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-nav-just-active-1">Provision 1</a>: 
+ Extend the functionality required in provision three of checkpoint 9.3 by allowing the same sequential navigation in reverse document order.
+<ul><li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0907/0907-MOVE-CONTENT-FOCUS-REVERSE.html">
+      Move Content Focus in Reverse Order to Enabled Elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0907/0907-MOVE-CONTENT-FOCUS-REVERSE.xml">XML data</a> )</li></ul>
+</li>
+<li style="list-style: none">
+<a id="tech-nav-just-active-2"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-nav-just-active-2">Provision 2</a>: 
+ As part of satisfying provision one of this checkpoint, the user agent must not include disabled elements in the navigation order.
+<ul><li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0907/0907-MOVE-CONTENT-FOCUS-REVERSE.html">
+      Move Content Focus in Reverse Order to Enabled Elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0907/0907-MOVE-CONTENT-FOCUS-REVERSE.xml">XML data</a> )</li></ul>
+</li>
+</ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-search-text">Checkpoint 9.8 Provide text search</a> (P2)</h3>
+<ol>
+<li style="list-style: none">
+<a id="tech-search-text-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-search-text-1">Provision 1</a>: 
+Allow the user to search within rendered text content for a sequence of characters from the document character set.
+<ul><li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0908/0908-TEXT-SEARCH.html">
+      Rendered Text Search Capabilities
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0908/0908-TEXT-SEARCH.xml">XML data</a> )</li></ul>
+</li>
+<li style="list-style: none">
+<a id="tech-search-text-2"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-search-text-2">Provision 2</a>: 
+Allow the user to start a forward search (in document order) from any selected or focused location in content.
+<ul><li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0908/0908-TEXT-SEARCH.html">
+      Rendered Text Search Capabilities
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0908/0908-TEXT-SEARCH.xml">XML data</a> )</li></ul>
+</li>
+<li style="list-style: none">
+<a id="tech-search-text-3"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-search-text-3">Provision 3</a>: 
+When there is a match, do both of the following:  move the viewport so that the matched text content is at least partially within it, and allow the user to search for the next instance of the text from the location of the match.  
+<ul><li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0908/0908-TEXT-SEARCH.html">
+      Rendered Text Search Capabilities
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0908/0908-TEXT-SEARCH.xml">XML data</a> )</li></ul>
+</li>
+<li style="list-style: none">
+<a id="tech-search-text-4"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-search-text-4">Provision 4</a>: 
+Alert the user when there is no match or after the last match in content (i.e., prior to starting the search over from the beginning of content).
+<ul><li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0908/0908-TEXT-SEARCH.html">
+      Rendered Text Search Capabilities
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0908/0908-TEXT-SEARCH.xml">XML data</a> )</li></ul>
+</li>
+<li style="list-style: none">
+<a id="tech-search-text-5"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-search-text-5">Provision 5</a>: 
+Provide a case-insensitive search option for text in scripts (i.e., writing systems) where case is significant.
+</li>
+</ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-nav-structure">Checkpoint 9.9 Allow structured navigation</a> (P2)</h3>
+<ol>
+<li style="list-style: none">
+<a id="tech-nav-structure-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-nav-structure-1">Provision 1</a>: 
+Allow the user to navigate efficiently to and among important structural elements in rendered content.
+<ul>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0909/0909-FORMS.html">
+      Form navigation
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0909/0909-FORMS.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0909/0909-HEADINGS.html">
+      Heading navigation
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0909/0909-HEADINGS.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0909/0909-LINKS.html">
+      Anchor navigation
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0909/0909-LINKS.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0909/0909-LIST-ITEMS.html">
+      LIST ITEM navigation
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0909/0909-LIST-ITEMS.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0909/0909-TABLE-CAPTION.html">
+      TABLE CAPTION navigation
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0909/0909-TABLE-CAPTION.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0909/0909-TABLE-HEADER.html">
+      TABLE HEADER navigation
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0909/0909-TABLE-HEADER.xml">XML data</a> )</li>
+</ul>
+</li>
+<li style="list-style: none">
+<a id="tech-nav-structure-2"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-nav-structure-2">Provision 2</a>: 
+As part of satisfying provision one of this checkpoint, allow forward and backward sequential navigation.
+<ul>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0909/0909-FORMS.html">
+      Form navigation
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0909/0909-FORMS.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0909/0909-HEADINGS.html">
+      Heading navigation
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0909/0909-HEADINGS.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0909/0909-LINKS.html">
+      Anchor navigation
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0909/0909-LINKS.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0909/0909-LIST-ITEMS.html">
+      LIST ITEM navigation
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0909/0909-LIST-ITEMS.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0909/0909-TABLE-CAPTION.html">
+      TABLE CAPTION navigation
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0909/0909-TABLE-CAPTION.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp0909/0909-TABLE-HEADER.html">
+      TABLE HEADER navigation
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp0909/0909-TABLE-HEADER.xml">XML data</a> )</li>
+</ul>
+</li>
+</ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-navigation">Checkpoint 9.10 Configure important elements</a> (P3)</h3>
+<ol>
+<li style="list-style: none">
+<a id="tech-configure-navigation-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-navigation-1">Provision 1</a>: 
+Allow configuration of the set of important elements and attributes identified for checkpoints 9.9 and 10.4.
+</li>
+<li style="list-style: none">
+<a id="tech-configure-navigation-2"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-navigation-2">Provision 2</a>: 
+As part of satisfying provision one of this checkpoint, allow the user to include and exclude element types in the set.
+</li>
+</ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-table-summary">Checkpoint 10.1 Associate table cells and headers</a> (P1)</h3>
+<ol><li style="list-style: none">
+<a id="tech-table-summary-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-table-summary-1">Provision 1</a>: 
+ For graphical user agents that render tables, for each table cell, allow the user to view associated header information.
+<ul>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp1001/1001-ABBR.html">
+      the ABBR attribute for TH elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp1001/1001-ABBR.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp1001/1001-AXIS.html">
+      AXIS attribute for table cells
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp1001/1001-AXIS.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp1001/1001-CAPTION.html">
+      CAPTION
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp1001/1001-CAPTION.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp1001/1001-COL-COLGROUP.html">
+      COL and COLGROUP
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp1001/1001-COL-COLGROUP.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp1001/1001-SCOPE.html">
+      SCOPE
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp1001/1001-SCOPE.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp1001/1001-SUMMARY.html">
+      SUMMARY attribute for TABLE element
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp1001/1001-SUMMARY.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp1001/1001-TD-HEADERS.html">
+      TD headers attribute
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp1001/1001-TD-HEADERS.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp1001/1001-THEAD-TBODY-TFOOT-OVERFLOW.html">
+      navigating THEAD, TBODY, TFOOT with CSS overflow styling
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp1001/1001-THEAD-TBODY-TFOOT-OVERFLOW.xml">XML data</a> )</li>
+</ul>
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-interaction-highlight">Checkpoint 10.2 Highlight selection, content focus, enabled elements, visited links</a> (P1)</h3>
+<ol>
+<li style="list-style: none">
+<a id="tech-interaction-highlight-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-interaction-highlight-1">Provision 1</a>: 
+Allow global configuration to highlight the following four classes of information in each viewport: the selection, content focus, enabled elements, and recently visited links.
+<ul><li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp1002/1002-HIGHLIGHT-STYLES.html">
+      Highlight Styles
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp1002/1002-HIGHLIGHT-STYLES.xml">XML data</a> )</li></ul>
+</li>
+<li style="list-style: none">
+<a id="tech-interaction-highlight-2"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-interaction-highlight-2">Provision 2</a>: 
+ For graphical user interfaces, as part of satisfying provision one of this checkpoint, allow at least one configuration where the highlight mechanisms for the four classes of information:  differ from each other, and do not rely on rendered text foreground and background colors alone.  
+<ul><li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp1002/1002-HIGHLIGHT-STYLES.html">
+      Highlight Styles
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp1002/1002-HIGHLIGHT-STYLES.xml">XML data</a> )</li></ul>
+</li>
+<li style="list-style: none">
+<a id="tech-interaction-highlight-3"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-interaction-highlight-3">Provision 3</a>: 
+ For graphical user interfaces, as part of satisfying provision one of this checkpoint, if a highlight mechanism involves text size, font family, rendered text foreground and background colors, or text decorations, offer at least the following range of values:  for text size, the range required by provision three of checkpoint 4.1. for font family, the range required by provision three of checkpoint 4.2. for text foreground and background colors and decorations, the range offered by the conventional utility available in the operating environment for users to choose rendered text colors or decorations (e.g., the standard font and color dialog box resources supported by the operating system). If no such utility is available, the range supported by the conventional APIs of the operating environment for specifying text colors or drawing text.  
+</li>
+<li style="list-style: none">
+<a id="tech-interaction-highlight-4"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-interaction-highlight-4">Provision 4</a>: 
+Highlight enabled elements according to the granularity specified in the format. For example, an HTML user agent rendering a PNG image as part of a client-side image map is only required to highlight the image as a whole, not each enabled region. An SVG user agent rendering an SVG image with embedded graphical links is required to highlight each (enabled) link that may be rendered independently according to the SVG specification.
+</li>
+</ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-single-highlight-config">Checkpoint 10.3 Single highlight configuration</a> (P2)</h3>
+<ol><li style="list-style: none">
+<a id="tech-single-highlight-config-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-single-highlight-config-1">Provision 1</a>: 
+Extend the functionality required by provision two of checkpoint 10.2 by allowing configuration through a single setting.
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-provide-outline-view">Checkpoint 10.4 Provide outline view</a> (P2)</h3>
+<ol><li style="list-style: none">
+<a id="tech-provide-outline-view-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-provide-outline-view-1">Provision 1</a>: 
+Make available to the user an &quot;outline&quot; view of rendered content, composed of labels for important structural elements (e.g., heading text, table titles, form titles, and other labels that are part of the content).
+<ul>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp1004/1004-OUTLINE-CAPTIONS.html">
+      Outline View of the CAPTION attribute for TABLE elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp1004/1004-OUTLINE-CAPTIONS.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp1004/1004-OUTLINE-HEADINGS.html">
+      Outline View of Headings
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp1004/1004-OUTLINE-HEADINGS.xml">XML data</a> )</li>
+</ul>
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-info-link">Checkpoint 10.5 Provide link information</a> (P3)</h3>
+<ol><li style="list-style: none">
+<a id="tech-info-link-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-info-link-1">Provision 1</a>: 
+To help the user decide whether to traverse a link in content, make available the following information about it:  link element content, link title, whether the link is internal to the resource (e.g., the link is to a target in the same Web page), whether the user has traversed the link recently, and information about the type, size, and natural language of linked Web resources.  
+<ul><li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp1005/1005-LINK-INFORMATION.html">
+      Provide Link Information
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp1005/1005-LINK-INFORMATION.xml">XML data</a> )</li></ul>
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-highlight-viewport">Checkpoint 10.6 Highlight current viewport</a> (P1)</h3>
+<ol>
+<li style="list-style: none">
+<a id="tech-highlight-viewport-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-highlight-viewport-1">Provision 1</a>: 
+Highlight the viewport with the current focus (including any frame that takes current focus).
+<ul><li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp1006/1006-HIGHLIGHT-VIEWPORT-SRC.html">
+      Highlight the viewport with current focus
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp1006/1006-HIGHLIGHT-VIEWPORT-SRC.xml">XML data</a> )</li></ul>
+</li>
+<li style="list-style: none">
+<a id="tech-highlight-viewport-2"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-highlight-viewport-2">Provision 2</a>: 
+For graphical viewports, as part of satisfying provision one of this checkpoint, provide at least one highlight mechanism that does not rely on rendered text foreground and background colors alone (e.g., use a thick outline).
+<ul><li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp1006/1006-HIGHLIGHT-VIEWPORT-SRC.html">
+      Highlight the viewport with current focus
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp1006/1006-HIGHLIGHT-VIEWPORT-SRC.xml">XML data</a> )</li></ul>
+</li>
+<li style="list-style: none">
+<a id="tech-highlight-viewport-3"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-highlight-viewport-3">Provision 3</a>: 
+If the techniques used to satisfy provision one of this checkpoint involve rendered text size, font family, rendered text foreground and background colors, or text decorations, allow global configuration and offer same ranges of values required by provision three of checkpoint 10.2.
+</li>
+</ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-info-content-nav">Checkpoint 10.7 Indicate viewport position</a> (P3)</h3>
+<ol><li style="list-style: none">
+<a id="tech-info-content-nav-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-info-content-nav-1">Provision 1</a>: 
+Indicate the viewport's position relative to rendered content (e.g., the proportion of an audio or video clip that has been played, or the proportion of a Web page that has been viewed).
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-info-current-ua-config">Checkpoint 11.1 Current user input configuration</a> (P1)</h3>
+<ol><li style="list-style: none">
+<a id="tech-info-current-ua-config-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-info-current-ua-config-1">Provision 1</a>: 
+Provide information to the user about current user preferences for input configurations.
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-info-current-author-config">Checkpoint 11.2 Current author input configuration</a> (P2)</h3>
+<ol><li style="list-style: none">
+<a id="tech-info-current-author-config-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-info-current-author-config-1">Provision 1</a>: 
+Provide a centralized view of the current author-specified input configuration.
+<ul>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp1102/1102-INPUT-CONFIGURATION.html">
+      View author bindings for accesskey
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp1102/1102-INPUT-CONFIGURATION.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp1102/1102-ACCESSKEY-FORMS.html">
+      ACCESSKEY attribute for FORM elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp1102/1102-ACCESSKEY-FORMS.xml">XML data</a> )</li>
+</ul>
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-input">Checkpoint 11.3 Allow override of bindings</a> (P2)</h3>
+<ol><li style="list-style: none">
+<a id="tech-configure-input-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-input-1">Provision 1</a>: 
+Allow the user to override any binding that is part of the user agent default input configuration.
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-single-key">Checkpoint 11.4 Single-key access</a> (P2)</h3>
+<ol>
+<li style="list-style: none">
+<a id="tech-single-key-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-single-key-1">Provision 1</a>: 
+Allow the user to override any binding in the user agent default keyboard configuration with a binding to either a key plus modifier keys or to a single key.
+</li>
+<li style="list-style: none">
+<a id="tech-single-key-2"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-single-key-2">Provision 2</a>: 
+For each functionality in the set required by checkpoint 11.5, allow the user to configure a single-key binding. A single-key binding is one where a single key press performs the task, with zero modifier keys.
+<ul>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp1104/1104-SINGLE-KEY-ANIMATED-IMAGE.html">
+      Control Animated Images Using Single Keys
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp1104/1104-SINGLE-KEY-ANIMATED-IMAGE.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp1104/1104-SINGLE-KEY-AUDIO.html">
+      Control Audio Using Single Keys
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp1104/1104-SINGLE-KEY-AUDIO.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp1104/1104-SINGLE-KEY-ENABLED-ELEMENTS.html">
+      Activate Enabled Elements Using a Single Key
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp1104/1104-SINGLE-KEY-ENABLED-ELEMENTS.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp1104/1104-SINGLE-KEY-GLOBAL-VOLUME.html">
+      Decrease and Increase Global Volume Using a Single Key
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp1104/1104-SINGLE-KEY-GLOBAL-VOLUME.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp1104/1104-SINGLE-KEY-LINK.html">
+      Activate Links Using Single Key
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp1104/1104-SINGLE-KEY-LINK.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp1104/1104-SINGLE-KEY-SEARCH-TEXT.html">
+      Search Text Using a Single Key
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp1104/1104-SINGLE-KEY-SEARCH-TEXT.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp1104/1104-SINGLE-KEY-TEXT-SIZE.html">
+      Change Text Size Using a Single Key
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp1104/1104-SINGLE-KEY-TEXT-SIZE.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp1104/1104-SINGLE-KEY-VIDEO.html">
+      Control Video Using Single Keys
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp1104/1104-SINGLE-KEY-VIDEO.xml">XML data</a> )</li>
+</ul>
+</li>
+</ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-default-input-config">Checkpoint 11.5 Default input configuration</a> (P2)</h3>
+<ol>
+<li style="list-style: none">
+<a id="tech-default-input-config-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-default-input-config-1">Provision 1</a>: 
+Ensure that the user agent default input configuration includes bindings for the following functionalities required by other checkpoints in this document:  move content focus to the next enabled element in document order, and move content focus to the previous enabled element in document order (checkpoints 9.3 and 9.7); activate the link designated by the content focus (checkpoints 1.1 and 9.1); search for text, search again for same text (checkpoint 9.8); increase the scale of rendered text, and decrease the scale of rendered text (checkpoint 4.1); increase global volume, and decrease global volume (checkpoint 4.7); and stop, pause, resume, and navigate efficiently selected audio and animations, including video and animated images (checkpoint 4.5).  
+<ul>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp1105/1105-ACTIVATE-LINK.html">
+      User Agent Bindings for Activating Links
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp1105/1105-ACTIVATE-LINK.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp1105/1105-ENABLED-ELEMENTS.html">
+      User Agent Bindings for Moving Focus to Enabled Elements
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp1105/1105-ENABLED-ELEMENTS.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp1105/1105-SEARCH-TEXT.html">
+      User Agent Bindings for Searching for Text
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp1105/1105-SEARCH-TEXT.xml">XML data</a> )</li>
+<li>
+<a href="http://www.w3.org/WAI/UA/TS/html401/cp1105/1105-TEXT-SIZE.html">
+      User Agent Bindings for Changing Text Size
+   </a> ( <a href="http://www.w3.org/WAI/UA/TS/html401/cp1105/1105-TEXT-SIZE.xml">XML data</a> )</li>
+</ul>
+</li>
+<li style="list-style: none">
+<a id="tech-default-input-config-2"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-default-input-config-2">Provision 2</a>: 
+If the user agent supports the following functionalities, the default input configuration must also include bindings for them:  next history state (forward), and previous history state (back); enter a URI for a new resource; add a URI to favorites (i.e., bookmarked resources); view favorites; reload a resource; interrupt a request to load or reload a resource; for graphical viewports: navigate forward and backward through rendered content by approximately the height of the viewport; and for user agents that render content in lines of (at least) text: move the point of regard to the next and previous line.  
+</li>
+</ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-user-profile">Checkpoint 11.6 User profiles</a> (P2)</h3>
+<ol>
+<li style="list-style: none">
+<a id="tech-user-profile-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-user-profile-1">Provision 1</a>: 
+For the configuration requirements of this document, allow the user to save user preferences in at least one user profile.
+</li>
+<li style="list-style: none">
+<a id="tech-user-profile-2"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-user-profile-2">Provision 2</a>: 
+Allow the user to choose from among available user agent default profiles, profiles created by the same user, and no profile (i.e., the user agent default settings).
+</li>
+</ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-controls">Checkpoint 11.7 Tool bar configuration</a> (P3)</h3>
+<ol>
+<li style="list-style: none">
+<a id="tech-configure-controls-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-controls-1">Provision 1</a>: 
+For graphical user agent user interfaces with tool bars, allow the user to configure the position of user agent user interface controls on those tool bars.
+</li>
+<li style="list-style: none">
+<a id="tech-configure-controls-2"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-controls-2">Provision 2</a>: 
+Offer a predefined set of controls that may be added to or removed from tool bars.
+</li>
+<li style="list-style: none">
+<a id="tech-configure-controls-3"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-controls-3">Provision 3</a>: 
+Allow the user to restore the default tool bar configuration.
+</li>
+</ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-accessible-doc">Checkpoint 12.1 Provide accessible documentation</a> (P1)</h3>
+<ol><li style="list-style: none">
+<a id="tech-accessible-doc-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-accessible-doc-1">Provision 1</a>: 
+Ensure that at least one version of the user agent documentation conforms to at least level Double-A of the Web Content Accessibility Guidelines 1.0 [WCAG10].
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-document-functionality">Checkpoint 12.2 Provide documentation of accessibility features</a> (P1)</h3>
+<ol><li style="list-style: none">
+<a id="tech-document-functionality-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-document-functionality-1">Provision 1</a>: 
+Provide documentation of all user agent features that benefit accessibility.
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-document-default-input">Checkpoint 12.3 Provide documentation of default bindings</a> (P1)</h3>
+<ol><li style="list-style: none">
+<a id="tech-document-default-input-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-document-default-input-1">Provision 1</a>: 
+Provide documentation of the default user agent input configuration (e.g., the default keyboard bindings).
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-document-changes">Checkpoint 12.4 Provide documentation of changes between versions</a> (P2)</h3>
+<ol><li style="list-style: none">
+<a id="tech-document-changes-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-document-changes-1">Provision 1</a>: 
+ Provide documentation of changes since the previous version of the user agent to features that benefit accessibility.
+</li></ol>
+<h3>
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-document-accessibility">Checkpoint 12.5 Provide dedicated accessibility section</a> (P2)</h3>
+<ol><li style="list-style: none">
+<a id="tech-document-accessibility-1"></a><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-document-accessibility-1">Provision 1</a>: 
+ Provide a centralized view of all features of the user agent that benefit accessibility, in a dedicated section of the documentation.
+</li></ol>
+<hr>
+<p>Last modified: $Date: 2004/03/09 18:53:25 $</p>
+<p class="copyright">
+<a rel="copyright" href="http://www.w3.org/Consortium/Legal/ipr-notice-20000612#Copyright">
+              
+              Copyright</a>
+              
+              © 1999 - 2002 
+              <a href="http://www.w3.org/"><abbr title="World Wide Web
+                  Consortium">
+                  
+                  W3C</abbr></a><sup>®</sup>
+                
+                (
+                <a href="http://www.lcs.mit.edu/"><abbr title="Massachusetts Institute of
+                    Technology">
+                    
+                    MIT</abbr></a>
+                  
+                  , 
+                  <a href="http://www.inria.fr/"><abbr lang="fr" title="Institut National de
+                      Recherche en Informatique et Automatique">
+                      
+                      INRIA</abbr></a>
+                    
+                    , 
+                    <a href="http://www.keio.ac.jp/">
+                      
+                      Keio</a>
+                      
+                      ), All Rights Reserved. W3C 
+                      <a href="http://www.w3.org/Consortium/Legal/ipr-notice-20000612#Legal_Disclaimer">
+                        
+                        liability</a>
+                        
+                        , 
+                        <a href="http://www.w3.org/Consortium/Legal/ipr-notice-20000612#W3C_Trademarks">
+                          
+                          trademark</a>
+                          
+                          , 
+                          <a href="http://www.w3.org/Consortium/Legal/copyright-documents-19990405">
+                            
+                            document use</a>
+                            
+                            and 
+                            <a href="http://www.w3.org/Consortium/Legal/copyright-software-19980720">
+                              
+                              software licensing</a>
+                              
+                              rules apply.</p>
+</body>
+</html>

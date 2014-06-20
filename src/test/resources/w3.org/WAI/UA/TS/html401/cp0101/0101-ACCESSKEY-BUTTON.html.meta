@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-ACCESSKEY-BUTTON.html
+#Sat Jul 09 10:51:02 CEST 2011
+ETag="2211-3ba5b864b3d00"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Wed, 02 Apr 2003 23\:46\:28 GMT
+Accept-Ranges=bytes
+Content-Length=2414
+Server=Apache/2
+Content-Encoding=gzip
+md5=6049e2a073936704a628780ae90219fb
+Date=Sat, 09 Jul 2011 08\:51\:02 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:02 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=b1458a1f5bebbb9799b461970e41175249dc4b61b0feacf5c67d4b80ac7218bc

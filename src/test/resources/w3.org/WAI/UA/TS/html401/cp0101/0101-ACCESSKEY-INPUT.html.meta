@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-ACCESSKEY-INPUT.html
+#Sat Jul 09 10:51:02 CEST 2011
+ETag="20fe-3c46805bc4780"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Fri, 08 Aug 2003 20\:53\:02 GMT
+Accept-Ranges=bytes
+Content-Length=2382
+Server=Apache/2
+Content-Encoding=gzip
+md5=ed63d4a56d5f23c09c302fdc6af2423c
+Date=Sat, 09 Jul 2011 08\:51\:02 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:02 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=f70da1fa94b01fc5f48f2546c1ddc4670d45fd1a804d822725a288d43df7ed2d

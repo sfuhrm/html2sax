@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0503/0503-A-TARGET-MANUAL-VIEWPORT-OPEN.html
+#Sat Jul 09 10:51:17 CEST 2011
+ETag="1671-3ba5b874ea340"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Wed, 02 Apr 2003 23\:46\:45 GMT
+Accept-Ranges=bytes
+Content-Length=1991
+Server=Apache/2
+Content-Encoding=gzip
+md5=ac0b62b983a2a8c00c163ef59134a313
+Date=Sat, 09 Jul 2011 08\:51\:17 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:17 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=03ea037335570440975994310e1e84ed6be7d0a5e9be9ad5eb7fad5a4dd5d093

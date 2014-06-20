@@ -1,0 +1,231 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>HTML Test Suite for UAAG 1.0
+        (Draft)</title>
+<link rel="stylesheet" type="text/css" href="http://www.w3.org/WAI/UA/TS/style/test-suite.css">
+</head>
+<body>
+<p>
+<a href="http://www.w3.org/" title="W3C Home"><img alt="W3C" height="48" width="72" border="0" src="http://www.w3.org/Icons/w3c_home.gif"></a><a href="http://www.w3.org/WAI/" title="WAI Home" rel="in-area"><img alt="Web Accessibility Initiative Home" height="48" width="212" border="0" src="http://www.w3.org/Icons/wai.gif"></a>
+</p>
+<h1>Rendered Text Search Capabilities</h1>
+<p>On this page: 
+
+	<a href="#test1">Test 
+         1</a> |
+	<a href="#refs">
+        	References</a>
+ | 
+<a href="#about">
+
+        About these tests</a>
+</p>
+<p>Nearby: 
+        <a href="../">
+
+        More HTML 4.01 Tests</a>
+ | 
+<a href="http://www.w3.org/WAI/UA/TS/">
+
+        UAAG 1.0 Test Suite</a>
+</p>
+<h2>UAAG 1.0 Requirement</h2>
+<dl>
+<dt class="
+                  checkpoint">
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-search-text">
+Checkpoint 
+9.8
+ 
+Provide text search</a>
+ (Priority 
+2
+)
+</dt>
+<dd class="
+                    checkpoint">
+<span class="
+                      provision"><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-search-text-1">
+Provision 
+1</a>
+: 
+</span>
+Allow the user to search within rendered text content for a sequence of characters from the document character set.
+</dd>
+<dd class="
+                    checkpoint">
+<span class="
+                      provision"><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-search-text-2">
+Provision 
+2</a>
+: 
+</span>
+Allow the user to start a forward search (in document order) from any selected or focused location in content.
+</dd>
+<dd class="
+                    checkpoint">
+<span class="
+                      provision"><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-search-text-3">
+Provision 
+3</a>
+: 
+</span>
+When there is a match, do both of the following:  move the viewport so that the matched text content is at least partially within it, and allow the user to search for the next instance of the text from the location of the match.  
+</dd>
+<dd class="
+                    checkpoint">
+<span class="
+                      provision"><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-search-text-4">
+Provision 
+4</a>
+: 
+</span>
+Alert the user when there is no match or after the last match in content (i.e., prior to starting the search over from the beginning of content).
+</dd>
+</dl>
+<h2>
+<a name="test1">Test 
+            1
+		: 
+		</a>
+</h2>
+<h3>Procedure</h3>
+<ol>
+<li>Search the rendered test text for all four instances of the character string "yyyyy".</li>
+<li>Highlight the heading "Test highlight heading" and search for the next instance of the character string "yyyyy".</li>
+<li>Search the rendered test text for the character string "zzzzz".</li>
+</ol>
+<h3>Run test</h3>
+<div class="test">
+<div>
+					
+<h3>Beginning of test rendered text</h3>
+					
+<p>Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx yyyyy xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.</p>					
+					
+<p>Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx yyyyy xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.</p>					
+					
+<h3>Test highlight heading</h3>		
+					
+<p>Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx yyyyy xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.</p>		
+					
+<p>Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx yyyyy xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.</p>					
+					
+<h3>End of test rendered text</h3>
+				
+</div>
+</div>
+<h3>Expected results</h3>
+<ol>
+<li>The user can locate all four instances of the character string "yyyyy".</li>
+<li>When the user highlights the test heading "Test highlight heading", the user can locate the next instance of the character string "yyyyy', which is the third instance of "yyyyy" in the test rendered text.</li>
+<li>When there is a match, the user agent moves the viewport so that the character string "yyyyy" is within the viewport.</li>
+<li>When there is a match, the user agent allows the user to search for the next instance of "yyyyy" from the location of the match.</li>
+<li>When the user searches for the character string "zzzzz", the user agent should alert the user there is no match.</li>
+<li>After locating all four instances of the string "yyyyy" in the test rendered text, the user agent should alert the user when the search reaches the end of the test rendered text.</li>
+<li>After locating all four instances of the string "yyyyy" in the test rendered text, the user agent should alert the user prior to any wrapping. A wrapping search is one that restarts automatically at the beginning of content once the end of content has been reached.</li>
+</ol>
+<h3>Source code</h3>
+<div class="
+                source-code">&lt;div&gt;<br>&nbsp;&nbsp;&lt;h3&gt;Beginning of test rendered text&lt;/h3&gt;<br>&nbsp;&nbsp;&lt;p&gt;Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx yyyyy xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.&lt;/p&gt;<br>&nbsp;&nbsp;&lt;p&gt;Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx yyyyy xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.&lt;/p&gt;<br>&nbsp;&nbsp;&lt;h3&gt;Test highlight heading&lt;/h3&gt;<br>&nbsp;&nbsp;&lt;p&gt;Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx yyyyy xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.&lt;/p&gt;<br>&nbsp;&nbsp;&lt;p&gt;Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx yyyyy xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.  Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.&lt;/p&gt;<br>&nbsp;&nbsp;&lt;h3&gt;End of test rendered text&lt;/h3&gt;<br>&lt;/div&gt;<br>
+</div>
+<h2>
+<a name="refs">References</a>
+</h2>
+<ol>
+<li>
+<a href="">
+ specification for 
+</a>
+</li>
+</ol>
+<h2>
+<a name="about">About this test suite</a>
+</h2>
+<p>This test is part of a 
+        <a href="/WAI/UA/TS/">
+
+        test suite</a>
+
+        for the 
+        <a href="/TR/UAAG10/">
+
+        User Agent Accessibility Guidelines (UAAG)
+        1.0</a>
+
+        . This work is conducted by the 
+        <a href="/WAI/UA/">
+
+        User Agent Accessibility Guidelines Working
+        Group</a>
+
+        , which is part of W3C's 
+        <a href="/WAI/">
+
+        Web Accessibility Initiative (WAI)</a>
+
+        . Please send comments on this test to w3c-wai-ua@w3.org (
+        <a href="/WAI/UA/TS/">
+
+        public archive</a>
+
+        ).</p>
+<hr>
+<p>Test created by:</p>
+<ul>
+<li>Colin Koteles</li>
+</ul>
+<p>Last modified: $Date: 2003/04/02 23:46:49 $ by $Author: jongund $</p>
+<p class="copyright">
+<a rel="copyright" href="http://www.w3.org/Consortium/Legal/ipr-notice-20000612#Copyright">
+
+        Copyright</a>
+
+        &copy; 1999 - 2003 
+        <a href="http://www.w3.org/"><abbr title="World Wide Web
+          Consortium">
+
+          W3C</abbr></a><sup>&reg;</sup>
+
+        (
+        <a href="http://www.lcs.mit.edu/"><abbr title="Massachusetts Institute of
+          Technology">
+
+          MIT</abbr></a>
+
+        , 
+        <a href="http://www.inria.fr/"><abbr lang="fr" title="Institut National de
+          Recherche en Informatique et Automatique">
+
+          INRIA</abbr></a>
+
+        , 
+        <a href="http://www.keio.ac.jp/">
+
+        Keio</a>
+
+        ), All Rights Reserved. W3C 
+        <a href="http://www.w3.org/Consortium/Legal/ipr-notice-20000612#Legal_Disclaimer">
+
+        liability</a>
+
+        , 
+        <a href="http://www.w3.org/Consortium/Legal/ipr-notice-20000612#W3C_Trademarks">
+
+        trademark</a>
+
+        , 
+        <a href="http://www.w3.org/Consortium/Legal/copyright-documents-19990405">
+
+        document use</a>
+
+        and 
+        <a href="http://www.w3.org/Consortium/Legal/copyright-software-19980720">
+
+        software licensing</a>
+
+        rules apply.</p>
+</body>
+</html>

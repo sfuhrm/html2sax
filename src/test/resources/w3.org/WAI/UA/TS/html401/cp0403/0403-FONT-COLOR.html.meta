@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0403/0403-FONT-COLOR.html
+#Sat Jul 09 10:51:16 CEST 2011
+ETag="190f-3ba5b87025800"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Wed, 02 Apr 2003 23\:46\:40 GMT
+Accept-Ranges=bytes
+Content-Length=2019
+Server=Apache/2
+Content-Encoding=gzip
+md5=1ba25a2b6bf1aec77469c1cd32725436
+Date=Sat, 09 Jul 2011 08\:51\:16 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:16 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=836749abd7d0a3dfb3e05bc191aa5dd6c1805277b9481de3f13317ea35089ebf

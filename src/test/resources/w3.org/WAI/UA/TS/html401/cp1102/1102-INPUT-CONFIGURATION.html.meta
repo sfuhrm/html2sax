@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp1102/1102-INPUT-CONFIGURATION.html
+#Sat Jul 09 10:51:22 CEST 2011
+ETag="2c49-3ba5b87f67c00"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Wed, 02 Apr 2003 23\:46\:56 GMT
+Accept-Ranges=bytes
+Content-Length=2375
+Server=Apache/2
+Content-Encoding=gzip
+md5=2cf41416ccfd0afff6ee303c74fce34a
+Date=Sat, 09 Jul 2011 08\:51\:22 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:22 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=4576e2ff627296ae7fc1449d8fb319b73764c368693cdd1651772f4d4588694e

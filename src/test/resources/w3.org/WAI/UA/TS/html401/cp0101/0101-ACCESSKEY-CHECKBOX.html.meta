@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-ACCESSKEY-CHECKBOX.html
+#Sat Jul 09 10:51:02 CEST 2011
+ETag="1552-3ba5b864b3d00"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Wed, 02 Apr 2003 23\:46\:28 GMT
+Accept-Ranges=bytes
+Content-Length=1949
+Server=Apache/2
+Content-Encoding=gzip
+md5=e6c391f15d1a11d6b9ea4f58b678375c
+Date=Sat, 09 Jul 2011 08\:51\:02 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:02 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=baddf4dc9493ad2aabc5fd97535548c0da94ceca27c06e36982f1516d5974936

@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-IFRAME.html
+#Sat Jul 09 10:51:04 CEST 2011
+ETag="140d-3ba5b864b3d00"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Wed, 02 Apr 2003 23\:46\:28 GMT
+Accept-Ranges=bytes
+Content-Length=1815
+Server=Apache/2
+Content-Encoding=gzip
+md5=02ad19765d2e0dd612f78978c7d0b6cf
+Date=Sat, 09 Jul 2011 08\:51\:04 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:04 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=a403a4a02fefbfd328d8c4059e5f2626218442c82e238bafdc1ea039def48911

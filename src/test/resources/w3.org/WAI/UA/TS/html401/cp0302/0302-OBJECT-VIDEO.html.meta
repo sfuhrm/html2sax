@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0302/0302-OBJECT-VIDEO.html
+#Sat Jul 09 10:51:15 CEST 2011
+ETag="12a2-3ba5b86b60cc0"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Wed, 02 Apr 2003 23\:46\:35 GMT
+Accept-Ranges=bytes
+Content-Length=1812
+Server=Apache/2
+Content-Encoding=gzip
+md5=a38c409dd67567b866f8b69bddc01c9e
+Date=Sat, 09 Jul 2011 08\:51\:15 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:15 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=709d0df05cb3bc6c21efc83a2dab9213478158ae3f383588df9449237fbc6dc9

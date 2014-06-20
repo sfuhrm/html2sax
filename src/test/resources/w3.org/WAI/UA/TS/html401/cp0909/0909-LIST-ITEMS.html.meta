@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0909/0909-LIST-ITEMS.html
+#Sat Jul 09 10:51:20 CEST 2011
+ETag="16da-3ba5b879aee80"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Wed, 02 Apr 2003 23\:46\:50 GMT
+Accept-Ranges=bytes
+Content-Length=1913
+Server=Apache/2
+Content-Encoding=gzip
+md5=319c846153fa71e5be5504473c9b3c45
+Date=Sat, 09 Jul 2011 08\:51\:20 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:20 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=babbdb7cfd7fdb719830c7b00dd0a9fe8a239f0f0bfaf38765d1499d83d47ab4

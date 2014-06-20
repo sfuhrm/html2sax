@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0502/0502-CURRENT-FOCUS-TOP.html
+#Sat Jul 09 10:51:17 CEST 2011
+ETag="18aa-3ba5b874ea340"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Wed, 02 Apr 2003 23\:46\:45 GMT
+Accept-Ranges=bytes
+Content-Length=2098
+Server=Apache/2
+Content-Encoding=gzip
+md5=f8a77942a6c2fd775573af81603d43a7
+Date=Sat, 09 Jul 2011 08\:51\:17 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:17 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=79732ac727683dd4fbfd456e9133f85d53867ff2059361eddb484ba8a8a25e53

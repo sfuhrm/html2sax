@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-IMG.html
+#Sat Jul 09 10:51:10 CEST 2011
+ETag="20ed-3ba5b8669c180"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Wed, 02 Apr 2003 23\:46\:30 GMT
+Accept-Ranges=bytes
+Content-Length=2429
+Server=Apache/2
+Content-Encoding=gzip
+md5=b8fed37da485d81b0ffe4a191fcc987e
+Date=Sat, 09 Jul 2011 08\:51\:09 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:09 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=44eb9dac5b71e4167f02482af84af1169b5446282e90f096d3d3004d5d6615a1

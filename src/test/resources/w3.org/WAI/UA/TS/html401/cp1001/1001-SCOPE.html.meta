@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp1001/1001-SCOPE.html
+#Sat Jul 09 10:51:21 CEST 2011
+ETag="22c7-3ba5b87aa30c0"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Wed, 02 Apr 2003 23\:46\:51 GMT
+Accept-Ranges=bytes
+Content-Length=2104
+Server=Apache/2
+Content-Encoding=gzip
+md5=249e90e82eeb2256d0a52973c7a24cbf
+Date=Sat, 09 Jul 2011 08\:51\:21 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:21 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=0e3ca247207e594507eddae927ba7b7a5a3748403e8073747de3e5864b2f8711

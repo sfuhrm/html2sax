@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0102/0102-ONCHANGE-INPUT.html
+#Sat Jul 09 10:51:06 CEST 2011
+ETag="170e-3ba5b865a7f40"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Wed, 02 Apr 2003 23\:46\:29 GMT
+Accept-Ranges=bytes
+Content-Length=2118
+Server=Apache/2
+Content-Encoding=gzip
+md5=61b0d0dfef5350df8c72b0e0a5fc24c8
+Date=Sat, 09 Jul 2011 08\:51\:06 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:06 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=f32e8be9f06ea0de25e7dc22b972c6c31957f057febd0fbf9a0da50988d4c175

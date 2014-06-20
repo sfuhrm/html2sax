@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp1102/1102-ACCESSKEY-FORMS.html
+#Sat Jul 09 10:51:22 CEST 2011
+ETag="4b1d-3c3de12a39b40"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Sat, 02 Aug 2003 00\:18\:13 GMT
+Accept-Ranges=bytes
+Content-Length=2973
+Server=Apache/2
+Content-Encoding=gzip
+md5=8e1ce5cdbbceeb4838af113049ee4d0e
+Date=Sat, 09 Jul 2011 08\:51\:22 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:22 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=bfee1eceb482d2fb8d4f0be83da4053664ceb0918731820871a4f703a9c1e0c3

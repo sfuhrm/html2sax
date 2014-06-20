@@ -1,0 +1,218 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>HTML Test Suite for UAAG 1.0
+        (Draft)</title>
+<link rel="stylesheet" type="text/css" href="http://www.w3.org/WAI/UA/TS/style/test-suite.css">
+</head>
+<body>
+<p>
+<a href="http://www.w3.org/" title="W3C Home"><img alt="W3C" height="48" width="72" border="0" src="http://www.w3.org/Icons/w3c_home.gif"></a><a href="http://www.w3.org/WAI/" title="WAI Home" rel="in-area"><img alt="Web Accessibility Initiative Home" height="48" width="212" border="0" src="http://www.w3.org/Icons/wai.gif"></a>
+</p>
+<h1>Form navigation</h1>
+<p>On this page: 
+
+	<a href="#test1">Test 
+         1</a> |
+	<a href="#refs">
+        	References</a>
+ | 
+<a href="#about">
+
+        About these tests</a>
+</p>
+<p>Nearby: 
+        <a href="../">
+
+        More HTML 4.01 Tests</a>
+ | 
+<a href="http://www.w3.org/WAI/UA/TS/">
+
+        UAAG 1.0 Test Suite</a>
+</p>
+<h2>UAAG 1.0 Requirement</h2>
+<dl>
+<dt class="
+                  checkpoint">
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-nav-structure">
+Checkpoint 
+9.9
+ 
+Allow structured navigation</a>
+ (Priority 
+2
+)
+</dt>
+<dd class="
+                    checkpoint">
+<span class="
+                      provision"><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-nav-structure-1">
+Provision 
+1</a>
+: 
+</span>
+Allow the user to navigate efficiently to and among important structural elements in rendered content.
+</dd>
+<dd class="
+                    checkpoint">
+<span class="
+                      provision"><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-nav-structure-2">
+Provision 
+2</a>
+: 
+</span>
+As part of satisfying provision one of this checkpoint, allow forward and backward sequential navigation.
+</dd>
+</dl>
+<h2>
+<a name="test1">Test 
+            1
+		: 
+		</a>
+</h2>
+<h3>Procedure</h3>
+<ol>
+<li>Using the keyboard or an assistive technology that emulates the keyboard, navigate forward and backward through the forms on this page.</li>
+</ol>
+<h3>Run test</h3>
+<div class="test">
+<form action="../action/return.html" method="post" enctype="application/x-www-form-urlencoded">
+				  	
+<div>FORM 1<br clear="none">
+				  	
+<label for="input1">Form 1 input area: </label>
+					<input id="input1" name="input1" type="text">
+					<button id="button1" name="button1" type="submit">Submit</button>
+					
+</div>
+				 
+</form>
+<form action="../action/return.html" method="post" enctype="application/x-www-form-urlencoded">
+				  	
+<div>FORM 2<br clear="none">
+				  	
+<label for="input2">Form 2 input area: </label>
+					<input id="input2" name="input2" type="text">
+					<button id="button2" name="button2" type="submit">Submit</button>
+					
+</div>
+				 
+</form>
+<form action="../action/return.html" method="post" enctype="application/x-www-form-urlencoded">
+				  	
+<div>FORM 3<br clear="none">
+				  	
+<label for="input3">Form 3 input area: </label>
+					<input id="input3" name="input3" type="text">
+					<button id="button3" name="button3" type="submit">Submit</button>
+					
+</div>
+				 
+</form>
+</div>
+<h3>Expected results</h3>
+<ol>
+<li>The user should be able to navigate sequentially through the forms on this page while skipping non-structural text.</li>
+<li>The user can navigate both forward and backward through the forms.</li>
+</ol>
+<h3>Source code</h3>
+<div class="
+                source-code">&lt;form action="../action/return.html" method="post" enctype="application/x-www-form-urlencoded" action="../action/return.html" method="post" enctype="application/x-www-form-urlencoded" action="../action/return.html" method="post" enctype="application/x-www-form-urlencoded"&gt;<br>&nbsp;&nbsp;&lt;div&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;br clear="none" clear="none" clear="none"&gt;&lt;/br&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="input1" for="input2" for="input3"&gt;Form 1 input area: &lt;/label&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;input id="input1" name="input1" type="text" id="input2" name="input2" type="text" id="input3" name="input3" type="text"&gt;&lt;/input&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;button id="button1" name="button1" type="submit" id="button2" name="button2" type="submit" id="button3" name="button3" type="submit"&gt;Submit&lt;/button&gt;<br>&nbsp;&nbsp;&lt;/div&gt;<br>&lt;/form&gt;<br>&lt;form action="../action/return.html" method="post" enctype="application/x-www-form-urlencoded" action="../action/return.html" method="post" enctype="application/x-www-form-urlencoded"&gt;<br>&nbsp;&nbsp;&lt;div&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;br clear="none" clear="none"&gt;&lt;/br&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="input2" for="input3"&gt;Form 2 input area: &lt;/label&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;input id="input2" name="input2" type="text" id="input3" name="input3" type="text"&gt;&lt;/input&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;button id="button2" name="button2" type="submit" id="button3" name="button3" type="submit"&gt;Submit&lt;/button&gt;<br>&nbsp;&nbsp;&lt;/div&gt;<br>&lt;/form&gt;<br>&lt;form action="../action/return.html" method="post" enctype="application/x-www-form-urlencoded"&gt;<br>&nbsp;&nbsp;&lt;div&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;br clear="none"&gt;&lt;/br&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="input3"&gt;Form 3 input area: &lt;/label&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;input id="input3" name="input3" type="text"&gt;&lt;/input&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;button id="button3" name="button3" type="submit"&gt;Submit&lt;/button&gt;<br>&nbsp;&nbsp;&lt;/div&gt;<br>&lt;/form&gt;<br>
+</div>
+<h2>
+<a name="refs">References</a>
+</h2>
+<ol>
+<li>
+<a href="http://www.w3.org/TR/html4/interact/forms.html#h-17.3">HTML 4.01 specification for FORM</a>
+</li>
+</ol>
+<h2>
+<a name="about">About this test suite</a>
+</h2>
+<p>This test is part of a 
+        <a href="/WAI/UA/TS/">
+
+        test suite</a>
+
+        for the 
+        <a href="/TR/UAAG10/">
+
+        User Agent Accessibility Guidelines (UAAG)
+        1.0</a>
+
+        . This work is conducted by the 
+        <a href="/WAI/UA/">
+
+        User Agent Accessibility Guidelines Working
+        Group</a>
+
+        , which is part of W3C's 
+        <a href="/WAI/">
+
+        Web Accessibility Initiative (WAI)</a>
+
+        . Please send comments on this test to w3c-wai-ua@w3.org (
+        <a href="/WAI/UA/TS/">
+
+        public archive</a>
+
+        ).</p>
+<hr>
+<p>Test created by:</p>
+<ul>
+<li>Colin Koteles</li>
+</ul>
+<p>Last modified: $Date: 2003/04/02 23:46:49 $ by $Author: jongund $</p>
+<p class="copyright">
+<a rel="copyright" href="http://www.w3.org/Consortium/Legal/ipr-notice-20000612#Copyright">
+
+        Copyright</a>
+
+        &copy; 1999 - 2003 
+        <a href="http://www.w3.org/"><abbr title="World Wide Web
+          Consortium">
+
+          W3C</abbr></a><sup>&reg;</sup>
+
+        (
+        <a href="http://www.lcs.mit.edu/"><abbr title="Massachusetts Institute of
+          Technology">
+
+          MIT</abbr></a>
+
+        , 
+        <a href="http://www.inria.fr/"><abbr lang="fr" title="Institut National de
+          Recherche en Informatique et Automatique">
+
+          INRIA</abbr></a>
+
+        , 
+        <a href="http://www.keio.ac.jp/">
+
+        Keio</a>
+
+        ), All Rights Reserved. W3C 
+        <a href="http://www.w3.org/Consortium/Legal/ipr-notice-20000612#Legal_Disclaimer">
+
+        liability</a>
+
+        , 
+        <a href="http://www.w3.org/Consortium/Legal/ipr-notice-20000612#W3C_Trademarks">
+
+        trademark</a>
+
+        , 
+        <a href="http://www.w3.org/Consortium/Legal/copyright-documents-19990405">
+
+        document use</a>
+
+        and 
+        <a href="http://www.w3.org/Consortium/Legal/copyright-software-19980720">
+
+        software licensing</a>
+
+        rules apply.</p>
+</body>
+</html>

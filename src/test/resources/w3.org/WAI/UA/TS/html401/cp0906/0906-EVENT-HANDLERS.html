@@ -1,0 +1,264 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>HTML Test Suite for UAAG 1.0
+        (Draft)</title>
+<link rel="stylesheet" type="text/css" href="http://www.w3.org/WAI/UA/TS/style/test-suite.css">
+<script language="javascript" type="text/javascript">
+				function imgChange1( img ) { document.test_element.src = img; }
+			</script><script language="javascript" type="text/javascript">
+				function focusTest (img) { document.test_element2.src = img; }
+		 		function blurTest (img) { document.test_element2.src = img; }	
+			</script>
+</head>
+<body>
+<p>
+<a href="http://www.w3.org/" title="W3C Home"><img alt="W3C" height="48" width="72" border="0" src="http://www.w3.org/Icons/w3c_home.gif"></a><a href="http://www.w3.org/WAI/" title="WAI Home" rel="in-area"><img alt="Web Accessibility Initiative Home" height="48" width="212" border="0" src="http://www.w3.org/Icons/wai.gif"></a>
+</p>
+<h1>Listing Element Event Handlers</h1>
+<p>On this page: 
+
+	<a href="#test1">Test 
+         1</a> |
+	<a href="#test2">Test 
+         2</a> |
+	<a href="#refs">
+        	References</a>
+ | 
+<a href="#about">
+
+        About these tests</a>
+</p>
+<p>Nearby: 
+        <a href="../">
+
+        More HTML 4.01 Tests</a>
+ | 
+<a href="http://www.w3.org/WAI/UA/TS/">
+
+        UAAG 1.0 Test Suite</a>
+</p>
+<h2>UAAG 1.0 Requirement</h2>
+<dl>
+<dt class="
+                  checkpoint">
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-query-handlers">
+Checkpoint 
+9.6
+ 
+Show event handlers</a>
+ (Priority 
+2
+)
+</dt>
+<dd class="
+                    checkpoint">
+<span class="
+                      provision"><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-query-handlers-1">
+Provision 
+1</a>
+: 
+</span>
+For the element with content focus, make available the list of input device event types for which there are event handlers explicitly associated with the element.
+</dd>
+</dl>
+<h2>
+<a name="test1">Test 
+            1
+		: 
+		</a>
+</h2>
+<h3>Procedure</h3>
+<ol>
+<li>Move focus to the "Test Element" image.</li>
+<li>Allow the user to query the "Test Element" image once it has content focus for the list of input device event handlers.</li>
+<li>Or, add these event handlers directly to the serial navigation order.</li>
+</ol>
+<h3>Run test</h3>
+<div class="test">
+<img src="../images/test_element.gif" name="test_element" alt="Test Element" onmouseover="imgChange1('../images/onmouseover.gif')" onmouseout="imgChange1('../images/onmouseout.gif')" onclick="imgChange1('../images/onclick.gif')" ondblclick="imgChange1('../images/ondblclick.gif')" height="50" width="250" border="0"></div>
+<h3>Expected results</h3>
+<ol>
+<li>The user can query the test element to access a list of available event handlers including: onmouseover, onmouseout, onclick, and ondblclick.</li>
+<li>Or, these event handlers are added to the serial navigation order.</li>
+</ol>
+<h3>Source code</h3>
+<div class="
+                source-code">&lt;img src="../images/test_element.gif" name="test_element" alt="Test Element" onmouseover="imgChange1('../images/onmouseover.gif')" onmouseout="imgChange1('../images/onmouseout.gif')" onclick="imgChange1('../images/onclick.gif')" ondblclick="imgChange1('../images/ondblclick.gif')" height="50" width="250" border="0"&gt;&lt;/img&gt;<br>
+</div>
+<h3 class="test">
+
+            Test Script Code</h3>
+<div class="
+              source-code">
+				function imgChange1( img ) { document.test_element.src = img; }
+			</div>
+<h2>
+<a name="test2">Test 
+            2
+		: 
+		</a>
+</h2>
+<h3>Procedure</h3>
+<ol>
+<li>Move focus to the "Test Button".</li>
+<li>Allow the user to query the "Test Button" once it has content focus for the list of input device event handlers.</li>
+<li>Or, add these event handlers directly to the serial navigation order.</li>
+</ol>
+<h3>Run test</h3>
+<div class="test">
+<table summary="layout table">
+					
+<tbody>
+  					
+<tr>
+						
+<td rowspan="1" colspan="1">
+				      	
+<form action="../action/return.html" method="get" enctype="application/x-www-form-urlencoded">
+								
+<button onblur="blurTest('../images/onblur.gif')" onfocus="focusTest('../images/onfocus.gif')" type="submit">Test Button</button>
+							
+</form>
+						
+</td>
+				    	<td rowspan="1" colspan="1">
+				      	
+<table border="1">
+								
+<tbody>
+				       			
+<tr>
+										
+<td rowspan="1" colspan="1">
+											<img id="test_element2" src="../images/clear.gif" width="165" height="50" alt="Blank Test Image" border="0" name="test_element2">
+										</td>
+									
+</tr>
+								
+</tbody>
+							
+</table>
+						
+</td>
+					
+</tr>
+					
+</tbody>
+				
+</table>
+</div>
+<h3>Expected results</h3>
+<ol>
+<li>The user can query the test element to access a list of available event handlers including: onfocus and onblur.</li>
+<li>Or, these event handlers are added to the serial navigation order.</li>
+</ol>
+<h3>Source code</h3>
+<div class="
+                source-code">&lt;table summary="layout table"&gt;<br>&nbsp;&nbsp;&lt;tbody&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td rowspan="1" colspan="1"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;form action="../action/return.html" method="get" enctype="application/x-www-form-urlencoded"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;button onblur="blurTest('../images/onblur.gif')" onfocus="focusTest('../images/onfocus.gif')" type="submit"&gt;Test Button&lt;/button&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/form&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/td&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td rowspan="1" colspan="1"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;table border="1"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tbody&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td rowspan="1" colspan="1"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;img id="test_element2" src="../images/clear.gif" width="165" height="50" alt="Blank Test Image" border="0" name="test_element2"&gt;&lt;/img&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/td&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tbody&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/table&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/td&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>&nbsp;&nbsp;&lt;/tbody&gt;<br>&lt;/table&gt;<br>
+</div>
+<h3 class="test">
+
+            Test Script Code</h3>
+<div class="
+              source-code">
+				function focusTest (img) { document.test_element2.src = img; }
+		 		function blurTest (img) { document.test_element2.src = img; }	
+			</div>
+<h2>
+<a name="refs">References</a>
+</h2>
+<ol>
+<li>
+<a href="http://www.w3.org/TR/html4/interact/scripts.html#h-18.2.3">HTML 4.01 specification for Intrinsic Events</a>
+</li>
+</ol>
+<h2>
+<a name="about">About this test suite</a>
+</h2>
+<p>This test is part of a 
+        <a href="/WAI/UA/TS/">
+
+        test suite</a>
+
+        for the 
+        <a href="/TR/UAAG10/">
+
+        User Agent Accessibility Guidelines (UAAG)
+        1.0</a>
+
+        . This work is conducted by the 
+        <a href="/WAI/UA/">
+
+        User Agent Accessibility Guidelines Working
+        Group</a>
+
+        , which is part of W3C's 
+        <a href="/WAI/">
+
+        Web Accessibility Initiative (WAI)</a>
+
+        . Please send comments on this test to w3c-wai-ua@w3.org (
+        <a href="/WAI/UA/TS/">
+
+        public archive</a>
+
+        ).</p>
+<hr>
+<p>Test created by:</p>
+<ul>
+<li>Colin Koteles</li>
+</ul>
+<p>Last modified: $Date: 2003/04/02 23:46:47 $ by $Author: jongund $</p>
+<p class="copyright">
+<a rel="copyright" href="http://www.w3.org/Consortium/Legal/ipr-notice-20000612#Copyright">
+
+        Copyright</a>
+
+        &copy; 1999 - 2003 
+        <a href="http://www.w3.org/"><abbr title="World Wide Web
+          Consortium">
+
+          W3C</abbr></a><sup>&reg;</sup>
+
+        (
+        <a href="http://www.lcs.mit.edu/"><abbr title="Massachusetts Institute of
+          Technology">
+
+          MIT</abbr></a>
+
+        , 
+        <a href="http://www.inria.fr/"><abbr lang="fr" title="Institut National de
+          Recherche en Informatique et Automatique">
+
+          INRIA</abbr></a>
+
+        , 
+        <a href="http://www.keio.ac.jp/">
+
+        Keio</a>
+
+        ), All Rights Reserved. W3C 
+        <a href="http://www.w3.org/Consortium/Legal/ipr-notice-20000612#Legal_Disclaimer">
+
+        liability</a>
+
+        , 
+        <a href="http://www.w3.org/Consortium/Legal/ipr-notice-20000612#W3C_Trademarks">
+
+        trademark</a>
+
+        , 
+        <a href="http://www.w3.org/Consortium/Legal/copyright-documents-19990405">
+
+        document use</a>
+
+        and 
+        <a href="http://www.w3.org/Consortium/Legal/copyright-software-19980720">
+
+        software licensing</a>
+
+        rules apply.</p>
+</body>
+</html>

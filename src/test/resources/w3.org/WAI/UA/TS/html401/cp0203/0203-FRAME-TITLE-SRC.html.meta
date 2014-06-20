@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-FRAME-TITLE-SRC.html
+#Sat Jul 09 10:51:09 CEST 2011
+ETag="1a65-3c39f5320b200"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Tue, 29 Jul 2003 21\:26\:32 GMT
+Accept-Ranges=bytes
+Content-Length=2416
+Server=Apache/2
+Content-Encoding=gzip
+md5=b2536fe8ff54f02751540ca2cc7df41e
+Date=Sat, 09 Jul 2011 08\:51\:09 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:09 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=d74b1a2a5920e9509cddbe35dea913f8392d19bbe0a93f86a7055efcc944ee95

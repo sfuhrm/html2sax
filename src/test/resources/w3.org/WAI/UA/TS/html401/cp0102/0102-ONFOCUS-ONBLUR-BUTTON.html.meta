@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0102/0102-ONFOCUS-ONBLUR-BUTTON.html
+#Sat Jul 09 10:51:07 CEST 2011
+ETag="1e70-3ba5b865a7f40"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Wed, 02 Apr 2003 23\:46\:29 GMT
+Accept-Ranges=bytes
+Content-Length=2311
+Server=Apache/2
+Content-Encoding=gzip
+md5=457747589aa985880f8d6baf48c256fd
+Date=Sat, 09 Jul 2011 08\:51\:07 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:07 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=47e9888eafb77220d3489145d6088330115934212a8f2ceb8a79b661468416c5

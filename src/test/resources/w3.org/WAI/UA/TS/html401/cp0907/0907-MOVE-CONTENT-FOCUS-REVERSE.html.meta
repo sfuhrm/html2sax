@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0907/0907-MOVE-CONTENT-FOCUS-REVERSE.html
+#Sat Jul 09 10:51:19 CEST 2011
+ETag="4d31-3ba5b878bac40"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Wed, 02 Apr 2003 23\:46\:49 GMT
+Accept-Ranges=bytes
+Content-Length=3281
+Server=Apache/2
+Content-Encoding=gzip
+md5=30bcbf5bbe757ce946e819253bc3dd35
+Date=Sat, 09 Jul 2011 08\:51\:18 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:18 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=c5926515bbb0d9a9932d89609150a48e444e047fffaf588aab069af2beaa73a7

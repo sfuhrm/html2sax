@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-ACRONYM.html
+#Sat Jul 09 10:51:09 CEST 2011
+ETag="1615-3ba5b8669c180"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Wed, 02 Apr 2003 23\:46\:30 GMT
+Accept-Ranges=bytes
+Content-Length=2046
+Server=Apache/2
+Content-Encoding=gzip
+md5=b8d7edacebf731543a13d7b6e69962bc
+Date=Sat, 09 Jul 2011 08\:51\:09 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:09 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=3805a88518791bfa1d0e8d89a732f42767ad0086274dddb5ebbed76e5d94446a

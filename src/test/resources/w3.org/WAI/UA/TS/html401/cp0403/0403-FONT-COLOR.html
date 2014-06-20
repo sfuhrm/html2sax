@@ -1,0 +1,203 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>HTML Test Suite for UAAG 1.0
+        (Draft)</title>
+<link rel="stylesheet" type="text/css" href="http://www.w3.org/WAI/UA/TS/style/test-suite.css">
+</head>
+<body>
+<p>
+<a href="http://www.w3.org/" title="W3C Home"><img alt="W3C" height="48" width="72" border="0" src="http://www.w3.org/Icons/w3c_home.gif"></a><a href="http://www.w3.org/WAI/" title="WAI Home" rel="in-area"><img alt="Web Accessibility Initiative Home" height="48" width="212" border="0" src="http://www.w3.org/Icons/wai.gif"></a>
+</p>
+<h1>font colors and backgrounds</h1>
+<p>On this page: 
+
+	<a href="#test1">Test 
+         1</a> |
+	<a href="#refs">
+        	References</a>
+ | 
+<a href="#about">
+
+        About these tests</a>
+</p>
+<p>Nearby: 
+        <a href="../">
+
+        More HTML 4.01 Tests</a>
+ | 
+<a href="http://www.w3.org/WAI/UA/TS/">
+
+        UAAG 1.0 Test Suite</a>
+</p>
+<h2>UAAG 1.0 Requirement</h2>
+<dl>
+<dt class="
+                  checkpoint">
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-text-color">
+Checkpoint 
+4.3
+ 
+Configure text colors</a>
+ (Priority 
+1
+)
+</dt>
+<dd class="
+                    checkpoint">
+<span class="
+                      provision"><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-text-color-1">
+Provision 
+1</a>
+: 
+</span>
+Allow global configuration of the foreground and background color of all visually rendered text content.
+</dd>
+<dd class="
+                    checkpoint">
+<span class="
+                      provision"><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-configure-text-color-2">
+Provision 
+2</a>
+: 
+</span>
+As part of satisfying provision one of this checkpoint, provide a configuration option to override foreground and background colors specified by the author or user agent defaults.
+</dd>
+</dl>
+<h2>
+<a name="test1">Test 
+            1
+		: 
+		</a>
+</h2>
+<h3>Procedure</h3>
+<ol>
+<li>Configure the user agent to render the following test text using user specified colors and background colors.</li>
+</ol>
+<h3>Run test</h3>
+<div class="test">
+<div style="font-size: large; font-family: sans-serif">	
+					
+<p style="color: #000000; background-color: #ffffff">Text color: black, background-color: white</p>	  
+					
+<p style="color: #ffffff; background-color: #000000">Text color: white, background-color: black</p> 	 
+			   	
+<p style="color: #ff0000; background-color: #ffffff">Text color: red, background-color: white</p> 	 
+			   	
+<p style="color: blue; background-color: #ffffff">Text color: blue, background-color: white</p> 	 
+   				
+<p style="color: green; background-color: #ffff42">Text color: green, background-color: yellow</p> 	 
+   				
+<p style="color: #ffffff; background-color: #ff0000">Text color: white, background-color: red</p> 	 	
+				
+</div>
+</div>
+<h3>Expected results</h3>
+<ol>
+<li>The user agent allows the user to chose font color and background color to be used to render text.</li>
+<li>The user agent makes available to the user a range of font and background colors.</li>
+</ol>
+<h3>Source code</h3>
+<div class="
+                source-code">&lt;div style="font-size: large; font-family: sans-serif"&gt;<br>&nbsp;&nbsp;&lt;p style="color: #000000; background-color: #ffffff"&gt;Text color: black, background-color: white&lt;/p&gt;<br>&nbsp;&nbsp;&lt;p style="color: #ffffff; background-color: #000000"&gt;Text color: white, background-color: black&lt;/p&gt;<br>&nbsp;&nbsp;&lt;p style="color: #ff0000; background-color: #ffffff"&gt;Text color: red, background-color: white&lt;/p&gt;<br>&nbsp;&nbsp;&lt;p style="color: blue; background-color: #ffffff"&gt;Text color: blue, background-color: white&lt;/p&gt;<br>&nbsp;&nbsp;&lt;p style="color: green; background-color: #ffff42"&gt;Text color: green, background-color: yellow&lt;/p&gt;<br>&nbsp;&nbsp;&lt;p style="color: #ffffff; background-color: #ff0000"&gt;Text color: white, background-color: red&lt;/p&gt;<br>&lt;/div&gt;<br>
+</div>
+<h2>
+<a name="refs">References</a>
+</h2>
+<ol>
+<li>
+<a href="http://www.w3.org/TR/html4/present/styles.html#h-14.2.3">HTML 4.01 specification for STYLE</a>
+</li>
+<li>
+<a href="http://www.w3.org/TR/REC-CSS2/colors.html">CSS2 specification for colors and backgrounds</a>
+</li>
+</ol>
+<h2>
+<a name="about">About this test suite</a>
+</h2>
+<p>This test is part of a 
+        <a href="/WAI/UA/TS/">
+
+        test suite</a>
+
+        for the 
+        <a href="/TR/UAAG10/">
+
+        User Agent Accessibility Guidelines (UAAG)
+        1.0</a>
+
+        . This work is conducted by the 
+        <a href="/WAI/UA/">
+
+        User Agent Accessibility Guidelines Working
+        Group</a>
+
+        , which is part of W3C's 
+        <a href="/WAI/">
+
+        Web Accessibility Initiative (WAI)</a>
+
+        . Please send comments on this test to w3c-wai-ua@w3.org (
+        <a href="/WAI/UA/TS/">
+
+        public archive</a>
+
+        ).</p>
+<hr>
+<p>Test created by:</p>
+<ul>
+<li>Colin Koteles</li>
+</ul>
+<p>Last modified: $Date: 2003/04/02 23:46:39 $ by $Author: jongund $</p>
+<p class="copyright">
+<a rel="copyright" href="http://www.w3.org/Consortium/Legal/ipr-notice-20000612#Copyright">
+
+        Copyright</a>
+
+        &copy; 1999 - 2003 
+        <a href="http://www.w3.org/"><abbr title="World Wide Web
+          Consortium">
+
+          W3C</abbr></a><sup>&reg;</sup>
+
+        (
+        <a href="http://www.lcs.mit.edu/"><abbr title="Massachusetts Institute of
+          Technology">
+
+          MIT</abbr></a>
+
+        , 
+        <a href="http://www.inria.fr/"><abbr lang="fr" title="Institut National de
+          Recherche en Informatique et Automatique">
+
+          INRIA</abbr></a>
+
+        , 
+        <a href="http://www.keio.ac.jp/">
+
+        Keio</a>
+
+        ), All Rights Reserved. W3C 
+        <a href="http://www.w3.org/Consortium/Legal/ipr-notice-20000612#Legal_Disclaimer">
+
+        liability</a>
+
+        , 
+        <a href="http://www.w3.org/Consortium/Legal/ipr-notice-20000612#W3C_Trademarks">
+
+        trademark</a>
+
+        , 
+        <a href="http://www.w3.org/Consortium/Legal/copyright-documents-19990405">
+
+        document use</a>
+
+        and 
+        <a href="http://www.w3.org/Consortium/Legal/copyright-software-19980720">
+
+        software licensing</a>
+
+        rules apply.</p>
+</body>
+</html>

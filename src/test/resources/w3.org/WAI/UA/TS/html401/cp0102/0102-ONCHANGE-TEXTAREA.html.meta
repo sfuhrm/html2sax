@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0102/0102-ONCHANGE-TEXTAREA.html
+#Sat Jul 09 10:51:06 CEST 2011
+ETag="17a1-3ba5b865a7f40"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Wed, 02 Apr 2003 23\:46\:29 GMT
+Accept-Ranges=bytes
+Content-Length=2142
+Server=Apache/2
+Content-Encoding=gzip
+md5=8a14b7f14d65e100f0d9b95cfc4184ce
+Date=Sat, 09 Jul 2011 08\:51\:06 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:06 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=57b5b0116746ad0519585e5283e7743c6efad55deec00254bdca57879f734125

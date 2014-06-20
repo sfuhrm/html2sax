@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0302/0302-OBJECT-AUDIO.html
+#Sat Jul 09 10:51:14 CEST 2011
+ETag="172d-3ba5b86b60cc0"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Wed, 02 Apr 2003 23\:46\:35 GMT
+Accept-Ranges=bytes
+Content-Length=1959
+Server=Apache/2
+Content-Encoding=gzip
+md5=8057799ed4533fe1dfb771277c16b7ef
+Date=Sat, 09 Jul 2011 08\:51\:14 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:14 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=89b33361961374d8887119fe4e1b1f519cf03b0f58ff6fbb0da97f50514af7b7

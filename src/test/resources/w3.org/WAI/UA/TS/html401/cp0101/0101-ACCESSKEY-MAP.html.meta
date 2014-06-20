@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-ACCESSKEY-MAP.html
+#Sat Jul 09 10:51:05 CEST 2011
+ETag="17c5-3c46822f11600"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Fri, 08 Aug 2003 21\:01\:12 GMT
+Accept-Ranges=bytes
+Content-Length=1999
+Server=Apache/2
+Content-Encoding=gzip
+md5=9fc3c236e9a0dcc465f98af18c20c260
+Date=Sat, 09 Jul 2011 08\:51\:05 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:05 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=52304795eeb3401864bef214e941d84cd60aaa46065665ad752356eaabf3d0a4

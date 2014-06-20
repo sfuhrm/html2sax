@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-NOSCRIPT.html
+#Sat Jul 09 10:51:11 CEST 2011
+ETag="188c-3ba5b8669c180"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Wed, 02 Apr 2003 23\:46\:30 GMT
+Accept-Ranges=bytes
+Content-Length=2198
+Server=Apache/2
+Content-Encoding=gzip
+md5=9a2123c62211f7b12ba10ac9f4ea89c7
+Date=Sat, 09 Jul 2011 08\:51\:11 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:11 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=a66481d26dcfd716deda61dc05de6a81c54b41f100ea26c5fa499b567082d26b

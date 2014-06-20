@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0207/0207-FRAME-TITLE-TEST.html
+#Sat Jul 09 10:51:24 CEST 2011
+ETag="2fa-3a6026348e900"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Thu, 18 Jul 2002 01\:01\:56 GMT
+Accept-Ranges=bytes
+Content-Length=484
+Server=Apache/2
+Content-Encoding=gzip
+md5=a9f03eb4a48092f3a5fc773d8f21a45c
+Date=Sat, 09 Jul 2011 08\:51\:24 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:24 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=a954ed7b642cd8ed2a116f2a6a1f9d48e9a1bdfe2b387d89ed62c237d8d369e6

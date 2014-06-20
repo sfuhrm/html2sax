@@ -1,0 +1,197 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>HTML Test Suite for UAAG 1.0
+        (Draft)</title>
+<link rel="stylesheet" type="text/css" href="http://www.w3.org/WAI/UA/TS/style/test-suite.css">
+</head>
+<body>
+<p>
+<a href="http://www.w3.org/" title="W3C Home"><img alt="W3C" height="48" width="72" border="0" src="http://www.w3.org/Icons/w3c_home.gif"></a><a href="http://www.w3.org/WAI/" title="WAI Home" rel="in-area"><img alt="Web Accessibility Initiative Home" height="48" width="212" border="0" src="http://www.w3.org/Icons/wai.gif"></a>
+</p>
+<h1>Provide Link Information</h1>
+<p>On this page: 
+
+	<a href="#test1">Test 
+         1</a> |
+	<a href="#refs">
+        	References</a>
+ | 
+<a href="#about">
+
+        About these tests</a>
+</p>
+<p>Nearby: 
+        <a href="../">
+
+        More HTML 4.01 Tests</a>
+ | 
+<a href="http://www.w3.org/WAI/UA/TS/">
+
+        UAAG 1.0 Test Suite</a>
+</p>
+<h2>UAAG 1.0 Requirement</h2>
+<dl>
+<dt class="
+                  checkpoint">
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-info-link">
+Checkpoint 
+10.5
+ 
+Provide link information</a>
+ (Priority 
+3
+)
+</dt>
+<dd class="
+                    checkpoint">
+<span class="
+                      provision"><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-info-link-1">
+Provision 
+1</a>
+: 
+</span>
+To help the user decide whether to traverse a link in content, make available the following information about it:  link element content, link title, whether the link is internal to the resource (e.g., the link is to a target in the same Web page), whether the user has traversed the link recently, and information about the type, size, and natural language of linked Web resources.  
+</dd>
+</dl>
+<h2>
+<a name="test1">Test 
+            1
+		: 
+		</a>
+</h2>
+<h3>Procedure</h3>
+<ol>
+<li>Query the user agent to provide information about the following test links as outlined in provision one of this checkpoint.</li>
+</ol>
+<h3>Run test</h3>
+<div class="test">
+<p>
+<a href="../action/return.html" title="Test external link 1" hreflang="en" type="text/html" shape="rect">Test Link 1</a>
+</p>
+<p>
+<a href="../action/return.html" title="Test external link 2" hreflang="en" type="text/html" shape="rect">Test Link 2</a>
+</p>
+<p>
+<a href="#internal1" title="Test internal link 1" hreflang="en" type="text/html" shape="rect">Test Link 3</a>
+</p>
+<p>
+<a href="#internal2" title="Test internal link 2" hreflang="en" type="text/html" shape="rect">Test Link 4</a>
+</p>
+<h5>
+<a name="internal1" shape="rect">Internal Link Anchor 1</a>
+</h5>
+<h5>
+<a name="internal2" shape="rect">Internal Link Anchor 2</a>
+</h5>
+</div>
+<h3>Expected results</h3>
+<ol>
+<li>The user agent should make available the link information as outlined in provision 1 of this checkpoint including: link element content, 
+						link title, whether the link is internal to the resource (e.g., the link is to a target in the same Web page), whether the user has traversed the link recently, and 
+						information about the type, size, and natural language of linked Web resources.</li>
+<li>(Note: The user agent is not required to compute or make available information that requires retrieval of linked Web resources.)</li>
+</ol>
+<h3>Source code</h3>
+<div class="
+                source-code">&lt;p&gt;<br>&nbsp;&nbsp;&lt;a href="../action/return.html" title="Test external link 1" hreflang="en" type="text/html" shape="rect" href="../action/return.html" title="Test external link 2" hreflang="en" type="text/html" shape="rect" href="#internal1" title="Test internal link 1" hreflang="en" type="text/html" shape="rect" href="#internal2" title="Test internal link 2" hreflang="en" type="text/html" shape="rect" name="internal1" shape="rect" name="internal2" shape="rect"&gt;Test Link 1&lt;/a&gt;<br>&lt;/p&gt;<br>&lt;p&gt;<br>&nbsp;&nbsp;&lt;a href="../action/return.html" title="Test external link 2" hreflang="en" type="text/html" shape="rect" href="#internal1" title="Test internal link 1" hreflang="en" type="text/html" shape="rect" href="#internal2" title="Test internal link 2" hreflang="en" type="text/html" shape="rect" name="internal1" shape="rect" name="internal2" shape="rect"&gt;Test Link 2&lt;/a&gt;<br>&lt;/p&gt;<br>&lt;p&gt;<br>&nbsp;&nbsp;&lt;a href="#internal1" title="Test internal link 1" hreflang="en" type="text/html" shape="rect" href="#internal2" title="Test internal link 2" hreflang="en" type="text/html" shape="rect" name="internal1" shape="rect" name="internal2" shape="rect"&gt;Test Link 3&lt;/a&gt;<br>&lt;/p&gt;<br>&lt;p&gt;<br>&nbsp;&nbsp;&lt;a href="#internal2" title="Test internal link 2" hreflang="en" type="text/html" shape="rect" name="internal1" shape="rect" name="internal2" shape="rect"&gt;Test Link 4&lt;/a&gt;<br>&lt;/p&gt;<br>&lt;h5&gt;<br>&nbsp;&nbsp;&lt;a name="internal1" shape="rect" name="internal2" shape="rect"&gt;Internal Link Anchor 1&lt;/a&gt;<br>&lt;/h5&gt;<br>&lt;h5&gt;<br>&nbsp;&nbsp;&lt;a name="internal2" shape="rect"&gt;Internal Link Anchor 2&lt;/a&gt;<br>&lt;/h5&gt;<br>
+</div>
+<h2>
+<a name="refs">References</a>
+</h2>
+<ol>
+<li>
+<a href="http://www.w3.org/TR/html4/struct/links.html#h-12.2">HTML 4.01
+ specification for 
+A</a>
+</li>
+</ol>
+<h2>
+<a name="about">About this test suite</a>
+</h2>
+<p>This test is part of a 
+        <a href="/WAI/UA/TS/">
+
+        test suite</a>
+
+        for the 
+        <a href="/TR/UAAG10/">
+
+        User Agent Accessibility Guidelines (UAAG)
+        1.0</a>
+
+        . This work is conducted by the 
+        <a href="/WAI/UA/">
+
+        User Agent Accessibility Guidelines Working
+        Group</a>
+
+        , which is part of W3C's 
+        <a href="/WAI/">
+
+        Web Accessibility Initiative (WAI)</a>
+
+        . Please send comments on this test to w3c-wai-ua@w3.org (
+        <a href="/WAI/UA/TS/">
+
+        public archive</a>
+
+        ).</p>
+<hr>
+<p>Test created by:</p>
+<ul>
+<li>Colin Koteles</li>
+</ul>
+<p>Last modified: $Date: 2003/04/02 23:46:53 $ by $Author: jongund $</p>
+<p class="copyright">
+<a rel="copyright" href="http://www.w3.org/Consortium/Legal/ipr-notice-20000612#Copyright">
+
+        Copyright</a>
+
+        &copy; 1999 - 2003 
+        <a href="http://www.w3.org/"><abbr title="World Wide Web
+          Consortium">
+
+          W3C</abbr></a><sup>&reg;</sup>
+
+        (
+        <a href="http://www.lcs.mit.edu/"><abbr title="Massachusetts Institute of
+          Technology">
+
+          MIT</abbr></a>
+
+        , 
+        <a href="http://www.inria.fr/"><abbr lang="fr" title="Institut National de
+          Recherche en Informatique et Automatique">
+
+          INRIA</abbr></a>
+
+        , 
+        <a href="http://www.keio.ac.jp/">
+
+        Keio</a>
+
+        ), All Rights Reserved. W3C 
+        <a href="http://www.w3.org/Consortium/Legal/ipr-notice-20000612#Legal_Disclaimer">
+
+        liability</a>
+
+        , 
+        <a href="http://www.w3.org/Consortium/Legal/ipr-notice-20000612#W3C_Trademarks">
+
+        trademark</a>
+
+        , 
+        <a href="http://www.w3.org/Consortium/Legal/copyright-documents-19990405">
+
+        document use</a>
+
+        and 
+        <a href="http://www.w3.org/Consortium/Legal/copyright-software-19980720">
+
+        software licensing</a>
+
+        rules apply.</p>
+</body>
+</html>

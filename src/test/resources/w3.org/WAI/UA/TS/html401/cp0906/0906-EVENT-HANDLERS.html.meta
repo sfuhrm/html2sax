@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0906/0906-EVENT-HANDLERS.html
+#Sat Jul 09 10:51:19 CEST 2011
+ETag="2439-3ba5b877c6a00"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Wed, 02 Apr 2003 23\:46\:48 GMT
+Accept-Ranges=bytes
+Content-Length=2427
+Server=Apache/2
+Content-Encoding=gzip
+md5=e64c43ba4a4bf2eff464df48642b16f7
+Date=Sat, 09 Jul 2011 08\:51\:18 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:18 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=ddccf29cf24675051d2aaa52281ab81e1cf4cff16528dd63b9a3e48cd8d94d3b

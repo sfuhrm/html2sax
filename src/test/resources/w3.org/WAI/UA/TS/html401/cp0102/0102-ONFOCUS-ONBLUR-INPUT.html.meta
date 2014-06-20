@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0102/0102-ONFOCUS-ONBLUR-INPUT.html
+#Sat Jul 09 10:51:07 CEST 2011
+ETag="1e59-3ba5b865a7f40"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Wed, 02 Apr 2003 23\:46\:29 GMT
+Accept-Ranges=bytes
+Content-Length=2295
+Server=Apache/2
+Content-Encoding=gzip
+md5=81180eaf1364ad4f87e0967cb0e5788e
+Date=Sat, 09 Jul 2011 08\:51\:07 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:07 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=fb9d7e99da7459eaa92f92d31af5cfa6acf835876e40dd3f612068d608bb95f0

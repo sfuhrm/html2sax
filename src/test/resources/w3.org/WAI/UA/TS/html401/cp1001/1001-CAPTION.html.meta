@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp1001/1001-CAPTION.html
+#Sat Jul 09 10:51:21 CEST 2011
+ETag="1d4b-3ba5b87aa30c0"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Wed, 02 Apr 2003 23\:46\:51 GMT
+Accept-Ranges=bytes
+Content-Length=1975
+Server=Apache/2
+Content-Encoding=gzip
+md5=da0d5d9c9615e4d15487b51ceaeb0572
+Date=Sat, 09 Jul 2011 08\:51\:20 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:20 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=d1a511c5c0fb8d372c40abbfc65c6343c4a2e19f46af6e0b6f26cde928e30462

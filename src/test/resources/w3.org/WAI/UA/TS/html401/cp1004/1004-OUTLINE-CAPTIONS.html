@@ -1,0 +1,253 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>HTML Test Suite for UAAG 1.0
+        (Draft)</title>
+<link rel="stylesheet" type="text/css" href="http://www.w3.org/WAI/UA/TS/style/test-suite.css">
+</head>
+<body>
+<p>
+<a href="http://www.w3.org/" title="W3C Home"><img alt="W3C" height="48" width="72" border="0" src="http://www.w3.org/Icons/w3c_home.gif"></a><a href="http://www.w3.org/WAI/" title="WAI Home" rel="in-area"><img alt="Web Accessibility Initiative Home" height="48" width="212" border="0" src="http://www.w3.org/Icons/wai.gif"></a>
+</p>
+<h1>Outline View of the CAPTION attribute for TABLE elements</h1>
+<p>On this page: 
+
+	<a href="#test1">Test 
+         1</a> |
+	<a href="#refs">
+        	References</a>
+ | 
+<a href="#about">
+
+        About these tests</a>
+</p>
+<p>Nearby: 
+        <a href="../">
+
+        More HTML 4.01 Tests</a>
+ | 
+<a href="http://www.w3.org/WAI/UA/TS/">
+
+        UAAG 1.0 Test Suite</a>
+</p>
+<h2>UAAG 1.0 Requirement</h2>
+<dl>
+<dt class="
+                  checkpoint">
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-provide-outline-view">
+Checkpoint 
+10.4
+ 
+Provide outline view</a>
+ (Priority 
+2
+)
+</dt>
+<dd class="
+                    checkpoint">
+<span class="
+                      provision"><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-provide-outline-view-1">
+Provision 
+1</a>
+: 
+</span>
+Make available to the user an "outline" view of rendered content, composed of labels for important structural elements (e.g., heading text, table titles, form titles, and other labels that are part of the content).
+</dd>
+</dl>
+<h2>
+<a name="test1">Test 
+            1
+		: 
+		</a>
+</h2>
+<h3>Procedure</h3>
+<ol>
+<li>The user agent should respond to a user query for an outline view in a separate viewport.</li>
+</ol>
+<h3>Run test</h3>
+<div class="test">
+<table border="1" cellpadding="5" summary="Test table 1 for caption outline test suite">
+			  		
+<caption>Caption of Test Table 1</caption>
+					
+<tr>
+						
+<td rowspan="1" colspan="1">Cell 1.1</td>
+						<td rowspan="1" colspan="1">Cell 1.2</td>
+					
+</tr>
+					
+<tr>
+						
+<td rowspan="1" colspan="1">Cell 2.1</td>
+						<td rowspan="1" colspan="1">Cell 2.2</td>
+					
+</tr>			
+				
+</table>
+<table border="1" cellpadding="5" summary="Test table 2 for caption outline test suite">
+			  		
+<caption>Caption of Test Table 2</caption>
+					
+<tr>
+						
+<td rowspan="1" colspan="1">Cell 1.1</td>
+						<td rowspan="1" colspan="1">Cell 1.2</td>
+					
+</tr>
+					
+<tr>
+						
+<td rowspan="1" colspan="1">Cell 2.1</td>
+						<td rowspan="1" colspan="1">Cell 2.2</td>
+					
+</tr>			
+				
+</table>
+<table border="1" cellpadding="5" summary="Test table 3 for caption outline test suite">
+			  		
+<caption>Caption of Test Table 3</caption>
+					
+<tr>
+						
+<td rowspan="1" colspan="1">Cell 1.1</td>
+						<td rowspan="1" colspan="1">Cell 1.2</td>
+					
+</tr>
+					
+<tr>
+						
+<td rowspan="1" colspan="1">Cell 2.1</td>
+						<td rowspan="1" colspan="1">Cell 2.2</td>
+					
+</tr>			
+				
+</table>
+<table border="1" cellpadding="5" summary="Test table 4 for caption outline test suite">
+			  		
+<caption>Caption of Test Table 4</caption>
+					
+<tr>
+						
+<td rowspan="1" colspan="1">Cell 1.1</td>
+						<td rowspan="1" colspan="1">Cell 1.2</td>
+					
+</tr>
+					
+<tr>
+						
+<td rowspan="1" colspan="1">Cell 2.1</td>
+						<td rowspan="1" colspan="1">Cell 2.2</td>
+					
+</tr>			
+				
+</table>
+</div>
+<h3>Expected results</h3>
+<ol>
+<li>The user agents provides an outline view of the table CAPTION elements on this page.</li>
+</ol>
+<h3>Source code</h3>
+<div class="
+                source-code">&lt;table border="1" cellpadding="5" summary="Test table 1 for caption outline test suite" border="1" cellpadding="5" summary="Test table 2 for caption outline test suite" border="1" cellpadding="5" summary="Test table 3 for caption outline test suite" border="1" cellpadding="5" summary="Test table 4 for caption outline test suite"&gt;<br>&nbsp;&nbsp;&lt;caption&gt;Caption of Test Table 1&lt;/caption&gt;<br>&nbsp;&nbsp;&lt;tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td rowspan="1" colspan="1" rowspan="1" colspan="1" rowspan="1" colspan="1" rowspan="1" colspan="1"&gt;Cell 1.1&lt;/td&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td rowspan="1" colspan="1" rowspan="1" colspan="1" rowspan="1" colspan="1" rowspan="1" colspan="1"&gt;Cell 1.2&lt;/td&gt;<br>&nbsp;&nbsp;&lt;/tr&gt;<br>&nbsp;&nbsp;&lt;tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td rowspan="1" colspan="1" rowspan="1" colspan="1" rowspan="1" colspan="1" rowspan="1" colspan="1"&gt;Cell 2.1&lt;/td&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td rowspan="1" colspan="1" rowspan="1" colspan="1" rowspan="1" colspan="1" rowspan="1" colspan="1"&gt;Cell 2.2&lt;/td&gt;<br>&nbsp;&nbsp;&lt;/tr&gt;<br>&lt;/table&gt;<br>&lt;table border="1" cellpadding="5" summary="Test table 2 for caption outline test suite" border="1" cellpadding="5" summary="Test table 3 for caption outline test suite" border="1" cellpadding="5" summary="Test table 4 for caption outline test suite"&gt;<br>&nbsp;&nbsp;&lt;caption&gt;Caption of Test Table 2&lt;/caption&gt;<br>&nbsp;&nbsp;&lt;tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td rowspan="1" colspan="1" rowspan="1" colspan="1" rowspan="1" colspan="1"&gt;Cell 1.1&lt;/td&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td rowspan="1" colspan="1" rowspan="1" colspan="1" rowspan="1" colspan="1"&gt;Cell 1.2&lt;/td&gt;<br>&nbsp;&nbsp;&lt;/tr&gt;<br>&nbsp;&nbsp;&lt;tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td rowspan="1" colspan="1" rowspan="1" colspan="1" rowspan="1" colspan="1"&gt;Cell 2.1&lt;/td&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td rowspan="1" colspan="1" rowspan="1" colspan="1" rowspan="1" colspan="1"&gt;Cell 2.2&lt;/td&gt;<br>&nbsp;&nbsp;&lt;/tr&gt;<br>&lt;/table&gt;<br>&lt;table border="1" cellpadding="5" summary="Test table 3 for caption outline test suite" border="1" cellpadding="5" summary="Test table 4 for caption outline test suite"&gt;<br>&nbsp;&nbsp;&lt;caption&gt;Caption of Test Table 3&lt;/caption&gt;<br>&nbsp;&nbsp;&lt;tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td rowspan="1" colspan="1" rowspan="1" colspan="1"&gt;Cell 1.1&lt;/td&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td rowspan="1" colspan="1" rowspan="1" colspan="1"&gt;Cell 1.2&lt;/td&gt;<br>&nbsp;&nbsp;&lt;/tr&gt;<br>&nbsp;&nbsp;&lt;tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td rowspan="1" colspan="1" rowspan="1" colspan="1"&gt;Cell 2.1&lt;/td&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td rowspan="1" colspan="1" rowspan="1" colspan="1"&gt;Cell 2.2&lt;/td&gt;<br>&nbsp;&nbsp;&lt;/tr&gt;<br>&lt;/table&gt;<br>&lt;table border="1" cellpadding="5" summary="Test table 4 for caption outline test suite"&gt;<br>&nbsp;&nbsp;&lt;caption&gt;Caption of Test Table 4&lt;/caption&gt;<br>&nbsp;&nbsp;&lt;tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td rowspan="1" colspan="1"&gt;Cell 1.1&lt;/td&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td rowspan="1" colspan="1"&gt;Cell 1.2&lt;/td&gt;<br>&nbsp;&nbsp;&lt;/tr&gt;<br>&nbsp;&nbsp;&lt;tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td rowspan="1" colspan="1"&gt;Cell 2.1&lt;/td&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td rowspan="1" colspan="1"&gt;Cell 2.2&lt;/td&gt;<br>&nbsp;&nbsp;&lt;/tr&gt;<br>&lt;/table&gt;<br>
+</div>
+<h2>
+<a name="refs">References</a>
+</h2>
+<ol>
+<li>
+<a href="http://www.w3.org/TR/html4/struct/tables.html#edef-CAPTION">HTML 4.01 specification for CAPTION</a>
+</li>
+<li>
+<a href="http://www.w3.org/TR/html4/struct/tables.html#h-11.2.1">HTML 4.01 specification for TABLE</a>
+</li>
+</ol>
+<h2>
+<a name="about">About this test suite</a>
+</h2>
+<p>This test is part of a 
+        <a href="/WAI/UA/TS/">
+
+        test suite</a>
+
+        for the 
+        <a href="/TR/UAAG10/">
+
+        User Agent Accessibility Guidelines (UAAG)
+        1.0</a>
+
+        . This work is conducted by the 
+        <a href="/WAI/UA/">
+
+        User Agent Accessibility Guidelines Working
+        Group</a>
+
+        , which is part of W3C's 
+        <a href="/WAI/">
+
+        Web Accessibility Initiative (WAI)</a>
+
+        . Please send comments on this test to w3c-wai-ua@w3.org (
+        <a href="/WAI/UA/TS/">
+
+        public archive</a>
+
+        ).</p>
+<hr>
+<p>Test created by:</p>
+<ul>
+<li>Colin Koteles</li>
+</ul>
+<p>Last modified: $Date: 2003/04/02 23:46:53 $ by $Author: jongund $</p>
+<p class="copyright">
+<a rel="copyright" href="http://www.w3.org/Consortium/Legal/ipr-notice-20000612#Copyright">
+
+        Copyright</a>
+
+        &copy; 1999 - 2003 
+        <a href="http://www.w3.org/"><abbr title="World Wide Web
+          Consortium">
+
+          W3C</abbr></a><sup>&reg;</sup>
+
+        (
+        <a href="http://www.lcs.mit.edu/"><abbr title="Massachusetts Institute of
+          Technology">
+
+          MIT</abbr></a>
+
+        , 
+        <a href="http://www.inria.fr/"><abbr lang="fr" title="Institut National de
+          Recherche en Informatique et Automatique">
+
+          INRIA</abbr></a>
+
+        , 
+        <a href="http://www.keio.ac.jp/">
+
+        Keio</a>
+
+        ), All Rights Reserved. W3C 
+        <a href="http://www.w3.org/Consortium/Legal/ipr-notice-20000612#Legal_Disclaimer">
+
+        liability</a>
+
+        , 
+        <a href="http://www.w3.org/Consortium/Legal/ipr-notice-20000612#W3C_Trademarks">
+
+        trademark</a>
+
+        , 
+        <a href="http://www.w3.org/Consortium/Legal/copyright-documents-19990405">
+
+        document use</a>
+
+        and 
+        <a href="http://www.w3.org/Consortium/Legal/copyright-software-19980720">
+
+        software licensing</a>
+
+        rules apply.</p>
+</body>
+</html>

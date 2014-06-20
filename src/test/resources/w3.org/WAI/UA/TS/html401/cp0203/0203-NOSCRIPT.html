@@ -1,0 +1,193 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>HTML Test Suite for UAAG 1.0
+        (Draft)</title>
+<link rel="stylesheet" type="text/css" href="http://www.w3.org/WAI/UA/TS/style/test-suite.css">
+</head>
+<body>
+<p>
+<a href="http://www.w3.org/" title="W3C Home"><img alt="W3C" height="48" width="72" border="0" src="http://www.w3.org/Icons/w3c_home.gif"></a><a href="http://www.w3.org/WAI/" title="WAI Home" rel="in-area"><img alt="Web Accessibility Initiative Home" height="48" width="212" border="0" src="http://www.w3.org/Icons/wai.gif"></a>
+</p>
+<h1>NOSCRIPT conditional content</h1>
+<p>On this page: 
+
+	<a href="#test1">Test 
+         1</a> |
+	<a href="#refs">
+        	References</a>
+ | 
+<a href="#about">
+
+        About these tests</a>
+</p>
+<p>Nearby: 
+        <a href="../">
+
+        More HTML 4.01 Tests</a>
+ | 
+<a href="http://www.w3.org/WAI/UA/TS/">
+
+        UAAG 1.0 Test Suite</a>
+</p>
+<h2>UAAG 1.0 Requirement</h2>
+<dl>
+<dt class="
+                  checkpoint">
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-conditional-content">
+Checkpoint 
+2.3
+ 
+Render conditional content</a>
+ (Priority 
+1
+)
+</dt>
+<dd class="
+                    checkpoint">
+<span class="
+                      provision"><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-conditional-content-1">
+Provision 
+1</a>
+: 
+</span>
+Allow configuration to provide access to each piece of unrendered conditional content "C".
+</dd>
+<dd class="
+                    checkpoint">
+<span class="
+                      provision"><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-conditional-content-2">
+Provision 
+2</a>
+: 
+</span>
+When a specification does not explain how to provide access to this content, do so as follows:  If C is a summary, title, alternative, description, or expansion of another piece of content D, provide access through at least one of the following mechanisms:  (1a) render C in place of D; (2a) render C in addition to D; (3a) provide access to C by allowing the user to query D. In this case, the user agent must also alert the user, on a per-element basis, to the existence of C (so that the user knows to query D); and (4a) allow the user to follow a link to C from the context of D.   Otherwise, provide access to C through at least one of the following mechanisms:  (1b) render a placeholder for C, and allow the user to view the original author-supplied content associated with each placeholder; (2b) provide access to C by query (e.g., allow the user to query an element for its attributes). In this case, the user agent must also alert the user, on a per-element basis, to the existence of C; and (3b) allow the user to follow a link in context to C.    
+</dd>
+</dl>
+<h2>
+<a name="test1">Test 
+            1
+		: 
+		</a>
+</h2>
+<h3>Procedure</h3>
+<ol>
+<li>Disable scripting in the user agent.</li>
+<li>Reload the page and determine whether or not the conditional content contained within the NOSCRIPT element is displayed.</li>
+</ol>
+<h3>Run test</h3>
+<div class="test">
+<script language="JavaScript" type="text/javascript" xml:space="preserve">
+					document.writeln ("<div class='message'>Scripting is enabled by the user agent.</div>");
+	       	</script>
+<noscript>
+	      		
+<div class="message">Scripting is disabled by the user agent.  This is conditional content.</div>
+       		
+</noscript>
+</div>
+<h3>Expected results</h3>
+<ol>
+<li>The conditional content associated with the NOSCRIPT element is displayed.</li>
+</ol>
+<h3>Source code</h3>
+<div class="
+                source-code">&lt;script language="JavaScript" type="text/javascript" xml:space="preserve"&gt;<br>&nbsp;&nbsp;&lt;div class="message"&gt;Scripting is disabled by the user agent.  This is conditional content.&lt;/div&gt;<br>&lt;/script&gt;<br>&lt;noscript&gt;<br>&nbsp;&nbsp;&lt;div class="message"&gt;Scripting is disabled by the user agent.  This is conditional content.&lt;/div&gt;<br>&lt;/noscript&gt;<br>
+</div>
+<h2>
+<a name="refs">References</a>
+</h2>
+<ol>
+<li>
+<a href="http://www.w3.org/TR/html4/interact/scripts.html#h-18.3.1">HTML 4.01 specification for NOSCRIPT</a>
+</li>
+</ol>
+<h2>
+<a name="about">About this test suite</a>
+</h2>
+<p>This test is part of a 
+        <a href="/WAI/UA/TS/">
+
+        test suite</a>
+
+        for the 
+        <a href="/TR/UAAG10/">
+
+        User Agent Accessibility Guidelines (UAAG)
+        1.0</a>
+
+        . This work is conducted by the 
+        <a href="/WAI/UA/">
+
+        User Agent Accessibility Guidelines Working
+        Group</a>
+
+        , which is part of W3C's 
+        <a href="/WAI/">
+
+        Web Accessibility Initiative (WAI)</a>
+
+        . Please send comments on this test to w3c-wai-ua@w3.org (
+        <a href="/WAI/UA/TS/">
+
+        public archive</a>
+
+        ).</p>
+<hr>
+<p>Test created by:</p>
+<ul>
+<li>Colin Koteles</li>
+</ul>
+<p>Last modified: $Date: 2003/04/02 23:46:29 $ by $Author: jongund $</p>
+<p class="copyright">
+<a rel="copyright" href="http://www.w3.org/Consortium/Legal/ipr-notice-20000612#Copyright">
+
+        Copyright</a>
+
+        &copy; 1999 - 2003 
+        <a href="http://www.w3.org/"><abbr title="World Wide Web
+          Consortium">
+
+          W3C</abbr></a><sup>&reg;</sup>
+
+        (
+        <a href="http://www.lcs.mit.edu/"><abbr title="Massachusetts Institute of
+          Technology">
+
+          MIT</abbr></a>
+
+        , 
+        <a href="http://www.inria.fr/"><abbr lang="fr" title="Institut National de
+          Recherche en Informatique et Automatique">
+
+          INRIA</abbr></a>
+
+        , 
+        <a href="http://www.keio.ac.jp/">
+
+        Keio</a>
+
+        ), All Rights Reserved. W3C 
+        <a href="http://www.w3.org/Consortium/Legal/ipr-notice-20000612#Legal_Disclaimer">
+
+        liability</a>
+
+        , 
+        <a href="http://www.w3.org/Consortium/Legal/ipr-notice-20000612#W3C_Trademarks">
+
+        trademark</a>
+
+        , 
+        <a href="http://www.w3.org/Consortium/Legal/copyright-documents-19990405">
+
+        document use</a>
+
+        and 
+        <a href="http://www.w3.org/Consortium/Legal/copyright-software-19980720">
+
+        software licensing</a>
+
+        rules apply.</p>
+</body>
+</html>

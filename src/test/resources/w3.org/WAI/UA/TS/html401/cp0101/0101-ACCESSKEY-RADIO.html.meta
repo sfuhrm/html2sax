@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0101/0101-ACCESSKEY-RADIO.html
+#Sat Jul 09 10:51:03 CEST 2011
+ETag="1536-3ba5b864b3d00"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Wed, 02 Apr 2003 23\:46\:28 GMT
+Accept-Ranges=bytes
+Content-Length=1939
+Server=Apache/2
+Content-Encoding=gzip
+md5=55a154824fa11b6b61bf93a4de21aae9
+Date=Sat, 09 Jul 2011 08\:51\:03 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:03 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=453021a05299514008e89ad7faabb713cf6486c0160169dcdef00df14da4efc6

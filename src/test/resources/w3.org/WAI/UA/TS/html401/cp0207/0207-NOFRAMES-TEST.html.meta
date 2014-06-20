@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0207/0207-NOFRAMES-TEST.html
+#Sat Jul 09 10:51:24 CEST 2011
+ETag="291-3a6026348e900"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Thu, 18 Jul 2002 01\:01\:56 GMT
+Accept-Ranges=bytes
+Content-Length=417
+Server=Apache/2
+Content-Encoding=gzip
+md5=1a387f7e42c209066c69792aa759b814
+Date=Sat, 09 Jul 2011 08\:51\:24 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:24 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=098e211842131c915d66dbf94edadb54a50efed6aec4fc482639a47090f870e2

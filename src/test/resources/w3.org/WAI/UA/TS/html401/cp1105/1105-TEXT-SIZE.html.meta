@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp1105/1105-TEXT-SIZE.html
+#Sat Jul 09 10:51:06 CEST 2011
+ETag="24ed-3ba5b88150080"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Wed, 02 Apr 2003 23\:46\:58 GMT
+Accept-Ranges=bytes
+Content-Length=2423
+Server=Apache/2
+Content-Encoding=gzip
+md5=6d8e5d848eaa0e3d77b8380c57964e61
+Date=Sat, 09 Jul 2011 08\:51\:06 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:06 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=2cf070c8ed9e9aadc55354e93dd8169f74bc7b0f8757bec4122456be58485cca

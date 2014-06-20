@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp1005/1005-LINK-INFORMATION.html
+#Sat Jul 09 10:51:22 CEST 2011
+ETag="1ca2-3ba5b87d7f780"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Wed, 02 Apr 2003 23\:46\:54 GMT
+Accept-Ranges=bytes
+Content-Length=2040
+Server=Apache/2
+Content-Encoding=gzip
+md5=fd1523b5dc924023caea5ed1779820cc
+Date=Sat, 09 Jul 2011 08\:51\:22 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:22 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=eec64bbe095531b8e54b45347988bcff0779db6fb95f433b1b6c790f3953c74b

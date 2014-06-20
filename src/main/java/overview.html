@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title>Undefined</title>
+	</head>
+	<body>
+		Html2sax is a 
+		<a href="https://javacc.dev.java.net/">JavaCC</a>-based parser for HTML pages. 
+		The motivation is easy. Many HTML pages out there are not
+		standard conform. The web-browsers have special parsers that try to
+		repair the problematic webpages before displaying them. This can
+		get quite complex because there are many alternatives fixing something
+		wrong.
+		<h3>Design</h3>
+		Html2sax is designed to be the frontend of a web-spider reading websites.
+		It can handle (almost?) all error situations, but will not try to
+		correct problematic HTML pages. It operates on a very low level and is quite fast.
+		Tests showed that it is twice as fast as Html-Tidy.
+		It will replace HTML entities like <code>"&amp;amp;"</code> to <code>"&aml;"</code>.
+		If you need correct HTML documents you can repair your documents yourself.
+
+		<h3>Restrictions</h3>
+		There are several restrictions for Html2sax that you should be aware of:
+		<ul>
+		<li> HTML is not XML. This means SAX is an API for this kind of callbacks, but most existing
+			tools having a SAX input interface will fail with Html2sax input.
+		<li> No DTD-support. You need to do your HTML-thinking for yourself.
+		<li> Won't protect your parser callback from senseless trash if documents are really weird.
+		<li> Won't repair corrupt documents.
+		</ul>
+		<h3>Requirements</h3>
+		The only requirements for the parser is a Java<sup>tm</sup> 1.5 JRE.
+		Less Java won't work because of using generics.
+		<h3>Usage</h3>
+		Usage is quite simple. The following example runs the parser:
+		<pre>
+		SAXParserFactory factory = SAXParserFactory.newInstance("de.tynne.htmltosax.HtmlToSaxParserFactory", null);
+		SAXParser parser = factory.newSAXParser();
+		YourCallback s = new YourCallback();
+		parser.parse(new InputSource(new URL(args[0]).openStream()), s);
+		</pre>
+
+		A working example is in the file <code>Sample.java</code> in the source distribution.
+
+		<h3>License</h3>
+		Html2sax is licensed under the <a href="http://www.gnu.org/licenses/lgpl-2.1.html">LGPL 2.1</a> and
+		<em>only</em> under this license version. Please see
+		<a href="http://www.gnu.org/">www.gnu.org</a> for more
+		details on the license.
+		
+		<h3>Author</h3>
+		The software was written by Stephan Fuhrmann. I can be reached at
+		<code>s_fuhrm (at) web.de</code>.
+	</body>
+</html>

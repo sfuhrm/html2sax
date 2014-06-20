@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0303/0303-CSS-BLINK.html
+#Sat Jul 09 10:51:15 CEST 2011
+ETag="128e-3ba5b86c54f00"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Wed, 02 Apr 2003 23\:46\:36 GMT
+Accept-Ranges=bytes
+Content-Length=1819
+Server=Apache/2
+Content-Encoding=gzip
+md5=053654e228863ec9d1387e572ff171db
+Date=Sat, 09 Jul 2011 08\:51\:15 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:15 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=d9697c612b992e6e119ad8de959cf847518da6462b2410186a0145c7f2256b28

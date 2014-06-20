@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp1105/1105-SEARCH-TEXT.html
+#Sat Jul 09 10:51:06 CEST 2011
+ETag="1ed2-3ba5b88150080"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Wed, 02 Apr 2003 23\:46\:58 GMT
+Accept-Ranges=bytes
+Content-Length=2556
+Server=Apache/2
+Content-Encoding=gzip
+md5=20137cdaf81d80c542bc2da6477a5f0b
+Date=Sat, 09 Jul 2011 08\:51\:05 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:05 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=252593d3a59f7d4b630a183e355c1f6fd38f6d5004e1f591bf4cfad7c9b3d82e

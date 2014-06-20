@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0208/0208-IMG-ALT.html
+#Sat Jul 09 10:51:13 CEST 2011
+ETag="12e0-3ba5b86978840"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Wed, 02 Apr 2003 23\:46\:33 GMT
+Accept-Ranges=bytes
+Content-Length=1840
+Server=Apache/2
+Content-Encoding=gzip
+md5=2d3b6538b7735fd9196e35fcacec2304
+Date=Sat, 09 Jul 2011 08\:51\:13 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:13 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=20605510c191f709ea900fb3f7ec4607f869395eac3d9d069d8c106d81a37eb8

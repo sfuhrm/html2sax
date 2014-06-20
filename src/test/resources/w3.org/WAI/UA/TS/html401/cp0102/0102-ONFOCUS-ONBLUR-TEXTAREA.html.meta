@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0102/0102-ONFOCUS-ONBLUR-TEXTAREA.html
+#Sat Jul 09 10:51:08 CEST 2011
+ETag="1f65-3ba5b865a7f40"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Wed, 02 Apr 2003 23\:46\:29 GMT
+Accept-Ranges=bytes
+Content-Length=2394
+Server=Apache/2
+Content-Encoding=gzip
+md5=f9eb0ec558f8fcb41983f7372b24c4da
+Date=Sat, 09 Jul 2011 08\:51\:08 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:08 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=eba78d60d31d354510a8735707b54afe132c800cead27babe936491523f53430

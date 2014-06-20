@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0210/0210-UNSUPPORTED-LANGUAGE.html
+#Sat Jul 09 10:51:13 CEST 2011
+ETag="1adc-3ba5b86a6ca80"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Wed, 02 Apr 2003 23\:46\:34 GMT
+Accept-Ranges=bytes
+Content-Length=2263
+Server=Apache/2
+Content-Encoding=gzip
+md5=06a67709d3adc1954ce5ba3f8434c2e8
+Date=Sat, 09 Jul 2011 08\:51\:13 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:13 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=b9ed9a779ae28ca7474f7d7b01290302f5243a411edd0ae4ffccb35be4853ab4

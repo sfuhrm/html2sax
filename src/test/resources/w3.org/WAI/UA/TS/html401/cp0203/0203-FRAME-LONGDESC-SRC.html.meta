@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-FRAME-LONGDESC-SRC.html
+#Sat Jul 09 10:51:09 CEST 2011
+ETag="1ad1-3c39f5147ac40"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Tue, 29 Jul 2003 21\:26\:01 GMT
+Accept-Ranges=bytes
+Content-Length=2436
+Server=Apache/2
+Content-Encoding=gzip
+md5=272ff7abf6ed36dfbe34757737bdb810
+Date=Sat, 09 Jul 2011 08\:51\:09 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:09 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=616a35eef54dbd161230dadf69ee0da0ff9163665e0bbd2ec9d8ae7cc2dc883f

@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0203/0203-AREA-ALT.html
+#Sat Jul 09 10:51:09 CEST 2011
+ETag="1a96-3ba5b8669c180"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Wed, 02 Apr 2003 23\:46\:30 GMT
+Accept-Ranges=bytes
+Content-Length=2242
+Server=Apache/2
+Content-Encoding=gzip
+md5=baa9a39a68cbc083dde5807c6538f401
+Date=Sat, 09 Jul 2011 08\:51\:09 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:09 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=61a6dc4c6010d2f5c088cd8e3f2ad7c70d74690ffd3e26f9de6c78570638810b

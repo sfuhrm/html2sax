@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0402/0402-FONT-FAMILY.html
+#Sat Jul 09 10:51:16 CEST 2011
+ETag="19b9-3c39f644b3a00"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Tue, 29 Jul 2003 21\:31\:20 GMT
+Accept-Ranges=bytes
+Content-Length=2092
+Server=Apache/2
+Content-Encoding=gzip
+md5=786ad041486b4753ee3bff2046718236
+Date=Sat, 09 Jul 2011 08\:51\:16 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:16 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=9e473071b9b6a6aec64e4e9d02eae0e12a4af9681ba08f93adff191b30432f52

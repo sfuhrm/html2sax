@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/frames/frame-target1.html
+#Sat Jul 09 10:51:24 CEST 2011
+ETag="1ca-3a60247ce9bc0"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Thu, 18 Jul 2002 00\:54\:15 GMT
+Accept-Ranges=bytes
+Content-Length=325
+Server=Apache/2
+Content-Encoding=gzip
+md5=22b168fb64368c5b9ddd942a23aa56b6
+Date=Sat, 09 Jul 2011 08\:51\:24 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:24 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=43c2869dc5d9f30b52ffe268128fdbeef8785b0814c7e632831c51a2efffcd0d

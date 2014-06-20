@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0304/0304-TOGGLE-SCRIPTS.html
+#Sat Jul 09 10:51:15 CEST 2011
+ETag="16a1-3ba5b86c54f00"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Wed, 02 Apr 2003 23\:46\:36 GMT
+Accept-Ranges=bytes
+Content-Length=1989
+Server=Apache/2
+Content-Encoding=gzip
+md5=e0f81daa5eb0a741cce5f4db06c5e197
+Date=Sat, 09 Jul 2011 08\:51\:15 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:15 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=5c73a78dd17bf42e20405a0a13adab96410e97da9788a4f8db64b1c0a5e0dfe5

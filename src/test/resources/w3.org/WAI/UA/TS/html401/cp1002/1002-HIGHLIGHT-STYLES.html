@@ -1,0 +1,305 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>HTML Test Suite for UAAG 1.0
+        (Draft)</title>
+<link rel="stylesheet" type="text/css" href="http://www.w3.org/WAI/UA/TS/style/test-suite.css">
+</head>
+<body>
+<p>
+<a href="http://www.w3.org/" title="W3C Home"><img alt="W3C" height="48" width="72" border="0" src="http://www.w3.org/Icons/w3c_home.gif"></a><a href="http://www.w3.org/WAI/" title="WAI Home" rel="in-area"><img alt="Web Accessibility Initiative Home" height="48" width="212" border="0" src="http://www.w3.org/Icons/wai.gif"></a>
+</p>
+<h1>Highlight Styles</h1>
+<p>On this page: 
+
+	<a href="#test1">Test 
+         1</a> |
+	<a href="#refs">
+        	References</a>
+ | 
+<a href="#about">
+
+        About these tests</a>
+</p>
+<p>Nearby: 
+        <a href="../">
+
+        More HTML 4.01 Tests</a>
+ | 
+<a href="http://www.w3.org/WAI/UA/TS/">
+
+        UAAG 1.0 Test Suite</a>
+</p>
+<h2>UAAG 1.0 Requirement</h2>
+<dl>
+<dt class="
+                  checkpoint">
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-interaction-highlight">
+Checkpoint 
+10.2
+ 
+Highlight selection, content focus, enabled elements, visited links</a>
+ (Priority 
+1
+)
+</dt>
+<dd class="
+                    checkpoint">
+<span class="
+                      provision"><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-interaction-highlight-1">
+Provision 
+1</a>
+: 
+</span>
+Allow global configuration to highlight the following four classes of information in each viewport: the selection, content focus, enabled elements, and recently visited links.
+</dd>
+<dd class="
+                    checkpoint">
+<span class="
+                      provision"><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-interaction-highlight-2">
+Provision 
+2</a>
+: 
+</span>
+ For graphical user interfaces, as part of satisfying provision one of this checkpoint, allow at least one configuration where the highlight mechanisms for the four classes of information:  differ from each other, and do not rely on rendered text foreground and background colors alone.  
+</dd>
+</dl>
+<h2>
+<a name="test1">Test 
+            1
+		: 
+		</a>
+</h2>
+<h3>Procedure</h3>
+<ol>
+<li>Select parts of the test text and the test image</li>
+<li>Move content focus to the buttons, text input boxes, and textareas on this page</li>
+</ol>
+<h3>Run test</h3>
+<div class="test">
+<div>The ungentle laws and customs touched upon in this tale are historical,
+					and the episodes which are used to illustrate them are also historical. It is
+					not pretended that these laws and customs existed in England in the sixth
+					century; no, it is only pretended that inasmuch as they existed in the English
+					and other civilizations of far later times, it is safe to consider that it is
+					no libel upon the sixth century to suppose them to have been in practice in
+					that day also. One is quite justified in inferring that whatever one of these
+					laws or customs was lacking in that remote time, its place was competently
+					filled by a worse one.<br clear="none">
+<br clear="none">
+</div>
+<div>
+<img src="../images/test.gif" alt="Test Image" width="272" height="50"><br clear="none">
+<br clear="none">
+</div>
+<div>
+<a href="1003-HIGHLIGHT-STYLES.html" shape="rect">Test visited link</a>
+</div>
+<form action="../action/return.html" method="post" enctype="application/x-www-form-urlencoded">
+					
+<label for="text1">Test Text Input:</label>
+					<input id="text1" type="text" name="text-input" maxlength="20">
+<br clear="none">
+				
+</form>
+<form action="../action/return.html" method="post" enctype="application/x-www-form-urlencoded">
+					
+<label for="textarea">Test Textarea: </label> 
+					<textarea id="textarea" name="textarea" rows="2" cols="30"></textarea>
+<br clear="none">
+				
+</form>
+<form action="../action/return.html" method="post" enctype="application/x-www-form-urlencoded">
+					
+<label for="submit">Test Submit Button: </label>
+					<button id="submit" name="submit" type="submit" value="submit">Submit</button> 
+				
+</form>
+<form action="../action/return.html" method="get" enctype="application/x-www-form-urlencoded">
+					
+<label for="test-button">Test Input Button: </label>
+					<input id="test-button" type="button" value="Input Button"> 
+				
+</form>
+<form action="../action/return.html" method="post" enctype="application/x-www-form-urlencoded">
+					
+<label for="checkbox1">Test Checkbox 1</label>
+					<input id="checkbox1" type="checkbox" value="1" name="check-input" checked>
+<br clear="none">
+					
+<label for="checkbox2">Test Checkbox 2</label>
+					<input id="checkbox2" type="checkbox" value="2" name="check-input">
+				
+</form>
+<form action="../action/return.html" method="post" enctype="application/x-www-form-urlencoded">
+					
+<label for="button1">Test Radio Button 1: </label>
+					<input id="button1" type="radio" value="1" name="radio-input" checked>
+<br clear="none">
+					
+<label for="button2">Test Radio Button 2: </label>
+					<input id="button2" type="radio" value="2" name="radio-input">
+		   	
+</form>
+<div>Test Inline frame:</div>
+<iframe title="Frame Test Suite Target 1" name="iframe1" src="../frames/frame-target1.html" width="50%" scrolling="yes" height="60" frameborder="1">This part of the test suite requires frames to be supported
+	 			and enabled by your browser. Please enable frames to use this suite. 
+				</iframe>
+</div>
+<h3>Expected results</h3>
+<ol>
+<li>The different elements on this page should be highlighted in ways that do not rely on color alone.</li>
+<li>The current selection, content focus, enabled elements, and recently visited links should be highlighted in ways that differ from each other in more than color.</li>
+</ol>
+<h3>Source code</h3>
+<div class="
+                source-code">
+<div>
+				&lt;div&gt;The ungentle laws and customs touched upon in this tale are historical,
+					and the episodes which are used to illustrate them are also historical. It is
+					not pretended that these laws and customs existed in England in the sixth
+					century; no, it is only pretended that inasmuch as they existed in the English
+					and other civilizations of far later times, it is safe to consider that it is
+					no libel upon the sixth century to suppose them to have been in practice in
+					that day also. One is quite justified in inferring that whatever one of these
+					laws or customs was lacking in that remote time, its place was competently
+					filled by a worse one.&lt;/div&gt;<br clear="none">
+				 &lt;div&gt;&lt;img src="../images/test.gif" alt="Test Image" width="272" height="50"/&gt;&lt;/div&gt;<br clear="none"> 
+				 &lt;div&gt;&lt;a href="1003-HIGHLIGHT-STYLES.html"&gt;Test visited link&lt;/a&gt;&lt;/div&gt;<br clear="none">
+				 &lt;form action="../action/return.html" method="post"&gt;<br clear="none">
+					&lt;label for="text1"&gt;Test Text Input:&lt;/label&gt;<br clear="none">
+					&lt;input id="text1" type="text" name="text-input" maxlength="20"/&gt;&lt;br/&gt;<br clear="none">
+				&lt;/form&gt;<br clear="none"> 
+				&lt;form action="../action/return.html" method="post"&gt;<br clear="none">
+					&lt;label for="textarea"&gt;Test Textarea: &lt;/label&gt;<br clear="none"> 
+					&lt;textarea id="textarea" name="textarea" rows="2" cols="30"&gt;&lt;/textarea&gt;&lt;br/&gt;<br clear="none">
+				&lt;/form&gt;<br clear="none">				 
+				&lt;form action="../action/return.html" method="post"&gt;<br clear="none">
+					&lt;label for="submit"&gt;Test Submit Button: &lt;/label&gt;<br clear="none">
+					&lt;button id="submit" name="submit" type="submit" value="submit"&gt;Submit&lt;/button&gt;<br clear="none"> 
+				&lt;/form&gt;<br clear="none">				 
+				&lt;form action="../action/return.html" method="get"&gt;<br clear="none">
+					&lt;label for="test-button"&gt;Test Input Button: &lt;/label&gt;<br clear="none">
+					&lt;input id="test-button" type="button" value="Input Button"/&gt;<br clear="none"> 
+				&lt;/form&gt;<br clear="none">				 
+  				&lt;form action="../action/return.html" method="post"&gt;<br clear="none">
+					&lt;label for="checkbox1"&gt;Test Checkbox 1&lt;/label&gt;<br clear="none">
+					&lt;input id="checkbox1" type="checkbox" value="1" name="check-input" checked="checked"/&gt;&lt;br/&gt;<br clear="none">
+					&lt;label for="checkbox2"&gt;Test Checkbox 2&lt;/label&gt;<br clear="none">
+					&lt;input id="checkbox2" type="checkbox" value="2" name="check-input"/&gt;<br clear="none">
+				&lt;/form&gt;<br clear="none">
+				&lt;form action="../action/return.html" method="post"&gt;<br clear="none">
+					&lt;label for="button1"&gt;Test Radio Button 1: &lt;/label&gt;<br clear="none">
+					&lt;input id="button1" type="radio" value="1" name="radio-input" checked="checked"/&gt;&lt;br/&gt;<br clear="none">
+					&lt;label for="button2"&gt;Test Radio Button 2: &lt;/label&gt;<br clear="none">
+					&lt;input id="button2" type="radio" value="2" name="radio-input"/&gt;<br clear="none">
+		   	&lt;/form&gt;<br clear="none">
+				&lt;div&gt;Test Inline frame:&lt;/div&gt;<br clear="none">				
+  				&lt;iframe title="Frame Test Suite Target 1" name="iframe1" src="../frames/frame-target1.html" width="50%" scrolling="yes" height="60"&gt;<br clear="none">This part of the test suite requires frames to be supported
+	 			and enabled by your browser. Please enable frames to use this suite.<br clear="none"> 
+				&lt;/iframe&gt; 
+				</div>
+</div>
+<h2>
+<a name="refs">References</a>
+</h2>
+<ol>
+<li>
+<a href="http://www.w3.org/TR/UAAG10/glossary.html#def-selection">HTML 4.01 definition for selection</a>
+</li>
+<li>
+<a href="http://www.w3.org/TR/UAAG10/glossary.html#def-content-focus">HTML 4.01 definition for content focus</a>
+</li>
+<li>
+<a href="http://www.w3.org/TR/UAAG10/glossary.html#def-enabled-element">HTML 4.01 definition for enabled elements</a>
+</li>
+</ol>
+<h2>
+<a name="about">About this test suite</a>
+</h2>
+<p>This test is part of a 
+        <a href="/WAI/UA/TS/">
+
+        test suite</a>
+
+        for the 
+        <a href="/TR/UAAG10/">
+
+        User Agent Accessibility Guidelines (UAAG)
+        1.0</a>
+
+        . This work is conducted by the 
+        <a href="/WAI/UA/">
+
+        User Agent Accessibility Guidelines Working
+        Group</a>
+
+        , which is part of W3C's 
+        <a href="/WAI/">
+
+        Web Accessibility Initiative (WAI)</a>
+
+        . Please send comments on this test to w3c-wai-ua@w3.org (
+        <a href="/WAI/UA/TS/">
+
+        public archive</a>
+
+        ).</p>
+<hr>
+<p>Test created by:</p>
+<ul>
+<li>Colin Koteles</li>
+</ul>
+<p>Last modified: $Date: 2003/04/02 23:46:52 $ by $Author: jongund $</p>
+<p class="copyright">
+<a rel="copyright" href="http://www.w3.org/Consortium/Legal/ipr-notice-20000612#Copyright">
+
+        Copyright</a>
+
+        &copy; 1999 - 2003 
+        <a href="http://www.w3.org/"><abbr title="World Wide Web
+          Consortium">
+
+          W3C</abbr></a><sup>&reg;</sup>
+
+        (
+        <a href="http://www.lcs.mit.edu/"><abbr title="Massachusetts Institute of
+          Technology">
+
+          MIT</abbr></a>
+
+        , 
+        <a href="http://www.inria.fr/"><abbr lang="fr" title="Institut National de
+          Recherche en Informatique et Automatique">
+
+          INRIA</abbr></a>
+
+        , 
+        <a href="http://www.keio.ac.jp/">
+
+        Keio</a>
+
+        ), All Rights Reserved. W3C 
+        <a href="http://www.w3.org/Consortium/Legal/ipr-notice-20000612#Legal_Disclaimer">
+
+        liability</a>
+
+        , 
+        <a href="http://www.w3.org/Consortium/Legal/ipr-notice-20000612#W3C_Trademarks">
+
+        trademark</a>
+
+        , 
+        <a href="http://www.w3.org/Consortium/Legal/copyright-documents-19990405">
+
+        document use</a>
+
+        and 
+        <a href="http://www.w3.org/Consortium/Legal/copyright-software-19980720">
+
+        software licensing</a>
+
+        rules apply.</p>
+</body>
+</html>

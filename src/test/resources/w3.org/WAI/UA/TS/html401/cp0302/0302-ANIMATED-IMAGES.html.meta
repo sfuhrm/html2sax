@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0302/0302-ANIMATED-IMAGES.html
+#Sat Jul 09 10:51:14 CEST 2011
+ETag="1328-3c075f6a75500"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Thu, 19 Jun 2003 15\:50\:12 GMT
+Accept-Ranges=bytes
+Content-Length=1839
+Server=Apache/2
+Content-Encoding=gzip
+md5=45b5619d3dc3076042f7ac067675aa33
+Date=Sat, 09 Jul 2011 08\:51\:14 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:14 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=1e917179caf02096d8158e79cf4597cddc6c8801ba4a190bd1e8e7ec584b42fd

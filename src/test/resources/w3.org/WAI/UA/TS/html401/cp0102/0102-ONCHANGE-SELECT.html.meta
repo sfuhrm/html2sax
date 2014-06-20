@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0102/0102-ONCHANGE-SELECT.html
+#Sat Jul 09 10:51:06 CEST 2011
+ETag="22e4-3d5374c1cb7c0"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Tue, 09 Mar 2004 18\:53\:27 GMT
+Accept-Ranges=bytes
+Content-Length=2488
+Server=Apache/2
+Content-Encoding=gzip
+md5=ee0759f002a01a1e39ab82b5514f6e7e
+Date=Sat, 09 Jul 2011 08\:51\:06 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:06 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=93c4988274e30aa7e72b7cc3469de5f15d2f8df636149564019f9a4b08d93bfd

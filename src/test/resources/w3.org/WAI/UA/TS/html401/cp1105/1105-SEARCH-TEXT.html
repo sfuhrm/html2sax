@@ -1,0 +1,231 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>HTML Test Suite for UAAG 1.0
+        (Draft)</title>
+<link rel="stylesheet" type="text/css" href="http://www.w3.org/WAI/UA/TS/style/test-suite.css">
+</head>
+<body>
+<p>
+<a href="http://www.w3.org/" title="W3C Home"><img alt="W3C" height="48" width="72" border="0" src="http://www.w3.org/Icons/w3c_home.gif"></a><a href="http://www.w3.org/WAI/" title="WAI Home" rel="in-area"><img alt="Web Accessibility Initiative Home" height="48" width="212" border="0" src="http://www.w3.org/Icons/wai.gif"></a>
+</p>
+<h1>User Agent Bindings for Searching for Text</h1>
+<p>On this page: 
+
+	<a href="#test1">Test 
+         1</a> |
+	<a href="#refs">
+        	References</a>
+ | 
+<a href="#about">
+
+        About these tests</a>
+</p>
+<p>Nearby: 
+        <a href="../">
+
+        More HTML 4.01 Tests</a>
+ | 
+<a href="http://www.w3.org/WAI/UA/TS/">
+
+        UAAG 1.0 Test Suite</a>
+</p>
+<h2>UAAG 1.0 Requirement</h2>
+<dl>
+<dt class="
+                  checkpoint">
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-default-input-config">
+Checkpoint 
+11.5
+ 
+Default input configuration</a>
+ (Priority 
+2
+)
+</dt>
+<dd class="
+                    checkpoint">
+<span class="
+                      provision"><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-default-input-config-1">
+Provision 
+1</a>
+: 
+</span>
+Ensure that the user agent default input configuration includes bindings for the following functionalities required by other checkpoints in this document:  move content focus to the next enabled element in document order, and move content focus to the previous enabled element in document order (checkpoints 9.3 and 9.7); activate the link designated by the content focus (checkpoints 1.1 and 9.1); search for text, search again for same text (checkpoint 9.8); increase the scale of rendered text, and decrease the scale of rendered text (checkpoint 4.1); increase global volume, and decrease global volume (checkpoint 4.7); and stop, pause, resume, and navigate efficiently selected audio and animations, including video and animated images (checkpoint 4.5).  
+</dd>
+<dt class="
+                  checkpoint">
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-device-independent-ui">
+Checkpoint 
+1.1
+ 
+Full keyboard access</a>
+ (Priority 
+1
+)
+</dt>
+<dd class="
+                    checkpoint">
+<span class="
+                      provision"><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-device-independent-ui-1">
+Provision 
+1</a>
+: 
+</span>
+Ensure that the user can operate, through keyboard input alone, any user agent functionality available through the user interface.
+</dd>
+</dl>
+<h2>
+<a name="test1">Test 
+            1
+		: 
+		</a>
+</h2>
+<h3>Procedure</h3>
+<ol>
+<li>Using the keyboard or an assistive technology that emulates the keyboard, search this page for the text string "Hulks".</li>
+<li>Using the keyboard or an assistive technology that emulates the keyboard, search this page again for the text string "Hulks".</li>
+</ol>
+<h3>Run test</h3>
+<div class="test">
+<h3 class="test-code">Paragraph 1</h3>
+<p class="test">
+					It was too much for Mrs. Joe, who immediately rose.  "I tell you
+					what, young fellow," said she, "I didn't bring you up by hand to
+					badger people's lives out.  It would be blame to me, and not praise,
+					if I had.  People are put in the Hulks because they murder, and
+					because they rob, and forge, and do all sorts of bad; and they
+					always begin by asking questions.  Now, you get along to bed!"
+				</p>
+<h3 class="test-code">Paragraph 2</h3>
+<p class="test">
+					I was never allowed a candle to light me to bed, and, as I went
+					upstairs in the dark, with my head tingling - from Mrs. Joe's
+					thimble having played the tambourine upon it, to accompany her last
+					words - I felt fearfully sensible of the great convenience that the
+					Hulks were handy for me.  I was clearly on my way there.  I had begun
+					by asking questions, and I was going to rob Mrs. Joe.
+				</p>
+</div>
+<h3>Expected results</h3>
+<ol>
+<li>Using the input configuration of the default user agent bindings, the user can locate the text string "Hulks" in "Paragraph 1".</li>
+<li>Using the input configuration of the default user agent bindings, the user can search again for the text string "Hulks" and locate it in "Paragraph 2".</li>
+</ol>
+<h3>Source code</h3>
+<div class="
+                source-code">&lt;h3 class="test-code" class="test" class="test-code" class="test"&gt;Paragraph 1&lt;/h3&gt;<br>&lt;p class="test" class="test-code" class="test"&gt;
+					It was too much for Mrs. Joe, who immediately rose.  "I tell you
+					what, young fellow," said she, "I didn't bring you up by hand to
+					badger people's lives out.  It would be blame to me, and not praise,
+					if I had.  People are put in the Hulks because they murder, and
+					because they rob, and forge, and do all sorts of bad; and they
+					always begin by asking questions.  Now, you get along to bed!"
+				&lt;/p&gt;<br>&lt;h3 class="test-code" class="test"&gt;Paragraph 2&lt;/h3&gt;<br>&lt;p class="test"&gt;
+					I was never allowed a candle to light me to bed, and, as I went
+					upstairs in the dark, with my head tingling - from Mrs. Joe's
+					thimble having played the tambourine upon it, to accompany her last
+					words - I felt fearfully sensible of the great convenience that the
+					Hulks were handy for me.  I was clearly on my way there.  I had begun
+					by asking questions, and I was going to rob Mrs. Joe.
+				&lt;/p&gt;<br>
+</div>
+<h2>
+<a name="refs">References</a>
+</h2>
+<ol>
+<li>
+<a href="http://www.w3.org/TR/html4/struct/text.html">HTML 4.01
+ specification for 
+Text</a>
+</li>
+</ol>
+<h2>
+<a name="about">About this test suite</a>
+</h2>
+<p>This test is part of a 
+        <a href="/WAI/UA/TS/">
+
+        test suite</a>
+
+        for the 
+        <a href="/TR/UAAG10/">
+
+        User Agent Accessibility Guidelines (UAAG)
+        1.0</a>
+
+        . This work is conducted by the 
+        <a href="/WAI/UA/">
+
+        User Agent Accessibility Guidelines Working
+        Group</a>
+
+        , which is part of W3C's 
+        <a href="/WAI/">
+
+        Web Accessibility Initiative (WAI)</a>
+
+        . Please send comments on this test to w3c-wai-ua@w3.org (
+        <a href="/WAI/UA/TS/">
+
+        public archive</a>
+
+        ).</p>
+<hr>
+<p>Test created by:</p>
+<ul>
+<li>Colin Koteles</li>
+</ul>
+<p>Last modified: $Date: 2003/04/02 23:46:57 $ by $Author: jongund $</p>
+<p class="copyright">
+<a rel="copyright" href="http://www.w3.org/Consortium/Legal/ipr-notice-20000612#Copyright">
+
+        Copyright</a>
+
+        &copy; 1999 - 2003 
+        <a href="http://www.w3.org/"><abbr title="World Wide Web
+          Consortium">
+
+          W3C</abbr></a><sup>&reg;</sup>
+
+        (
+        <a href="http://www.lcs.mit.edu/"><abbr title="Massachusetts Institute of
+          Technology">
+
+          MIT</abbr></a>
+
+        , 
+        <a href="http://www.inria.fr/"><abbr lang="fr" title="Institut National de
+          Recherche en Informatique et Automatique">
+
+          INRIA</abbr></a>
+
+        , 
+        <a href="http://www.keio.ac.jp/">
+
+        Keio</a>
+
+        ), All Rights Reserved. W3C 
+        <a href="http://www.w3.org/Consortium/Legal/ipr-notice-20000612#Legal_Disclaimer">
+
+        liability</a>
+
+        , 
+        <a href="http://www.w3.org/Consortium/Legal/ipr-notice-20000612#W3C_Trademarks">
+
+        trademark</a>
+
+        , 
+        <a href="http://www.w3.org/Consortium/Legal/copyright-documents-19990405">
+
+        document use</a>
+
+        and 
+        <a href="http://www.w3.org/Consortium/Legal/copyright-software-19980720">
+
+        software licensing</a>
+
+        rules apply.</p>
+</body>
+</html>

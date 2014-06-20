@@ -1,0 +1,397 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>HTML Test Suite for UAAG 1.0
+        (Draft)</title>
+<link rel="stylesheet" type="text/css" href="http://www.w3.org/WAI/UA/TS/style/test-suite.css">
+<script language="javascript" type="text/javascript">
+					function imgChange1( img ) 
+					{
+   					document.lamp1.src = img;
+					}
+					function imgChange( img ) 
+					{
+   					document.star1.src = img
+					}						
+			</script>
+</head>
+<body>
+<p>
+<a href="http://www.w3.org/" title="W3C Home"><img alt="W3C" height="48" width="72" border="0" src="http://www.w3.org/Icons/w3c_home.gif"></a><a href="http://www.w3.org/WAI/" title="WAI Home" rel="in-area"><img alt="Web Accessibility Initiative Home" height="48" width="212" border="0" src="http://www.w3.org/Icons/wai.gif"></a>
+</p>
+<h1>Move Content Focus in Reverse Order to Enabled Elements</h1>
+<p>On this page: 
+
+	<a href="#test1">Test 
+         1</a> |
+	<a href="#refs">
+        	References</a>
+ | 
+<a href="#about">
+
+        About these tests</a>
+</p>
+<p>Nearby: 
+        <a href="../">
+
+        More HTML 4.01 Tests</a>
+ | 
+<a href="http://www.w3.org/WAI/UA/TS/">
+
+        UAAG 1.0 Test Suite</a>
+</p>
+<h2>UAAG 1.0 Requirement</h2>
+<dl>
+<dt class="
+                  checkpoint">
+<a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-nav-just-active">
+Checkpoint 
+9.7
+ 
+Move content focus in reverse</a>
+ (Priority 
+2
+)
+</dt>
+<dd class="
+                    checkpoint">
+<span class="
+                      provision"><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-nav-just-active-1">
+Provision 
+1</a>
+: 
+</span>
+ Extend the functionality required in provision three of checkpoint 9.3 by allowing the same sequential navigation in reverse document order.
+</dd>
+<dd class="
+                    checkpoint">
+<span class="
+                      provision"><a href="http://www.w3.org/TR/2002/REC-UAAG10-20021217/guidelines#tech-nav-just-active-2">
+Provision 
+2</a>
+: 
+</span>
+ As part of satisfying provision one of this checkpoint, the user agent must not include disabled elements in the navigation order.
+</dd>
+</dl>
+<h2>
+<a name="test1">Test 
+            1
+		: 
+		</a>
+</h2>
+<h3>Procedure</h3>
+<ol>
+<li>Using the keyboard or an assistive technology that emulates the keyboard, sequentially move content focus to every enabled element in the test area.</li>
+<li>Using the keyboard or an assistive technology that emulates the keyboard, sequentially move content focus to every enabled element in the test area in the reverse order of previous navigation.</li>
+</ol>
+<h3>Run test</h3>
+<div class="test">
+<div>
+					
+<form action="../action/return.html" method="post" title="Test Form 1" enctype="application/x-www-form-urlencoded">
+						
+<table border="1" cellpadding="5" summary="Layout table for test form number 1">
+							
+<tr>
+<th rowspan="1" colspan="1">Test Form Control Enabled Elements</th>
+</tr> 				
+							
+<tr>
+<td rowspan="1" colspan="1">	
+								<label>Label for test text input: <input type="text" name="testTextInput"></label>
+<br clear="none">
+								
+<label>Label for test checkbox input: <input type="checkbox" name="testCheckInput"></label>
+<br clear="none">
+								
+<label>Label for test radio input 1: <input type="radio" name="testRadioInput" checked></label>
+<br clear="none">	
+								
+<label>Label for test radio input 2: <input type="radio" name="testRadioInput"></label>
+<br clear="none">																			
+							
+</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">	
+								<input type="reset" value="reset">
+								<input type="submit" value="submit">
+							</td>
+</tr>
+						
+</table>
+					
+</form>
+					
+					
+<p> 
+</p>
+					
+					
+<form action="../action/return.html" method="post" title="Test Form 1" enctype="application/x-www-form-urlencoded">
+						
+<table border="1" cellpadding="5" summary="Layout table for test form number 2">
+							
+<tr>
+<th rowspan="1" colspan="1">Test Form Control Disabled Elements</th>
+</tr>
+							
+<tr>
+<td rowspan="1" colspan="1">
+							 	<textarea name="test-textarea" rows="1" cols="30" disabled>Disabled textarea</textarea>
+							</td>
+</tr>
+							
+<tr>
+<td rowspan="1" colspan="1">
+								<select name="test-optgroup" disabled>
+									<option value="opt1">Option 1</option>
+									<option value="opt2">Option 2</option>
+									<option value="opt3">Option 3</option>									
+								</select>
+							</td>
+</tr> 	
+							
+<tr>
+<td rowspan="1" colspan="1">	
+								<input type="reset" value="reset" disabled>
+								<input type="submit" value="submit" disabled>
+							</td>
+</tr>
+						
+</table>
+					
+</form>							
+					
+					
+<p> 
+</p>					
+					
+					
+<table border="1" cellpadding="5" summary="Layout table for test links">
+						
+<tr>
+<th rowspan="1" colspan="1">Link Enabled Elements</th>
+</tr> 					
+						
+<tr>
+<td rowspan="1" colspan="1">						
+							
+<p class="test">
+								
+<a href="../action/return.html" shape="rect">Test Link 1</a>
+							
+</p>
+						
+</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">
+							
+<p class="test">
+								
+<a href="../action/return.html" shape="rect">Test Link 2</a>
+							
+</p>
+						
+</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">
+							
+<p class="test">
+								
+<a href="../action/return.html" shape="rect">Test Link 3</a>
+							
+</p>
+						
+</td>
+</tr>
+					
+</table>	
+					
+					
+<p> 
+</p>							
+					
+					
+<table border="1" cellpadding="5" summary="Layout table for test event handlers">
+						
+<tr>
+<th rowspan="1" colspan="1">Event Handler Enabled Elements</th>
+</tr> 					
+						
+<tr>
+<td rowspan="1" colspan="1">						
+							
+<p>Onmouseover/onmouseout events: 
+								<img id="lamp1" onmouseover="imgChange1('../images/tn_desklamp1.gif')" onmouseout="imgChange1('../images/desklamp2.gif')" src="../images/desklamp2.gif" height="32" width="25" alt="Lamp turned off" border="0" name="lamp1">
+							</p>	
+						
+</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">
+							
+<p>Onclick/ondblclick events: 
+								<img id="star1" ondblclick="imgChange('../images/starPink.gif')" onclick="imgChange('../images/starRed.gif')" src="../images/starYel.gif" width="35" height="35" alt="star" border="0" name="star1">
+							</p>
+						
+</td>
+</tr>
+					
+</table>			
+					
+					
+<p> 
+</p>
+					
+					
+<table border="1" cellpadding="5" summary="Layout table for image maps">
+						
+<tr>
+<th rowspan="1" colspan="1">Image Map Enabled Elements</th>
+</tr> 				
+						
+<tr>
+<td rowspan="1" colspan="1">	
+							<img src="../images/map-area2.gif" alt="Test Map Area" width="140" height="40" usemap="#testMap" border="0">
+							<map name="testMap" id="testMap" title="Test Map Area">					
+	 							
+<area href="../action/return.html" alt="Green Map Area" shape="rect" coords="0,0,70,40">
+								
+<area href="../action/return.html" alt="Red Map Area" shape="rect" coords="71,0,140,40">
+							
+</map>		
+						
+</td>
+</tr>
+					
+</table>							
+				
+</div>
+</div>
+<h3>Expected results</h3>
+<ol>
+<li>The user can move content focus to any of the enabled elements in the test area.</li>
+<li>The user agent allows reverse sequential navigation through each enabled element.</li>
+<li>The user agent must not include the disabled elements in the navigation order.</li>
+</ol>
+<h3>Source code</h3>
+<div class="
+                source-code">&lt;div&gt;<br>&nbsp;&nbsp;&lt;form action="../action/return.html" method="post" title="Test Form 1" enctype="application/x-www-form-urlencoded"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;table border="1" cellpadding="5" summary="Layout table for test form number 1"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th rowspan="1" colspan="1"&gt;Test Form Control Enabled Elements&lt;/th&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td rowspan="1" colspan="1"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="text" name="testTextInput"&gt;&lt;/input&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/label&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;br clear="none"&gt;&lt;/br&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="checkbox" name="testCheckInput"&gt;&lt;/input&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/label&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;br clear="none"&gt;&lt;/br&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="radio" name="testRadioInput" checked="checked"&gt;&lt;/input&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/label&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;br clear="none"&gt;&lt;/br&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="radio" name="testRadioInput"&gt;&lt;/input&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/label&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;br clear="none"&gt;&lt;/br&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/td&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td rowspan="1" colspan="1"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="reset" value="reset"&gt;&lt;/input&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="submit" value="submit"&gt;&lt;/input&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/td&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/table&gt;<br>&nbsp;&nbsp;&lt;/form&gt;<br>&nbsp;&nbsp;&lt;p&gt; &lt;/p&gt;<br>&nbsp;&nbsp;&lt;form action="../action/return.html" method="post" title="Test Form 1" enctype="application/x-www-form-urlencoded"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;table border="1" cellpadding="5" summary="Layout table for test form number 2"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th rowspan="1" colspan="1"&gt;Test Form Control Disabled Elements&lt;/th&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td rowspan="1" colspan="1"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;textarea name="test-textarea" rows="1" cols="30" disabled="disabled"&gt;Disabled textarea&lt;/textarea&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/td&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td rowspan="1" colspan="1"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;select name="test-optgroup" disabled="disabled"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;option value="opt1"&gt;Option 1&lt;/option&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;option value="opt2"&gt;Option 2&lt;/option&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;option value="opt3"&gt;Option 3&lt;/option&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/select&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/td&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td rowspan="1" colspan="1"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="reset" value="reset" disabled="disabled"&gt;&lt;/input&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="submit" value="submit" disabled="disabled"&gt;&lt;/input&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/td&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/table&gt;<br>&nbsp;&nbsp;&lt;/form&gt;<br>&nbsp;&nbsp;&lt;p&gt; &lt;/p&gt;<br>&nbsp;&nbsp;&lt;table border="1" cellpadding="5" summary="Layout table for test links"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th rowspan="1" colspan="1"&gt;Link Enabled Elements&lt;/th&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td rowspan="1" colspan="1"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p class="test"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a href="../action/return.html" shape="rect"&gt;Test Link 1&lt;/a&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/p&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/td&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td rowspan="1" colspan="1"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p class="test"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a href="../action/return.html" shape="rect"&gt;Test Link 2&lt;/a&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/p&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/td&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td rowspan="1" colspan="1"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p class="test"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a href="../action/return.html" shape="rect"&gt;Test Link 3&lt;/a&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/p&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/td&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>&nbsp;&nbsp;&lt;/table&gt;<br>&nbsp;&nbsp;&lt;p&gt; &lt;/p&gt;<br>&nbsp;&nbsp;&lt;table border="1" cellpadding="5" summary="Layout table for test event handlers"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th rowspan="1" colspan="1"&gt;Event Handler Enabled Elements&lt;/th&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td rowspan="1" colspan="1"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;img id="lamp1" onmouseover="imgChange1('../images/tn_desklamp1.gif')" onmouseout="imgChange1('../images/desklamp2.gif')" src="../images/desklamp2.gif" height="32" width="25" alt="Lamp turned off" border="0" name="lamp1"&gt;&lt;/img&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/p&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/td&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td rowspan="1" colspan="1"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;img id="star1" ondblclick="imgChange('../images/starPink.gif')" onclick="imgChange('../images/starRed.gif')" src="../images/starYel.gif" width="35" height="35" alt="star" border="0" name="star1"&gt;&lt;/img&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/p&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/td&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>&nbsp;&nbsp;&lt;/table&gt;<br>&nbsp;&nbsp;&lt;p&gt; &lt;/p&gt;<br>&nbsp;&nbsp;&lt;table border="1" cellpadding="5" summary="Layout table for image maps"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th rowspan="1" colspan="1"&gt;Image Map Enabled Elements&lt;/th&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td rowspan="1" colspan="1"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;img src="../images/map-area2.gif" alt="Test Map Area" width="140" height="40" usemap="#testMap" border="0"&gt;&lt;/img&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;map name="testMap" id="testMap" title="Test Map Area"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;area href="../action/return.html" alt="Green Map Area" shape="rect" coords="0,0,70,40"&gt;&lt;/area&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;area href="../action/return.html" alt="Red Map Area" shape="rect" coords="71,0,140,40"&gt;&lt;/area&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/map&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/td&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>&nbsp;&nbsp;&lt;/table&gt;<br>&lt;/div&gt;<br>
+</div>
+<h3 class="test">
+
+            Test Script Code</h3>
+<div class="
+              source-code">
+					function imgChange1( img ) 
+					{
+   					document.lamp1.src = img;
+					}
+					function imgChange( img ) 
+					{
+   					document.star1.src = img
+					}						
+			</div>
+<h2>
+<a name="refs">References</a>
+</h2>
+<ol>
+<li>
+<a href="http://www.w3.org/WAI/UA/WD-UAAG10-20020708/glossary.html#def-enabled-element">W3C/WAI/UAAG
+ specification for 
+Enabled Elements</a>
+</li>
+</ol>
+<h2>
+<a name="about">About this test suite</a>
+</h2>
+<p>This test is part of a 
+        <a href="/WAI/UA/TS/">
+
+        test suite</a>
+
+        for the 
+        <a href="/TR/UAAG10/">
+
+        User Agent Accessibility Guidelines (UAAG)
+        1.0</a>
+
+        . This work is conducted by the 
+        <a href="/WAI/UA/">
+
+        User Agent Accessibility Guidelines Working
+        Group</a>
+
+        , which is part of W3C's 
+        <a href="/WAI/">
+
+        Web Accessibility Initiative (WAI)</a>
+
+        . Please send comments on this test to w3c-wai-ua@w3.org (
+        <a href="/WAI/UA/TS/">
+
+        public archive</a>
+
+        ).</p>
+<hr>
+<p>Test created by:</p>
+<ul>
+<li>Colin Koteles</li>
+</ul>
+<p>Last modified: $Date: 2003/04/02 23:46:48 $ by $Author: jongund $</p>
+<p class="copyright">
+<a rel="copyright" href="http://www.w3.org/Consortium/Legal/ipr-notice-20000612#Copyright">
+
+        Copyright</a>
+
+        &copy; 1999 - 2003 
+        <a href="http://www.w3.org/"><abbr title="World Wide Web
+          Consortium">
+
+          W3C</abbr></a><sup>&reg;</sup>
+
+        (
+        <a href="http://www.lcs.mit.edu/"><abbr title="Massachusetts Institute of
+          Technology">
+
+          MIT</abbr></a>
+
+        , 
+        <a href="http://www.inria.fr/"><abbr lang="fr" title="Institut National de
+          Recherche en Informatique et Automatique">
+
+          INRIA</abbr></a>
+
+        , 
+        <a href="http://www.keio.ac.jp/">
+
+        Keio</a>
+
+        ), All Rights Reserved. W3C 
+        <a href="http://www.w3.org/Consortium/Legal/ipr-notice-20000612#Legal_Disclaimer">
+
+        liability</a>
+
+        , 
+        <a href="http://www.w3.org/Consortium/Legal/ipr-notice-20000612#W3C_Trademarks">
+
+        trademark</a>
+
+        , 
+        <a href="http://www.w3.org/Consortium/Legal/copyright-documents-19990405">
+
+        document use</a>
+
+        and 
+        <a href="http://www.w3.org/Consortium/Legal/copyright-software-19980720">
+
+        software licensing</a>
+
+        rules apply.</p>
+</body>
+</html>

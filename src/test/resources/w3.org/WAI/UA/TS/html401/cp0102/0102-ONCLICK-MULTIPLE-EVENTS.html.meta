@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0102/0102-ONCLICK-MULTIPLE-EVENTS.html
+#Sat Jul 09 10:51:07 CEST 2011
+ETag="2ee6-3ba5b865a7f40"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Wed, 02 Apr 2003 23\:46\:29 GMT
+Accept-Ranges=bytes
+Content-Length=2824
+Server=Apache/2
+Content-Encoding=gzip
+md5=65473c084bb3b0d78d412a3446cd381c
+Date=Sat, 09 Jul 2011 08\:51\:07 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:07 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=1718d4744c2c116775864f51995333c4dfe80ea90831ef6f1ea22a8cc412a22c

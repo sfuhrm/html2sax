@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0305/0305-REDIRECT.html
+#Sat Jul 09 10:51:15 CEST 2011
+ETag="1290-3ba5b86e3d380"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Wed, 02 Apr 2003 23\:46\:38 GMT
+Accept-Ranges=bytes
+Content-Length=1794
+Server=Apache/2
+Content-Encoding=gzip
+md5=728176d4b635a9e7ece87b439d5203d1
+Date=Sat, 09 Jul 2011 08\:51\:15 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:15 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=bfb0050ff27c6b9778779c11f17f503c30456d6086fad936164bd9a87691b312

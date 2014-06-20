@@ -1,0 +1,19 @@
+#Headers for http://www.w3.org/WAI/UA/TS/html401/cp0414/0414-MULTIPLE-AUTHOR-STYLE.html
+#Sat Jul 09 10:51:16 CEST 2011
+ETag="1a44-3ba5b8720dc80"
+Cache-Control=max-age\=21600
+P3P=policyref\="http\://www.w3.org/2001/05/P3P/p3p.xml"
+Last-Modified=Wed, 02 Apr 2003 23\:46\:42 GMT
+Accept-Ranges=bytes
+Content-Length=1955
+Server=Apache/2
+Content-Encoding=gzip
+md5=232789e2215c03048c0b50858b3524fa
+Date=Sat, 09 Jul 2011 08\:51\:16 GMT
+Status=HTTP/1.1 200 OK
+Vary=Accept-Encoding
+Expires=Sat, 09 Jul 2011 14\:51\:16 GMT
+Content-Type=text/html; charset\=utf-8
+=HTTP/1.1 200 OK
+Connection=close
+sha256=c9544382e31d15aa173b23164003afbf10619518e5457d9daeb3ea429cf2f7b4
