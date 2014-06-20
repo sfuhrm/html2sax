@@ -80,13 +80,15 @@ public class DomParser {
 		
 		SAXParserFactory factory = SAXParserFactory.newInstance("de.tynne.htmltosax.HtmlToSaxParserFactory", null);
 		SAXParser parser = factory.newSAXParser();
-		DomParser domFactory = new DomParser();
+		DomParser parserInstance = new DomParser();
 
 		LOGGER.debug("calling parse");
-		parser.parse(is, domFactory.defaultHandler);
+		parser.parse(is, parserInstance.defaultHandler);
 		LOGGER.debug("called parse");
+        
+		LOGGER.debug("end");
 		
-		return domFactory.document;
+		return parserInstance.document;
 	}
 	
 	private void preWrite() {
