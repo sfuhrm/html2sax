@@ -23,17 +23,29 @@ import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
 /**
- *
+ * Parses a HTML document and tries to build a DOM tree from it.
+ * @see Document
  * @author fury
  */
 public class DomParser {
     private final static Logger LOGGER = LoggerFactory.getLogger(DomParser.class);
 	
+    /** Builder for DOM elements. */
 	private final DocumentBuilder builder;
+    
+    /** The document root. */
 	private Document document;
+    
+    /** Whether document writing is finished or not. */
 	private boolean closed;
+    
+    /** The current node being processed. */
 	private Node current;
+    
+    /** The SAX callback handler being used. */
 	private final MyDefaultHandler defaultHandler;
+    
+    /** The stack for storing open HTML elements. */
 	private final Stack<Node> stack;
 	
 	private DomParser() throws ParserConfigurationException {
@@ -45,6 +57,10 @@ public class DomParser {
 		stack = new Stack();				
 	}
 
+    /** Parses a HTML document from the given input source.
+     * @param is the input source with HTML data.
+     * @return a DOM document root element.
+     */
 	public static Document parse(InputSource is) throws ParserConfigurationException, SAXException, IOException {
 		LOGGER.debug("start");
 		
@@ -99,6 +115,7 @@ public class DomParser {
 		}
 	}
 	
+    /** SAX default handler callback for the parser. */
 	private class MyDefaultHandler extends DefaultHandler {
 
 		@Override
