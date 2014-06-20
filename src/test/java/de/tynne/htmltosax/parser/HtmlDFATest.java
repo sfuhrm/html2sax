@@ -11,8 +11,8 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- *
- * @author fury
+ * Test for the {@link HtmlDFA}.
+ * @author Stephan Fuhrmann
  */
 public class HtmlDFATest {
 

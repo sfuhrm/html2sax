@@ -7,8 +7,8 @@ package de.tynne.htmltosax.parser.html;
 import de.tynne.htmltosax.parser.dfa.State;
 
 /**
- *
- * @author fury
+ * The state of the HTML parser.
+ * @author Stephan Fuhrmann
  */
  enum HtmlState implements State {
     INIT,

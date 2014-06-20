@@ -15,7 +15,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  * Html entities for quick reference.
- * @author fury
+ * @author Stephan Fuhrmann
  */
 class HtmlEntities {
     private final static Logger LOGGER = LoggerFactory.getLogger(HtmlEntities.class);

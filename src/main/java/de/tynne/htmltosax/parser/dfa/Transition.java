@@ -18,7 +18,7 @@ package de.tynne.htmltosax.parser.dfa;
  * 
  * @see Action the action to perform when fired
  * @see State the state that this transition comes from or leads to
- * @author fury
+ * @author Stephan Fuhrmann
  */
 public final class Transition<T extends DFA> {
     /** The source state. */

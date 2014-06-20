@@ -20,8 +20,8 @@ import org.xml.sax.SAXParseException;
 import org.xml.sax.helpers.DefaultHandler;
 
 /**
- *
- * @author fury
+ * A default handler printing out the SAX events.
+ * @author Stephan Fuhrmann
  */
 public class PrintHandler extends DefaultHandler {
 

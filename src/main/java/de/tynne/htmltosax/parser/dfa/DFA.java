@@ -16,7 +16,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  * Deterministic Finite Automaton as a character input acceptor.
- * @author fury
+ * @author Stephan Fuhrmann
  */
 public class DFA {
     

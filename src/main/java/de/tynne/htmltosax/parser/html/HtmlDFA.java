@@ -24,7 +24,7 @@ import org.xml.sax.helpers.AttributesImpl;
 
 /**
  * A DFA that accepts HTML code and does SAX callbacks.
- * @author fury
+ * @author Stephan Fuhrmann
  */
 public class HtmlDFA extends DFA {
 

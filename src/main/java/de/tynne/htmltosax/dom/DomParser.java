@@ -25,7 +25,7 @@ import org.xml.sax.helpers.DefaultHandler;
 /**
  * Parses a HTML document and tries to build a DOM tree from it.
  * @see Document
- * @author fury
+ * @author Stephan Fuhrmann
  */
 public class DomParser {
     private final static Logger LOGGER = LoggerFactory.getLogger(DomParser.class);

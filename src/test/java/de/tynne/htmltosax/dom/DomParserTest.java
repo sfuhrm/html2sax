@@ -19,8 +19,8 @@ import org.xml.sax.SAXException;
 import static org.junit.Assert.*;
 
 /**
- *
- * @author fury
+ * Test for the {@link DomParser DOM parser}.
+ * @author Stephan Fuhrmann
  */
 public class DomParserTest {
 	@Test

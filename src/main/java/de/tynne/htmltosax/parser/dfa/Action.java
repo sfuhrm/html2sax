@@ -7,7 +7,7 @@ package de.tynne.htmltosax.parser.dfa;
 /**
  * An action to be called in a transition.
  * @see Transition
- * @author fury
+ * @author Stephan Fuhrmann
  */
 public interface Action<T extends DFA> {
 	public void fire(T dfa, Transition transition, StringBuilder in) throws Exception;

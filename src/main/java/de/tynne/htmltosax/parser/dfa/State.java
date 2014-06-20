@@ -12,7 +12,7 @@ package de.tynne.htmltosax.parser.dfa;
  * <li> toString()
  * <li> equals()
  * </ul>
- * @author fury
+ * @author Stephan Fuhrmann
  */
  public interface State {
  }
