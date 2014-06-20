@@ -43,7 +43,7 @@ import org.xml.sax.XMLReader;
  */
 class HtmlToSaxReader implements XMLReader {
 
-        private final static Logger LOGGER = LoggerFactory.getLogger(HtmlToSaxReader.class.getName());
+        private final static Logger LOGGER = LoggerFactory.getLogger(HtmlToSaxReader.class);
 
 	/** The content handler to use. */
 	private ContentHandler contentHandler;

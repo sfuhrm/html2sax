@@ -20,7 +20,7 @@ import org.slf4j.LoggerFactory;
  */
 public class DFA {
     
-    private final static Logger LOGGER = LoggerFactory.getLogger(DFA.class.getName());
+    private final static Logger LOGGER = LoggerFactory.getLogger(DFA.class);
 
     /** The source of input. */
     private final Reader in;

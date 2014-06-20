@@ -28,7 +28,7 @@ import org.xml.sax.helpers.AttributesImpl;
  */
 public class HtmlDFA extends DFA {
 
-    private final static Logger LOGGER = LoggerFactory.getLogger(HtmlDFA.class.getName());
+    private final static Logger LOGGER = LoggerFactory.getLogger(HtmlDFA.class);
 	    
 	private final static String DEFAULT_URI = "";
 	private final static String DEFAULT_LOCAL_NAME = "";
