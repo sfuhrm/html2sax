@@ -1,22 +1,42 @@
 # html2sax
 
- html2sax is a parser for html documents. It reads HTML-documents and creates callback calls using the Java(tm) SAX API. 
+ html2sax is a parser for html documents. It reads HTML-documents and creates 
+callback calls using the Java(tm) SAX API. 
 
 ## Background
 
-There are many partly-malformed HTML documents on the web. Many page authors don't care about correctness when their browser manages to display his page. Web browsers have specially adjusted parsers that can repair malformed HTML pages to a certain degree. Unfortunately there is no standard for correcting mistakes. So for wrong pages every browser behaves differently.
-To take a tool into the web you need to parse web pages. There is a lot of fancy XML technology out there, but HTML is actually no HTML. XHTML is XML, but not very wide-spread today. 
+There are many partly-malformed HTML documents on the web. Many page authors don't 
+care about correctness when their browser manages to display their page. 
+Web browsers have specially adjusted parsers that can repair malformed 
+HTML pages to a certain degree. Unfortunately there is no standard for 
+correcting mistakes. So for wrong pages every browser behaves differently.
+To take a tool into the web you need to parse web pages. There is a lot of 
+fancy XML technology out there, but HTML is actually no XML. 
+XHTML is XML, but not very wide-spread today. 
 
-## Purpose
+### Purpose
 
-The intention for the original development was to have a really simple HTML parser that just splits up the lexical parts of a HTML document (tags, attributes, and text). The parser should handle errors gracefully and continue after them. It should not try to repair documents because the intention was to extract certain parts using XPath-queries.
-There is also a Java version of HTML tidy. It does its best at repairing malformed HTML documents. It works quite ok, but in my opinion it's too much for some applications. 
+The intention for the original development was to have a really simple 
+HTML parser that just splits up the lexical parts of a 
+HTML document (tags, attributes, and text). The parser should handle errors 
+gracefully and continue after them. It should not try to repair documents 
+because the intention was to extract certain parts using XPath-queries.
+There is also a Java version of HTML tidy. It does its best at repairing 
+malformed HTML documents. It works quite ok, but in my opinion it's too 
+much for some applications. 
 
 ## The library
 
-html2sax is designed to be the frontend of a web-spider reading websites. It can handle (almost?) all error situations, but will not try to correct problematic HTML pages. It operates on a very low level and is quite fast. Tests showed that it is twice as fast as Html-Tidy.
-html2sax works as a SAX parser. Usually SAX is just designed to handle real XML. Don't expect many SAX-supporters to work with this 'weak' parser.
-The parser was written using JavaCC to support powerful lexical error recovery features. 
+html2sax is designed to be the frontend for a web-spider reading websites. 
+It can handle (almost?) all error situations, 
+but will not try to correct problematic HTML pages. 
+It operates on a very low level and is quite fast. 
+Tests showed that it is twice as fast as Html-Tidy.
+html2sax works as a SAX parser. 
+Usually SAX is just designed to handle real XML. html2sax will
+emit malformed XML which may confuse SAX-using code.
+Don't expect many SAX-code to work with this 'weak' parser.
+The parser was written using a simple DFA. 
 
 ### Features
 
@@ -37,18 +57,18 @@ The parser supports the following features:
 
  There are several restrictions for html2sax that you should be aware of:
 
-* HTML is not XML. This means SAX is an API for this kind of callbacks, but most existing tools having a SAX input interface will fail with html2sax input. Reason: The documents are not well-formed.
+* HTML is not XML. This means SAX is an API for this kind of callbacks, but some existing tools having a SAX input interface will fail with html2sax input. Reason: The documents are not well-formed.
 * No DTD-support. You need to do your HTML-thinking for yourself.
 * Won't protect your parser callback from senseless trash if documents are really weird.
 * Won't repair corrupt documents.
 
 ### Requirements
 
- The only requirements for the parser is a Java(tm) 1.6 JRE.
+The only requirements for the parser is a Java(tm) 1.6 JRE.
 
 ### Example
 
- Usage is quite simple. The following example runs the parser:
+Usage is quite simple. The following example runs the parser:
 
 ---------------------------------------
 
@@ -63,7 +83,7 @@ The parser supports the following features:
 
 ---------------------------------------
 
-A working example is in the file Sample.java in the source distribution. 
+A working example is in the file [Sample.java](https://github.com/sfuhrm/html2sax/blob/master/src/main/java/de/tynne/htmltosax/Sample.java) in the source distribution. 
 
 ## Author & License
 
