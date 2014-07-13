@@ -237,31 +237,31 @@ public class DFA {
     /** Parses the data from the reader.
      */
     public void parse() throws IOException {
-        int c;
+        int intValue;
         State state = initialState;
         StateCharMap scm = stateCharMaps.get(state);
         final StringBuilder sb = new StringBuilder();
         enteredState(state, sb);
         
-        while ((c = in.read()) != -1) {
-            final char cc = (char)c;
+        while ((intValue = in.read()) != -1) {
+            final char charValue = (char)intValue;
             
-            if (cc == '\n') {
+            if (charValue == '\n') {
                 line++;
                 column = 1;
             } else {
 				column++;
 			}
             
-            final Transition transition = scm.getFor(cc);
-            sb.append(cc);
+            final Transition transition = scm.getFor(charValue);
+            sb.append(charValue);
 			if (LOGGER.isTraceEnabled()) {
-				LOGGER.trace("{}:{}, Char={}, Buffer: {}", new Object[]{pos(), state, cc, sb});
+				LOGGER.trace("{}:{}, Char={}, Buffer: {}", new Object[]{pos(), state, charValue, sb});
 			}
             if (transition != null) {
 				try {
 					if (LOGGER.isTraceEnabled()) {
-						LOGGER.trace("{}:{}, Match: {}, to: {}", new Object[]{pos(), state, cc, transition.to()});
+						LOGGER.trace("{}:{}, Match: {}, to: {}", new Object[]{pos(), state, charValue, transition.to()});
 					}
 					transition.fire(this, sb);
 					if (transition.from() != transition.to()) {
