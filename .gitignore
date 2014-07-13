@@ -1,7 +1,2 @@
-/sphlib-core/target/
-/sphlib-jca/target/
-/sphlib-speed/target/
 /target/
-/saphir-hash-core/target/
-/saphir-hash-jca/target/
-/saphir-hash-speed/target/
+*~
