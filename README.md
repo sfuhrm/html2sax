@@ -109,4 +109,4 @@ html2sax was written by Stephan Fuhrmann. You can reach my at s_fuhrm (at) freen
 
 ### License
 
-The library is in the LPGL 2.1 license.
+The library is in the [LPGL 2.1](http://www.gnu.de/documents/lgpl-2.1.en.html) license.
