@@ -18,6 +18,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 */
 package de.tynne.htmltosax.dom;
 
+import de.tynne.htmltosax.parser.dfa.DFA;
 import java.io.IOException;
 import java.util.Stack;
 import javax.xml.parsers.DocumentBuilder;
@@ -74,6 +75,9 @@ public class DomParser {
     /** Parses a HTML document from the given input source.
      * @param is the input source with HTML data.
      * @return a DOM document root element.
+     * @throws ParserConfigurationException if the creation of the SAX parser fails.
+     * @throws SAXException when there's a fatal exception while parsing.
+     * @throws IOException for other exceptions. See also {@link DFA#parse() }.
      */
 	public static Document parse(InputSource is) throws ParserConfigurationException, SAXException, IOException {
 		LOGGER.debug("start");
