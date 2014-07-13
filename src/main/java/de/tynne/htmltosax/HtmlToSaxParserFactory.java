@@ -32,14 +32,13 @@ import org.xml.sax.SAXNotSupportedException;
  * {@link SAXParserFactory}.
  * The following example shows the initialization:
  * <br>
- * <code>
  * <pre>
+ * {@code 
  * 		SAXParserFactory factory = SAXParserFactory.newInstance("de.tynne.htmltosax.HtmlToSaxParserFactory", null);
  *		SAXParser parser = factory.newSAXParser();
  * 		YourCallback s = new YourCallback();
  *		parser.parse(new InputSource(new URL(args[0]).openStream()), s);
- * </pre>
- * </code>
+ * }</pre>
  * 
  * @author Stephan Fuhrmann
  */
