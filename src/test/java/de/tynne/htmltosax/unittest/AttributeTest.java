@@ -294,7 +294,7 @@ public class AttributeTest {
 		assertEquals(expectedParts, seenParts);
 	}		
 		
-        //@Test
+    @Test
 	public void testPlainWithAmpClosed() throws ParserConfigurationException, SAXException, IOException {
 		PartRecorder rec = PartRecorder.parse("<a \n"+
                     "href=\"http://lala.com/&\"\n"+
