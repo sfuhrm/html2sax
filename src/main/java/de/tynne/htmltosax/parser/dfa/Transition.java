@@ -96,6 +96,8 @@ public final class Transition<T extends DFA> {
 	/** The chars this transition matches. Can be null if this
 	 * is the default or catch-all-transition that applies when
 	 * no other transition applies.
+     * @return the chars being matched, or {@code ""} for EOF
+     * transition or {@code null} for default transition.
 	 */
     public String chars() {
         return chars;

@@ -241,6 +241,7 @@ public class DFA {
     
 	/** Forces the lexer into a different state. Can only be called
 	 * from within a transition while parsing.
+     * @param state the state to force the DFA into.
 	 */
 	protected void forceTo(State state) {
 		this.forcedState = state;
@@ -256,6 +257,9 @@ public class DFA {
      * Using and updating the string builder is up to the transitions {@link Action} code.
      * The state can be brutally manipulated out-of-order using the
      * {@link #forceTo(de.tynne.htmltosax.parser.dfa.State) forceTo()} method.
+     * @throws IOException if there's a problem parsing the file. To keep things
+     * simple, many exceptions are wrapped into an IOException. This is something
+     * to change in the future.
      */
     public void parse() throws IOException {
         int intValue;
