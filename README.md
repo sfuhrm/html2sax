@@ -1,7 +1,7 @@
 # html2sax
 
  html2sax is a parser for html documents. It reads HTML-documents and creates 
-callback calls using the Java(tm) SAX API. 
+callback calls using the Java(tm) [SAX API](http://docs.oracle.com/javase/7/docs/api/org/xml/sax/ContentHandler.html).
 
 ## Background
 
@@ -84,6 +84,22 @@ Usage is quite simple. The following example runs the parser:
 ---------------------------------------
 
 A working example is in the file [Sample.java](https://github.com/sfuhrm/html2sax/blob/master/src/main/java/de/tynne/htmltosax/Sample.java) in the source distribution. 
+
+### Download
+
+You can either download the library in the release section of github
+
+https://github.com/sfuhrm/html2sax/releases
+
+or add this dependency to your Maven pom:
+
+---------------------------------------
+    <dependency>
+        <groupId>de.tynne</groupId>
+        <artifactId>html2sax</artifactId>
+        <version>2.1.1</version>
+    </dependency>
+---------------------------------------
 
 ## Author & License
 
