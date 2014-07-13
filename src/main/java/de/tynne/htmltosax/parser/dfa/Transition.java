@@ -35,10 +35,13 @@ package de.tynne.htmltosax.parser.dfa;
  * @author Stephan Fuhrmann
  */
 public final class Transition<T extends DFA> {
+    
     /** The source state. */
     private final State fromState;
+    
     /** One of the strings characters needs to match. */
     private final String chars;
+    
     /** This state is switched to on acceptance. */
     private final State toState;
 
