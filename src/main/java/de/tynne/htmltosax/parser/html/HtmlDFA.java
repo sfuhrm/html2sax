@@ -398,6 +398,9 @@ public class HtmlDFA extends DFA {
 		return result;
 	}
 	
+    /** Creates all transitions.
+     * Creates fixed and generated transitions.
+     */
 	private static List<Transition<HtmlDFA>> createTransitions() {
 		List<Transition<HtmlDFA>> result = new ArrayList<Transition<HtmlDFA>>();
 		result.addAll(fixedTransitions);
@@ -410,6 +413,10 @@ public class HtmlDFA extends DFA {
 		return result;
 	}
 	
+    /** The heart of the DFA. It's the fixed transactions, meaning the transactions
+     * that are not generated. The rest is created using
+     * {@link #createTransitions() }.
+     */
     private final static List<Transition<HtmlDFA>> fixedTransitions = Arrays.asList(
         new Transition<HtmlDFA>(HtmlState.INIT, "<", HtmlState.LT, Transition.DeleteLastAction, HandlerCharactersAction),
         new Transition<HtmlDFA>(HtmlState.INIT, "&", HtmlState.AMP, MarkPositionAction),
