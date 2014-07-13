@@ -27,7 +27,7 @@ package de.tynne.htmltosax.parser.dfa;
  * <li> the transition with the <code>null</code> characters is the default
  * transition to apply when no other transition applies.
  * <li> the transition with the empty String ("") is the EOF transition that
- * applies and end of file.
+ * applies on the end of file.
  * </ul>
  * 
  * @see Action the action to perform when fired
