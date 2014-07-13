@@ -34,7 +34,10 @@ import org.slf4j.LoggerFactory;
 class HtmlEntities {
     private final static Logger LOGGER = LoggerFactory.getLogger(HtmlEntities.class);
 
-	public final static String PROPERTIES_NAME = "/entities/htmlentities.properties";
+    /** The resource name to read the entities from. 
+     * @see #readFromClassPath() 
+     */
+	private final static String PROPERTIES_NAME = "/entities/htmlentities.properties";
 	
 	/** Map from HTML entities like <code>&amp;amp;</code> to
 	 ** their Unicode character code number.
