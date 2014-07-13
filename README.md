@@ -47,7 +47,7 @@ The parser supports the following features:
 * Pure Java(tm).
 * Using the well-understood and fast SAX API.
 * JUnit test cases.
-* HTML entity expansion (example: "&amp;" gets "&").
+* HTML entity expansion (example: "&amp;amp;" gets "&").
 * Handles errors gracefully and will continue close to the error.
 * No DTD logic that won't work with many documents anyway.
 * No structure-level repairing effors that may fail.
