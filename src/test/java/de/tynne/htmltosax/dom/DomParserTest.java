@@ -101,7 +101,7 @@ public class DomParserTest {
 	
 	@Test
 	public void testParseWithRealWorldDoc() throws ParserConfigurationException, SAXException, IOException, XPathExpressionException {
-		Document doc = DomParser.parse(new InputSource(new URL("http://www.intpornforum.com/").openStream()));
+		Document doc = DomParser.parse(new InputSource(new URL("http://www.forum.com/").openStream()));
 		assertNotNull(doc);
 	}
 }
