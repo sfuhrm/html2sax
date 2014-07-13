@@ -30,6 +30,18 @@ import org.slf4j.LoggerFactory;
 
 /**
  * Deterministic Finite Automaton as a character input acceptor.
+ * 
+ * The kinds of objects this class interacts with are:
+ * <ul>
+ * <li> {@link State} is a state the automaton is in.
+ * <li> {@link Transition} moves the DFA from one state to another after some event. This is usually a character seen.
+ * <li> {@link Action} is an action executed when firing a transition.
+ * </ul>
+ * 
+ * There are certain specialties you should note.
+ * There's a certain initial state where everything begins
+ * which is passed to the {@link #DFA(java.io.Reader, de.tynne.htmltosax.parser.dfa.State) constructor}.
+ * 
  * @author Stephan Fuhrmann
  */
 public class DFA {
@@ -234,7 +246,16 @@ public class DFA {
 		this.forcedState = state;
 	}
 	
-    /** Parses the data from the reader.
+    /** Parses the data from the reader. 
+     * Reads the reader until the end of file.
+     * Appends every character seen to the
+     * internal string builder first that is
+     * passed on tho the 
+     * {@link Transition#fire(de.tynne.htmltosax.parser.dfa.DFA, java.lang.StringBuilder) transition}
+     * then.
+     * Using and updating the string builder is up to the transitions {@link Action} code.
+     * The state can be brutally manipulated out-of-order using the
+     * {@link #forceTo(de.tynne.htmltosax.parser.dfa.State) forceTo()} method.
      */
     public void parse() throws IOException {
         int intValue;
