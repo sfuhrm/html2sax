@@ -53,6 +53,7 @@ public class Sample extends DefaultHandler {
 	}
 
 	/** Get the list of extracted hyperlinks.
+     * @return the list of seen href attribute values.
 	 */
 	public List<String> getHRefs() {
 		return hrefs;
