@@ -150,7 +150,8 @@ public class DFA {
     }
 
     /** For each state contains the character matching tables and the
-     * state transitions.
+     * state transitions. The key is the from-state, and the value
+     * is the possible transitions going from there.
      */
     private Map<State, StateCharMap> stateCharMaps;
 
