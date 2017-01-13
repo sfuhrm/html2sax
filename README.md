@@ -105,7 +105,7 @@ or add this dependency to your Maven pom:
 
 ### Author
 
-html2sax was written by Stephan Fuhrmann. You can reach my at s_fuhrm (at) freenet.de. 
+html2sax was written by Stephan Fuhrmann. You can reach my at s (at) sfuhrm.de. 
 
 ### License
 
