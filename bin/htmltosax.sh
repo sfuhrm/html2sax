@@ -33,5 +33,5 @@ for DIR in $SCRIPTROOT/../lib $SCRIPTROOT $SCRIPTROOT/lib; do
 	fi
 done
 
-echo java $JAVA_OPTS  -cp $CP de.tynne.htmltosax.Sample $@
-java $JAVA_OPTS -cp $CP de.tynne.htmltosax.Sample $@
+echo java $JAVA_OPTS  -cp $CP de.sfuhrm.htmltosax.Sample $@
+java $JAVA_OPTS -cp $CP de.sfuhrm.htmltosax.Sample $@

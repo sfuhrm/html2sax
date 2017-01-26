@@ -77,7 +77,7 @@
 		<h3>Usage</h3>
 		Usage is quite simple. The following example runs the parser:
 		<pre>
-		SAXParserFactory factory = SAXParserFactory.newInstance("de.tynne.htmltosax.HtmlToSaxParserFactory", null);
+		SAXParserFactory factory = SAXParserFactory.newInstance("de.sfuhrm.htmltosax.HtmlToSaxParserFactory", null);
 		SAXParser parser = factory.newSAXParser();
 		YourCallback s = new YourCallback();
 		parser.parse(new InputSource(new URL(args[0]).openStream()), s);
