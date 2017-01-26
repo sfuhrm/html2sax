@@ -1,4 +1,4 @@
-# html2sax ![Travis CI](https://travis-ci.org/sfuhrm/html2sax.svg?branch=master)
+# html2sax ![Travis CI](https://travis-ci.org/sfuhrm/html2sax.svg?branch=master) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/de.tynne/html2sax/badge.svg)](https://maven-badges.herokuapp.com/maven-central/de.tynne/html2sax) 
 
  html2sax is a parser for html documents. It reads HTML-documents and creates 
 callback calls using the Java(tm) [SAX API](http://docs.oracle.com/javase/7/docs/api/org/xml/sax/ContentHandler.html).
@@ -97,7 +97,7 @@ or add this dependency to your Maven pom:
     <dependency>
         <groupId>de.tynne</groupId>
         <artifactId>html2sax</artifactId>
-        <version>2.1.1</version>
+        <version>2.1.2</version>
     </dependency>
 ---------------------------------------
 
