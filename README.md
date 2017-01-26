@@ -83,7 +83,7 @@ Usage is quite simple. The following example runs the parser:
 
 ---------------------------------------
 
-A working example is in the file [Sample.java](https://github.com/sfuhrm/html2sax/blob/master/src/main/java/de/tynne/htmltosax/Sample.java) in the source distribution. 
+A working example is in the file [Sample.java](https://github.com/sfuhrm/html2sax/blob/master/src/main/java/de/sfuhrm/htmltosax/Sample.java) in the source distribution. 
 
 ### Download
 
