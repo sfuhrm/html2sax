@@ -1,4 +1,4 @@
-# html2sax ![Travis CI](https://travis-ci.org/sfuhrm/html2sax.svg?branch=master) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/de.sfuhrm/html2sax/badge.svg)](https://maven-badges.herokuapp.com/maven-central/de.sfuhrm/html2sax) 
+# html2sax ![Travis CI](https://travis-ci.org/sfuhrm/html2sax.svg?branch=master) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f0d36889872d4ecc9a3c5d995996b6ba)](https://www.codacy.com/app/sfuhrm/html2sax?utm_source=github.com&utm_medium=referral&utm_content=sfuhrm/html2sax&utm_campaign=badger) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/de.sfuhrm/html2sax/badge.svg)](https://maven-badges.herokuapp.com/maven-central/de.sfuhrm/html2sax) 
 
  html2sax is a parser for html documents. It reads HTML-documents and creates 
 callback calls using the Java(tm) [SAX API](http://docs.oracle.com/javase/7/docs/api/org/xml/sax/ContentHandler.html).
