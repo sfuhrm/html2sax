@@ -71,7 +71,7 @@ The only requirements for the parser is a Java(tm) 1.6 JRE.
 Usage is quite simple. The following example runs the parser:
 
 ---------------------------------------
-
+````java
     SAXParserFactory factory = 
         SAXParserFactory.newInstance(
         "de.sfuhrm.htmltosax.HtmlToSaxParserFactory",
@@ -80,7 +80,7 @@ Usage is quite simple. The following example runs the parser:
     YourCallback s = new YourCallback();
     parser.parse(new InputSource(
         new URL(args[0]).openStream()), s);
-
+````
 ---------------------------------------
 
 A working example is in the file [Sample.java](https://github.com/sfuhrm/html2sax/blob/master/src/main/java/de/sfuhrm/htmltosax/Sample.java) in the source distribution. 
@@ -94,11 +94,13 @@ https://github.com/sfuhrm/html2sax/releases
 or add this dependency to your Maven pom:
 
 ---------------------------------------
+````xml
     <dependency>
         <groupId>de.sfuhrm</groupId>
         <artifactId>html2sax</artifactId>
-        <version>2.1.2</version>
+        <version>2.1.3</version>
     </dependency>
+````
 ---------------------------------------
 
 ## Author & License
